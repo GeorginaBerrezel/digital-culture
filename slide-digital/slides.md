@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: apple-basic
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -24,9 +24,9 @@ transition: slide-left
 mdc: true
 ---
 
-# Welcome to Slidev
+# Do you have to be up to date with the latest JS frameworks and web trends to be a good developer?
 
-Presentation slides for developers
+Digital culture
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -52,17 +52,27 @@ The last comment block of each slide will be treated as slide notes. It will be 
 transition: fade-out
 ---
 
-# What is Slidev?
+# Summary
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Do you have to be up to date with the latest JS frameworks and web trends to be a good developer?
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+- 📈 **L’évolution des frameworks JS et la quête de performance** - Répondre à la demande croissante des utilisateurs
+  pour des applications web rapides et réactives, incitant les développeurs à choisir des frameworks optimisés.
+- 🤓 **Le cliché du développeur junior vs senior** - Explorer les attentes contrastées entre les développeurs juniors,
+  souvent associés à une connaissance accrue des nouvelles technologies, et les développeurs seniors, valorisant leur
+  expérience dans la résolution de problèmes complexes et la conception de solutions évolutives.
+- 👩🏽‍💻 **L'IA est-elle donc destinée aux développeurs moyens ?** - Analyse de l'accessibilité croissante de l'IA à tous
+  les niveaux de compétence, grâce à des outils et des plateformes simplifiés, ainsi que des exemples concrets
+  d'utilisation de l'IA dans le développement web, comme la génération de code avec Copilot et l'analyse sémantique avec
+  ChatGPT.
+
+[//]: # (- 🤹 **Interactive** - embedding Vue components to enhance your expressions)
+
+[//]: # (- 🎥 **Recording** - built-in recording and camera view)
+
+[//]: # (- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA)
+
+[//]: # (- 🛠 **Hackable** - anything possible on a webpage)
 
 <br>
 <br>
@@ -76,8 +86,8 @@ Learn more: https://sli.dev/guide/syntax#embedded-styles
 
 <style>
 h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-color: #b66a2b;
+  background-image: linear-gradient(45deg, #d49e4e 10%, #8c5c14 20%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -97,23 +107,24 @@ level: 2
 
 # Navigation
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+Hover on the bottom-left corner to see the navigation's controls
+panel, [learn more](https://sli.dev/guide/navigation.html)
 
 ## Keyboard Shortcuts
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
+|                                                     |                             |
+|-----------------------------------------------------|-----------------------------|
+| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+| <kbd>up</kbd>                                       | previous slide              |
+| <kbd>down</kbd>                                     | next slide                  |
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 <img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
+v-click
+class="absolute -bottom-9 -left-7 w-80 opacity-50"
+src="https://sli.dev/assets/arrow-bottom-left.svg"
+alt=""
 />
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
@@ -127,6 +138,7 @@ layoutClass: gap-16
 You can use the `Toc` component to generate a table of contents for your slides:
 
 ```html
+
 <Toc minDepth="1" maxDepth="1"></Toc>
 ```
 
@@ -150,7 +162,7 @@ Use code snippets and get the highlighting directly, and even types hover![^1]
 // and errors in markdown code blocks
 // More at https://shiki.style/packages/twoslash
 
-import { computed, ref } from 'vue'
+import {computed, ref} from 'vue'
 
 const count = ref(0)
 const doubled = computed(() => count.value * 2)
@@ -195,9 +207,11 @@ level: 2
 
 # Shiki Magic Move
 
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
+Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code
+snippets.
 
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
+Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move.
+For example:
 
 ````md magic-move
 ```ts {*|2|*}
@@ -272,10 +286,12 @@ const author = {
 
 You can use Vue components directly inside your slides.
 
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your
+custom components is also super easy.
 
 ```html
-<Counter :count="10" />
+
+<Counter :count="10"/>
 ```
 
 <!-- ./components/Counter.vue -->
@@ -287,7 +303,8 @@ Check out [the guides](https://sli.dev/builtin/components.html) for more.
 <div>
 
 ```html
-<Tweet id="1390115482657726468" />
+
+<Tweet id="1390115482657726468"/>
 ```
 
 <Tweet id="1390115482657726468" scale="0.65" />
@@ -311,7 +328,8 @@ class: px-20
 
 # Themes
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for
+tools. Switching between themes by just **one edit** in your frontmatter:
 
 <div grid="~ cols-2 gap-2" m="t-2">
 
@@ -347,6 +365,7 @@ You can add `v-click` to elements to add a click animation.
 This shows up when you click the slide:
 
 ```html
+
 <div v-click>This shows up when you click the slide.</div>
 ```
 
@@ -380,14 +399,15 @@ also allows you to add
 Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
 
 ```html
+
 <div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
+        v-motion
+        :initial="{ x: -80 }"
+        :enter="{ x: 0 }"
+        :click-3="{ x: 80 }"
+        :leave="{ x: 1000 }"
 >
-  Slidev
+    Slidev
 </div>
 ```
 
@@ -468,7 +488,7 @@ $$ {1|3|all}
 \begin{array}{c}
 
 \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+= \frac{4\pi}{c}\vec{\mathbf{j}} \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
 
 \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
 
@@ -562,7 +582,8 @@ database "MySql" {
 ---
 foo: bar
 dragPos:
-  square: 691,33,167,_,-16
+  square: -138,0,0,0
+square: 691,33,167,_,-16
 ---
 
 # Draggable Elements
@@ -588,7 +609,7 @@ Double-click on the draggable elements to edit their positions.
 </v-drag>
 ```
 
-<v-drag pos="671,205,253,_,-15">
+<v-drag pos="653,234,253,_,-15">
   <div text-center text-3xl border border-main rounded>
     Double-click me!
   </div>
@@ -610,8 +631,8 @@ Slidev provides built-in Monaco Editor support.
 Add `{monaco}` to the code block to turn it into an editor:
 
 ```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
+import {ref} from 'vue'
+import {emptyArray} from './external'
 
 const arr = ref(emptyArray(10))
 ```
@@ -619,8 +640,8 @@ const arr = ref(emptyArray(10))
 Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
 
 ```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
+import {version} from 'vue'
+import {emptyArray, sayHello} from './external'
 
 sayHello()
 console.log(`vue ${version}`)
