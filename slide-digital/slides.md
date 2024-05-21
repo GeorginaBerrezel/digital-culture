@@ -48,85 +48,6 @@ Digital culture
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
-[//]: # ()
-[//]: # (---)
-
-[//]: # (transition: fade-out)
-
-[//]: # (---)
-
-[//]: # ()
-[//]: # (# Summary)
-
-[//]: # ()
-[//]: # (Do you have to be up to date with the latest JS frameworks and web trends to be a good developer?)
-
-[//]: # ()
-[//]: # (- 📈 **L’évolution des frameworks JS et la quête de performance** - Répondre à la demande croissante des utilisateurs)
-
-[//]: # (  pour des applications web rapides et réactives, incitant les développeurs à choisir des frameworks optimisés.)
-
-[//]: # (- 🤓 **Le cliché du développeur junior vs senior** - Explorer les attentes contrastées entre les développeurs juniors,)
-
-[//]: # (  souvent associés à une connaissance accrue des nouvelles technologies, et les développeurs seniors, valorisant leur)
-
-[//]: # (  expérience dans la résolution de problèmes complexes et la conception de solutions évolutives.)
-
-[//]: # (- 👩🏽‍💻 **L'IA est-elle donc destinée aux développeurs moyens ?** - Analyse de l'accessibilité croissante de l'IA à tous)
-
-[//]: # (  les niveaux de compétence, grâce à des outils et des plateformes simplifiés, ainsi que des exemples concrets)
-
-[//]: # (  d'utilisation de l'IA dans le développement web, comme la génération de code avec Copilot et l'analyse sémantique avec)
-
-[//]: # (  ChatGPT.)
-
-[//]: # ()
-[//]: # ([//]: # &#40;- 🤹 **Interactive** - embedding Vue components to enhance your expressions&#41;)
-[//]: # ()
-[//]: # ([//]: # &#40;- 🎥 **Recording** - built-in recording and camera view&#41;)
-[//]: # ()
-[//]: # ([//]: # &#40;- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA&#41;)
-[//]: # ()
-[//]: # ([//]: # &#40;- 🛠 **Hackable** - anything possible on a webpage&#41;)
-[//]: # ()
-[//]: # (<br>)
-
-[//]: # (<br>)
-
-[//]: # ()
-[//]: # (Read more about [Why Slidev?]&#40;https://sli.dev/guide/why&#41;)
-
-[//]: # ()
-[//]: # (<!--)
-
-[//]: # (You can have `style` tag in markdown to override the style for the current page.)
-
-[//]: # (Learn more: https://sli.dev/guide/syntax#embedded-styles)
-
-[//]: # (-->)
-
-[//]: # ()
-[//]: # (<style>)
-
-[//]: # (h1 {)
-
-[//]: # (  background-color: #b66a2b;)
-
-[//]: # (  background-image: linear-gradient&#40;45deg, #d49e4e 10%, #8c5c14 20%&#41;;)
-
-[//]: # (  background-size: 100%;)
-
-[//]: # (  -webkit-background-clip: text;)
-
-[//]: # (  -moz-background-clip: text;)
-
-[//]: # (  -webkit-text-fill-color: transparent;)
-
-[//]: # (  -moz-text-fill-color: transparent;)
-
-[//]: # (})
-
-[//]: # (</style>)
 
 <!--
 Here is another comment.
@@ -141,20 +62,6 @@ layoutClass: gap-16
 # Summary
 
 Do you have to be up to date with the latest JS frameworks and web trends to be a good developer?
-
-
-[//]: # (You can use the `Toc` component to generate a table of contents for your slides:)
-
-[//]: # ()
-[//]: # (```html)
-
-[//]: # ()
-[//]: # (<Toc minDepth="1" maxDepth="1"></Toc>)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.)
 
 ::right::
 
@@ -207,6 +114,232 @@ image: ./stateofjs-ratio-overtime.png
 
 Les utilisateurs exigent des applications web de plus en plus rapides et réactives, ce qui pousse les développeurs à
 utiliser des frameworks qui optimisent les performances.
+
+---
+transition: slide-up
+level: 3
+---
+
+# I - Demande croissante de performance
+
+Les attentes des utilisateurs modernes
+Les utilisateurs d'aujourd'hui ont des attentes élevées en matière de performance des applications web. Plusieurs
+facteurs contribuent à cette demande croissante :
+
+`Vitesse de chargement`
+
+<div v-click>
+
+```html
+
+<div v-click>Les utilisateurs s'attendent à ce que les pages web se chargent en quelques secondes, voire
+    moins. Des temps de chargement rapides sont essentiels pour améliorer l'expérience utilisateur et réduire les taux
+    de
+    rebond. Google a également souligné l'importance de la vitesse de chargement pour le référencement, ce qui incite
+    encore
+    plus les développeurs à optimiser les performances.
+</div>
+```
+
+</div>
+
+<br>
+
+<v-click>
+
+<span v-mark.red="3"><code>Réactivité</code></span>
+
+[//]: # (also allows you to add)
+
+[//]: # (<span v-mark.circle.orange="4">inline marks</span>)
+
+[//]: # (, powered by [Rough Notation]&#40;https://roughnotation.com/&#41;:)
+
+```html
+<span v-mark.underline.orange> : Une fois la page chargée, les interactions avec le site doivent être fluides et instantanées. Cela inclut
+des actions comme la navigation, le défilement, et l'interaction avec les éléments de la page (par exemple, des
+formulaires, des boutons, etc.).</span>
+```
+
+</v-click>
+
+<div mt-20 v-click>
+
+[Learn More](https://sli.dev/guide/animations#click-animations)
+
+</div>
+
+---
+
+[//]: # (# I - Demande croissante de performance)
+
+`Expérience utilisateur (UX)`
+
+<div v-click>
+
+```html
+
+<div v-click>Une bonne performance est un élément clé d'une expérience utilisateur positive. Les
+    utilisateurs sont moins tolérants envers les sites lents ou non réactifs et sont plus susceptibles de quitter un
+    site ou
+    de ne pas y revenir s'ils rencontrent des problèmes de performance.
+</div>
+```
+
+</div>
+
+
+---
+
+# I - Demande croissante de performance
+
+Rôle des frameworks JavaScript
+
+Pour répondre à ces exigences, les développeurs se tournent vers des frameworks JavaScript modernes qui offrent des
+outils et des fonctionnalités pour optimiser les performances. Voici comment ces frameworks contribuent à améliorer la
+performance des applications web :
+
+`Rendu côté client vs côté serveur`
+
+<div v-click>
+
+```html
+
+<div v-click> : Certains frameworks permettent un rendu côté serveur (SSR) ou un rendu statique, ce
+    qui peut réduire le temps de chargement initial de la page. D'autres, comme React avec ReactDOM, se concentrent sur
+    le
+    rendu côté client, permettant des interactions ultra-rapides après le chargement initial.
+</div>
+```
+
+</div>
+
+<br>
+
+`Chargement paresseux (Lazy Loading)`
+
+<div v-click>
+
+```html
+
+<div v-click> Les frameworks modernes intègrent souvent des techniques de chargement paresseux
+    pour différer le chargement de contenu non critique jusqu'à ce qu'il soit nécessaire. Cela améliore le temps de
+    chargement initial et réduit la consommation de bande passante.
+</div>
+```
+
+</div>
+
+---
+
+# I - Demande croissante de performance
+
+`Gestion de l'état efficace`
+
+<div v-click>
+
+```html
+
+<div v-click>Les frameworks offrent des solutions sophistiquées pour la gestion de l'état de l'
+    application, ce qui permet de minimiser les recalculs et les re-rendus inutiles. Cela contribue à des interactions
+    plus
+    rapides et à une expérience utilisateur plus fluide.
+</div>
+```
+
+</div>
+
+<br>
+
+`Optimisation des bundles`
+
+<div v-click>
+
+```html
+
+<div v-click>Les outils de build modernes, souvent intégrés aux frameworks, permettent de créer des
+    bundles JavaScript optimisés et minifiés, réduisant ainsi la taille des fichiers envoyés au client et améliorant les
+    temps de chargement.
+</div>
+```
+
+</div>
+
+
+---
+
+# I - Demande croissante de performance
+
+Exemples de frameworks performants
+
+`React`
+
+<div v-click>
+
+```html
+
+<div v-click>Utilisé par de grandes entreprises comme Facebook et Instagram, React permet de créer des interfaces
+    utilisateur
+    réactives et performantes grâce à son DOM virtuel et à ses techniques de mise à jour efficace.
+</div>
+```
+
+</div>
+
+<br>
+
+`Vue.js`
+
+<div v-click>
+
+```html
+
+<div v-click>Connu pour sa simplicité et sa flexibilité, Vue.js permet également des optimisations de performance avec
+    son
+    DOM virtuel et sa gestion de composants légers.
+</div>
+```
+
+</div>
+
+---
+
+`Svelte`
+
+<div v-click>
+
+```html
+
+<div v-click>Contrairement à React et Vue, Svelte convertit les composants en un code JavaScript ultra-optimisé au
+    moment de
+    la compilation, éliminant ainsi le besoin d'un DOM virtuel et améliorant la performance.
+</div>
+```
+
+</div>
+
+<br>
+
+`Angular`
+
+<div v-click>
+
+```html
+
+<div v-click>Un framework complet qui offre des outils puissants pour optimiser les performances, notamment par le biais
+    de
+    l'injection de dépendances et du rendu côté serveur.
+</div>
+```
+
+</div>
+
+
+En conclusion, la demande croissante de performance pousse les développeurs à utiliser des frameworks JavaScript
+modernes qui offrent des outils et des techniques pour optimiser les applications web. Ces frameworks permettent de
+répondre aux attentes des utilisateurs en matière de vitesse, de réactivité et de qualité de l'expérience utilisateur.
+
+---
 
 [//]: # (```ts {all|5|7|7-8|10|all} twoslash)
 
@@ -290,6 +423,264 @@ développeurs. [learn more](https://2022.stateofjs.com/en-US/libraries/front-end
 ---
 level: 2
 ---
+
+# II - Innovation et compétition entre les frameworks
+
+Diversité des options disponibles
+
+Le paysage des frameworks JavaScript est riche et diversifié, offrant de nombreuses options aux développeurs. Voici
+quelques-uns des principaux frameworks et leurs caractéristiques distinctives :
+
+`React `
+
+<div v-click>
+
+```html
+
+<div v-click>Créé par Facebook, React est une bibliothèque JavaScript centrée sur la construction d'interfaces
+    utilisateur
+    réactives. Sa popularité repose sur son approche innovante du DOM virtuel, qui permet des mises à jour de
+    l'interface
+    utilisateur ultra-rapides.
+</div>
+```
+
+</div>
+
+<br>
+
+`Angular`
+
+<div v-click>
+
+```html
+
+<div v-click>Développé par Google, Angular est un framework complet qui offre une architecture robuste et une riche
+    suite
+    d'outils pour le développement d'applications web. Il est connu pour sa puissante fonctionnalité d'injection de
+    dépendances et sa capacité à gérer des applications complexes.
+</div>
+```
+
+</div>
+
+---
+
+Diversité des options disponibles
+
+`Vue.js`
+
+<div v-click>
+
+```html
+
+<div v-click>Vue.js se distingue par sa simplicité et sa flexibilité. Il combine les meilleures idées de React et
+    Angular,
+    offrant une courbe d'apprentissage douce tout en permettant de créer des applications performantes et maintenables.
+</div>
+```
+
+</div>
+
+<br>
+
+`Svelte`
+
+<div v-click>
+
+```html
+
+<div v-click>Svelte adopte une approche différente en compilant les composants en du JavaScript pur à l'étape de la
+    construction. Cela élimine le besoin d'un DOM virtuel et peut conduire à des performances améliorées et à des
+    tailles de
+    bundle plus petites.
+</div>
+```
+
+</div>
+
+---
+
+# II - Innovation et compétition entre les frameworks
+
+Évolution constante pour répondre aux besoins du marché
+
+Les frameworks JavaScript évoluent constamment pour s'adapter aux besoins changeants des développeurs et du marché.
+Voici quelques-unes des tendances et évolutions récentes :
+
+`Performance`
+
+<div v-click>
+
+```html
+
+<div v-click>Les améliorations continues en matière de performance sont une priorité. Les frameworks optimisent
+    constamment le rendu, la gestion de l'état et les temps de chargement pour offrir des expériences utilisateur plus
+    rapides et plus fluides.
+</div>
+```
+
+</div>
+
+<br>
+
+`Modularité et extensibilité`
+
+<div v-click>
+
+```html
+
+<div v-click>Les frameworks deviennent de plus en plus modulaires, permettant aux développeurs de
+    choisir et de composer des fonctionnalités selon leurs besoins spécifiques. Cela favorise la réutilisabilité et la
+    maintenance du code.
+</div>
+```
+
+</div>
+
+---
+
+Évolution constante pour répondre aux besoins du marché
+
+`TypeScript`
+
+<div v-click>
+
+```html
+
+<div v-click>De plus en plus de frameworks adoptent TypeScript, un sur-ensemble de JavaScript qui ajoute des types
+    statiques. Cela améliore la qualité du code, facilite la collaboration en équipe et réduit les erreurs au moment de
+    la
+    compilation.
+</div>
+```
+
+</div>
+
+<br>
+
+`Outillage et écosystème`
+
+<div v-click>
+
+```html
+
+<div v-click>L'écosystème des outils autour des frameworks s'enrichit. Cela inclut des bibliothèques pour
+    le routage, la gestion de l'état, le testing, le déploiement, etc. Un écosystème robuste aide les développeurs à
+    être
+    plus productifs et à créer des applications plus robustes.
+</div>
+```
+
+</div>
+
+---
+
+# II - Innovation et compétition entre les frameworks
+
+Compétition entre les frameworks
+
+La compétition entre les frameworks JavaScript est intense et se manifeste de plusieurs manières :
+
+`Communauté et support`
+
+<div v-click>
+
+```html
+
+<div v-click>Les frameworks cherchent à attirer des communautés de développeurs actives et engagées. Une
+    grande communauté signifie plus de ressources, de tutoriels, de plugins et de support pour les développeurs.
+```
+
+</div>
+
+<br>
+
+`Adoption par les entreprises`
+
+<div v-click>
+
+```html
+
+<div v-click>Les frameworks se battent pour être adoptés par les grandes entreprises et les projets de
+    haut profil. L'adoption par des entreprises de renom peut servir de preuve de fiabilité et de performance.
+</div>
+```
+
+</div>
+
+---
+
+Évolution constante pour répondre aux besoins du marché
+
+`Innovation technologique`
+
+<div v-click>
+
+```html
+
+<div v-click>Chaque framework essaie de se différencier par l'innovation. Par exemple, React a popularisé
+    le concept du DOM virtuel, tandis que Svelte propose une compilation des composants en JavaScript pur.
+</div>
+```
+
+</div>
+
+<br>
+
+`Simplicité et courbe d'apprentissage`
+
+<div v-click>
+
+```html
+
+<div v-click>Les frameworks rivalisent pour offrir la meilleure expérience développeur, en
+    rendant leurs API intuitives et en fournissant une documentation claire et des guides pratiques. Vue.js, par
+    exemple,
+    est apprécié pour sa simplicité et sa courbe d'apprentissage douce.
+</div>
+```
+
+</div>
+
+---
+
+# II - Innovation et compétition entre les frameworks
+
+Exemples concrets de compétition
+
+`React vs Angular`
+
+<div v-click>
+
+```html
+
+<div v-click>Ces deux frameworks ont des approches différentes. React se concentre sur la bibliothèque pour les
+    vues, laissant le choix des autres outils aux développeurs, tandis qu'Angular offre une solution complète avec tout
+    intégré.
+```
+
+</div>
+
+<br>
+
+`Vue.js vs Svelte`
+
+<div v-click>
+
+```html
+
+<div v-click> Vue.js est connu pour sa flexibilité et sa facilité d'apprentissage, tandis que Svelte se distingue
+    par son approche unique de compilation. Les deux cherchent à offrir des performances élevées et une bonne expérience
+    développeur.
+</div>
+```
+
+</div>
+
+En conclusion, l'innovation et la compétition entre les frameworks JavaScript stimulent le progrès technologique et
+offrent aux développeurs une multitude d'options pour répondre à leurs besoins spécifiques. Cette dynamique
+concurrentielle contribue à l'amélioration continue des outils et des pratiques de développement web.
 
 ---
 transition: slide-up
