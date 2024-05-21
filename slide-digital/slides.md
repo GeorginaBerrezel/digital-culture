@@ -5,7 +5,7 @@ theme: apple-basic
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides, markdown enabled
-title: Welcome to Slidev
+title: Welcome to Digital culture
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -48,76 +48,145 @@ Digital culture
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
----
-transition: fade-out
----
+[//]: # ()
+[//]: # (---)
 
-# Summary
+[//]: # (transition: fade-out)
 
-Do you have to be up to date with the latest JS frameworks and web trends to be a good developer?
+[//]: # (---)
 
-- 📈 **L’évolution des frameworks JS et la quête de performance** - Répondre à la demande croissante des utilisateurs
-  pour des applications web rapides et réactives, incitant les développeurs à choisir des frameworks optimisés.
-- 🤓 **Le cliché du développeur junior vs senior** - Explorer les attentes contrastées entre les développeurs juniors,
-  souvent associés à une connaissance accrue des nouvelles technologies, et les développeurs seniors, valorisant leur
-  expérience dans la résolution de problèmes complexes et la conception de solutions évolutives.
-- 👩🏽‍💻 **L'IA est-elle donc destinée aux développeurs moyens ?** - Analyse de l'accessibilité croissante de l'IA à tous
-  les niveaux de compétence, grâce à des outils et des plateformes simplifiés, ainsi que des exemples concrets
-  d'utilisation de l'IA dans le développement web, comme la génération de code avec Copilot et l'analyse sémantique avec
-  ChatGPT.
+[//]: # ()
+[//]: # (# Summary)
 
-[//]: # (- 🤹 **Interactive** - embedding Vue components to enhance your expressions)
+[//]: # ()
+[//]: # (Do you have to be up to date with the latest JS frameworks and web trends to be a good developer?)
 
-[//]: # (- 🎥 **Recording** - built-in recording and camera view)
+[//]: # ()
+[//]: # (- 📈 **L’évolution des frameworks JS et la quête de performance** - Répondre à la demande croissante des utilisateurs)
 
-[//]: # (- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA)
+[//]: # (  pour des applications web rapides et réactives, incitant les développeurs à choisir des frameworks optimisés.)
 
-[//]: # (- 🛠 **Hackable** - anything possible on a webpage)
+[//]: # (- 🤓 **Le cliché du développeur junior vs senior** - Explorer les attentes contrastées entre les développeurs juniors,)
 
-<br>
-<br>
+[//]: # (  souvent associés à une connaissance accrue des nouvelles technologies, et les développeurs seniors, valorisant leur)
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+[//]: # (  expérience dans la résolution de problèmes complexes et la conception de solutions évolutives.)
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
+[//]: # (- 👩🏽‍💻 **L'IA est-elle donc destinée aux développeurs moyens ?** - Analyse de l'accessibilité croissante de l'IA à tous)
 
-<style>
-h1 {
-  background-color: #b66a2b;
-  background-image: linear-gradient(45deg, #d49e4e 10%, #8c5c14 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+[//]: # (  les niveaux de compétence, grâce à des outils et des plateformes simplifiés, ainsi que des exemples concrets)
+
+[//]: # (  d'utilisation de l'IA dans le développement web, comme la génération de code avec Copilot et l'analyse sémantique avec)
+
+[//]: # (  ChatGPT.)
+
+[//]: # ()
+[//]: # ([//]: # &#40;- 🤹 **Interactive** - embedding Vue components to enhance your expressions&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;- 🎥 **Recording** - built-in recording and camera view&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;- 🛠 **Hackable** - anything possible on a webpage&#41;)
+[//]: # ()
+[//]: # (<br>)
+
+[//]: # (<br>)
+
+[//]: # ()
+[//]: # (Read more about [Why Slidev?]&#40;https://sli.dev/guide/why&#41;)
+
+[//]: # ()
+[//]: # (<!--)
+
+[//]: # (You can have `style` tag in markdown to override the style for the current page.)
+
+[//]: # (Learn more: https://sli.dev/guide/syntax#embedded-styles)
+
+[//]: # (-->)
+
+[//]: # ()
+[//]: # (<style>)
+
+[//]: # (h1 {)
+
+[//]: # (  background-color: #b66a2b;)
+
+[//]: # (  background-image: linear-gradient&#40;45deg, #d49e4e 10%, #8c5c14 20%&#41;;)
+
+[//]: # (  background-size: 100%;)
+
+[//]: # (  -webkit-background-clip: text;)
+
+[//]: # (  -moz-background-clip: text;)
+
+[//]: # (  -webkit-text-fill-color: transparent;)
+
+[//]: # (  -moz-text-fill-color: transparent;)
+
+[//]: # (})
+
+[//]: # (</style>)
 
 <!--
 Here is another comment.
 -->
 
 ---
+transition: fade-out
+layout: two-cols
+layoutClass: gap-16
+---
+
+# Summary
+
+Do you have to be up to date with the latest JS frameworks and web trends to be a good developer?
+
+
+[//]: # (You can use the `Toc` component to generate a table of contents for your slides:)
+
+[//]: # ()
+[//]: # (```html)
+
+[//]: # ()
+[//]: # (<Toc minDepth="1" maxDepth="1"></Toc>)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.)
+
+::right::
+
+<Toc v-click minDepth="1" maxDepth="2"></Toc>
+
+
+---
 transition: slide-up
 level: 2
 ---
 
-# Navigation
+# 📈L’évolution des frameworks JS et la quête de performance
 
-Hover on the bottom-left corner to see the navigation's controls
-panel, [learn more](https://sli.dev/guide/navigation.html)
+<img src="stateofjs-awarness.png" alt="Awarness state of javascript 2022" style="max-width: 100%; height: auto;"/>
 
-## Keyboard Shortcuts
+[//]: # ()
 
-|                                                     |                             |
-|-----------------------------------------------------|-----------------------------|
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
+[//]: # (## Keyboard Shortcuts)
+
+[//]: # ()
+
+[//]: # (|                                                     |                             |)
+
+[//]: # (|-----------------------------------------------------|-----------------------------|)
+
+[//]: # (| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |)
+
+[//]: # (| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |)
+
+[//]: # (| <kbd>up</kbd>                                       | previous slide              |)
+
+[//]: # (| <kbd>down</kbd>                                     | next slide                  |)
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 <img
@@ -128,68 +197,74 @@ alt=""
 />
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc v-click minDepth="1" maxDepth="2"></Toc>
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: ./stateofjs-ratio-overtime.png
 ---
 
-# Code
+# I - Demande croissante de performance
 
-Use code snippets and get the highlighting directly, and even types hover![^1]
+Les utilisateurs exigent des applications web de plus en plus rapides et réactives, ce qui pousse les développeurs à
+utiliser des frameworks qui optimisent les performances.
 
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
+[//]: # (```ts {all|5|7|7-8|10|all} twoslash)
 
-import {computed, ref} from 'vue'
+[//]: # (// TwoSlash enables TypeScript hover information)
 
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
+[//]: # (// and errors in markdown code blocks)
 
-doubled.value = 2
-```
+[//]: # (// More at https://shiki.style/packages/twoslash)
 
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
+[//]: # ()
+
+[//]: # (import {computed, ref} from 'vue')
+
+[//]: # ()
+
+[//]: # (const count = ref&#40;0&#41;)
+
+[//]: # (const doubled = computed&#40;&#40;&#41; => count.value * 2&#41;)
+
+[//]: # ()
+
+[//]: # (doubled.value = 2)
+
+[//]: # (```)
+
+[//]: # (<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />)
 
 <!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
+
+[//]: # (<<< @/snippets/external.ts#snippet)
 
 <!-- Footer -->
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
+
+[//]: # ([^1]: [Learn More]&#40;https://sli.dev/guide/syntax.html#line-highlighting&#41;)
 
 <!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
+
+[//]: # (<style>)
+
+[//]: # (.footnotes-sep {)
+
+[//]: # (  @apply mt-5 opacity-10;)
+
+[//]: # (})
+
+[//]: # (.footnotes {)
+
+[//]: # (  @apply text-sm opacity-75;)
+
+[//]: # (})
+
+[//]: # (.footnote-backref {)
+
+[//]: # (  display: none;)
+
+[//]: # (})
+
+[//]: # (</style>)
 
 <!--
 Notes can also sync with clicks
@@ -202,80 +277,242 @@ Notes can also sync with clicks
 -->
 
 ---
+layout: image-left
+image: ./stateofjs-ratio-overtime.png
+---
+
+# II - Innovation et compétition entre les frameworks
+
+Différentes options de frameworks JS disponibles, de leur évolution constante pour répondre aux besoins
+changeants du marché et de la compétition entre eux pour attirer les
+développeurs. [learn more](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/)
+
+---
 level: 2
 ---
 
-# Shiki Magic Move
+---
+transition: slide-up
+level: 2
+---
 
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code
-snippets.
+# 🤓 Le cliché du développeur junior vs senior
 
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move.
-For example:
+Les utilisateurs exigent des applications web de plus en plus
+rapides et réactives, ce qui pousse les développeurs à utiliser des frameworks qui optimisent les
+performances. [learn more](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/)
 
-````md magic-move
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
+<img src="podcast-grafikart.png" alt="Awarness state of javascript 2022" style="max-width: 100%; height: auto;"/>
 
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
+---
+level: 2
+---
 
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
+---
+layout: image-right
+image: ./podcast-talk.png
+---
 
-Non-code blocks are ignored.
+# I - Les attentes et les réalités
 
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
+Discute des différences entre les attentes souvent associées aux développeurs juniors (
+moins d'expérience mais plus de familiarité avec les nouvelles technologies) et celles des développeurs seniors (plus
+d'expérience mais parfois moins au courant des dernières tendances).
+
+---
+layout: image-left
+image: ./podcast-talk.png
+---
+
+# II - La valeur de l'expérience
+
+Mets en évidence l'importance de l'expérience dans la résolution de problèmes complexes, la
+prise de décisions éclairées et la conception de solutions robustes et évolutives.
+
+
+---
+level: 2
+---
+
+---
+transition: slide-up
+level: 2
+---
+
+# 👩🏽‍💻 L'IA est-elle donc destinée aux développeurs moyens ?
+
+Les utilisateurs exigent des applications web de plus en plus
+rapides et réactives, ce qui pousse les développeurs à utiliser des frameworks qui optimisent les
+performances. [learn more](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/)
+
+<img src="github-copilot.png" alt="Awarness state of javascript 2022" style="max-width: 100%; height: auto;"/>
+
+---
+level: 2
+---
+
+---
+layout: image-right
+image: ./chatgpt-intro.jpg
+---
+
+# I - Accessibilité de l'IA pour tous les niveaux
+
+Explique comment les outils et plateformes d'IA deviennent de plus en plus
+accessibles aux développeurs de tous niveaux, offrant des fonctionnalités de codage assisté, de génération de code et de
+compréhension du langage naturel.
+
+---
+layout: image-left
+image: ./githubcopilot-chat.png
+---
+
+# II - Utilisation de l'IA dans le développement web
+
+Présente des exemples concrets d'utilisation de l'IA dans le
+développement web, tels que la génération de code avec Copilot, l'analyse sémantique avec ChatGPT, etc.
+
+[//]: # (# Shiki Magic Move)
+
+[//]: # ()
+
+[//]: # (Powered by [shiki-magic-move]&#40;https://shiki-magic-move.netlify.app/&#41;, Slidev supports animations across multiple code)
+
+[//]: # (snippets.)
+
+[//]: # ()
+
+[//]: # (Add multiple code blocks and wrap them with <code>````md magic-move</code> &#40;four backticks&#41; to enable the magic move.)
+
+[//]: # (For example:)
+
+[//]: # ()
+
+[//]: # (````md magic-move)
+
+[//]: # (```ts {*|2|*})
+
+[//]: # (// step 1)
+
+[//]: # (const author = reactive&#40;{)
+
+[//]: # (  name: 'John Doe',)
+
+[//]: # (  books: [)
+
+[//]: # (    'Vue 2 - Advanced Guide',)
+
+[//]: # (    'Vue 3 - Basic Guide',)
+
+[//]: # (    'Vue 4 - The Mystery')
+
+[//]: # (  ])
+
+[//]: # (}&#41;)
+
+[//]: # (```)
+
+[//]: # ()
+
+[//]: # (```ts {*|1-2|3-4|3-4,8})
+
+[//]: # (// step 2)
+
+[//]: # (export default {)
+
+[//]: # (  data&#40;&#41; {)
+
+[//]: # (    return {)
+
+[//]: # (      author: {)
+
+[//]: # (        name: 'John Doe',)
+
+[//]: # (        books: [)
+
+[//]: # (          'Vue 2 - Advanced Guide',)
+
+[//]: # (          'Vue 3 - Basic Guide',)
+
+[//]: # (          'Vue 4 - The Mystery')
+
+[//]: # (        ])
+
+[//]: # (      })
+
+[//]: # (    })
+
+[//]: # (  })
+
+[//]: # (})
+
+[//]: # (```)
+
+[//]: # ()
+
+[//]: # (```ts)
+
+[//]: # (// step 3)
+
+[//]: # (export default {)
+
+[//]: # (  data: &#40;&#41; => &#40;{)
+
+[//]: # (    author: {)
+
+[//]: # (      name: 'John Doe',)
+
+[//]: # (      books: [)
+
+[//]: # (        'Vue 2 - Advanced Guide',)
+
+[//]: # (        'Vue 3 - Basic Guide',)
+
+[//]: # (        'Vue 4 - The Mystery')
+
+[//]: # (      ])
+
+[//]: # (    })
+
+[//]: # (  }&#41;)
+
+[//]: # (})
+
+[//]: # (```)
+
+[//]: # ()
+
+[//]: # (Non-code blocks are ignored.)
+
+[//]: # ()
+
+[//]: # (```vue)
+
+[//]: # (<!-- step 4 -->)
+
+[//]: # (<script setup>)
+
+[//]: # (const author = {)
+
+[//]: # (  name: 'John Doe',)
+
+[//]: # (  books: [)
+
+[//]: # (    'Vue 2 - Advanced Guide',)
+
+[//]: # (    'Vue 3 - Basic Guide',)
+
+[//]: # (    'Vue 4 - The Mystery')
+
+[//]: # (  ])
+
+[//]: # (})
+
+[//]: # (</script>)
+
+[//]: # (```)
+
+[//]: # (````)
 
 ---
 
@@ -582,7 +819,7 @@ database "MySql" {
 ---
 foo: bar
 dragPos:
-  square: -138,0,0,0
+square: -138,0,0,0
 square: 691,33,167,_,-16
 ---
 
