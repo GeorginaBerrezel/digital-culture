@@ -63,6 +63,12 @@ layoutClass: gap-16
 
 Do you have to be up to date with the latest JS frameworks and web trends to be a good developer?
 
+Dans un domaine en constante évolution comme le développement web, les nouvelles technologies et les frameworks
+JavaScript émergents suscitent des questions sur l'importance d'être à jour. Les attentes croissantes des utilisateurs
+en matière de performance stimulent l'innovation et la compétition entre les frameworks, tandis que l'IA rend des outils
+avancés accessibles à tous les niveaux de compétence. Ces facteurs redéfinissent le paysage du développement web et le
+rôle du développeur moderne.
+
 ::right::
 
 <Toc v-click minDepth="1" maxDepth="2"></Toc>
@@ -112,17 +118,18 @@ image: ./stateofjs-ratio-overtime.png
 
 # I - Demande croissante de performance
 
-Les utilisateurs exigent des applications web de plus en plus rapides et réactives, ce qui pousse les développeurs à
-utiliser des frameworks qui optimisent les performances.
+Les utilisateurs attendent des applications web rapides et réactives, ce qui pousse les développeurs à utiliser des
+frameworks qui optimisent les performances.
 
 ---
 transition: slide-up
 level: 3
 ---
 
-# I - Demande croissante de performance
+I - Demande croissante de performance
 
-Les attentes des utilisateurs modernes
+# A - Les attentes des utilisateurs modernes
+
 Les utilisateurs d'aujourd'hui ont des attentes élevées en matière de performance des applications web. Plusieurs
 facteurs contribuent à cette demande croissante :
 
@@ -132,12 +139,8 @@ facteurs contribuent à cette demande croissante :
 
 ```html
 
-<div v-click>Les utilisateurs s'attendent à ce que les pages web se chargent en quelques secondes, voire
-    moins. Des temps de chargement rapides sont essentiels pour améliorer l'expérience utilisateur et réduire les taux
-    de
-    rebond. Google a également souligné l'importance de la vitesse de chargement pour le référencement, ce qui incite
-    encore
-    plus les développeurs à optimiser les performances.
+<div v-click>Les utilisateurs s'attendent à des pages web qui se chargent en quelques secondes, essentielles pour une
+    bonne expérience utilisateur et pour le référencement.
 </div>
 ```
 
@@ -156,8 +159,7 @@ facteurs contribuent à cette demande croissante :
 [//]: # (, powered by [Rough Notation]&#40;https://roughnotation.com/&#41;:)
 
 ```html
-<span v-mark.underline.orange> : Une fois la page chargée, les interactions avec le site doivent être fluides et instantanées. Cela inclut
-des actions comme la navigation, le défilement, et l'interaction avec les éléments de la page (par exemple, des
+<span v-mark.underline.orange>Les interactions avec le site doivent être fluides et instantanées une fois la page chargée. (par exemple, des
 formulaires, des boutons, etc.).</span>
 ```
 
@@ -171,7 +173,7 @@ formulaires, des boutons, etc.).</span>
 
 ---
 
-[//]: # (# I - Demande croissante de performance)
+A - Les attentes des utilisateurs modernes
 
 `Expérience utilisateur (UX)`
 
@@ -179,10 +181,8 @@ formulaires, des boutons, etc.).</span>
 
 ```html
 
-<div v-click>Une bonne performance est un élément clé d'une expérience utilisateur positive. Les
-    utilisateurs sont moins tolérants envers les sites lents ou non réactifs et sont plus susceptibles de quitter un
-    site ou
-    de ne pas y revenir s'ils rencontrent des problèmes de performance.
+<div v-click>Une performance optimale est cruciale pour une expérience utilisateur positive, car les utilisateurs sont
+    moins tolérants envers les sites lents ou non réactifs.
 </div>
 ```
 
@@ -191,13 +191,11 @@ formulaires, des boutons, etc.).</span>
 
 ---
 
-# I - Demande croissante de performance
+I - Demande croissante de performance
 
-Rôle des frameworks JavaScript
+# B - Rôle des frameworks JavaScript
 
-Pour répondre à ces exigences, les développeurs se tournent vers des frameworks JavaScript modernes qui offrent des
-outils et des fonctionnalités pour optimiser les performances. Voici comment ces frameworks contribuent à améliorer la
-performance des applications web :
+Les frameworks modernes optimisent les performances web de plusieurs manières :
 
 `Rendu côté client vs côté serveur`
 
@@ -205,10 +203,7 @@ performance des applications web :
 
 ```html
 
-<div v-click> : Certains frameworks permettent un rendu côté serveur (SSR) ou un rendu statique, ce
-    qui peut réduire le temps de chargement initial de la page. D'autres, comme React avec ReactDOM, se concentrent sur
-    le
-    rendu côté client, permettant des interactions ultra-rapides après le chargement initial.
+<div v-click>Certains permettent un rendu côté serveur (SSR) ou statique, réduisant le temps de chargement initial.
 </div>
 ```
 
@@ -222,9 +217,8 @@ performance des applications web :
 
 ```html
 
-<div v-click> Les frameworks modernes intègrent souvent des techniques de chargement paresseux
-    pour différer le chargement de contenu non critique jusqu'à ce qu'il soit nécessaire. Cela améliore le temps de
-    chargement initial et réduit la consommation de bande passante.
+<div v-click> Techniques pour retarder le chargement de contenu non critique, améliorant le temps de chargement initial
+    et la bande passante.
 </div>
 ```
 
@@ -232,7 +226,9 @@ performance des applications web :
 
 ---
 
-# I - Demande croissante de performance
+I - Demande croissante de performance
+
+B - Rôle des frameworks JavaScript
 
 `Gestion de l'état efficace`
 
@@ -240,10 +236,8 @@ performance des applications web :
 
 ```html
 
-<div v-click>Les frameworks offrent des solutions sophistiquées pour la gestion de l'état de l'
-    application, ce qui permet de minimiser les recalculs et les re-rendus inutiles. Cela contribue à des interactions
-    plus
-    rapides et à une expérience utilisateur plus fluide.
+<div v-click>Solutions sophistiquées minimisant les recalculs et re-rendus, assurant des interactions rapides et
+    fluides.
 </div>
 ```
 
@@ -257,9 +251,8 @@ performance des applications web :
 
 ```html
 
-<div v-click>Les outils de build modernes, souvent intégrés aux frameworks, permettent de créer des
-    bundles JavaScript optimisés et minifiés, réduisant ainsi la taille des fichiers envoyés au client et améliorant les
-    temps de chargement.
+<div v-click>Outils intégrés pour créer des bundles JavaScript optimisés, réduisant la taille des fichiers et améliorant
+    les temps de chargement.
 </div>
 ```
 
@@ -268,9 +261,9 @@ performance des applications web :
 
 ---
 
-# I - Demande croissante de performance
+I - Demande croissante de performance
 
-Exemples de frameworks performants
+# C - Exemples de frameworks performants
 
 `React`
 
@@ -278,9 +271,8 @@ Exemples de frameworks performants
 
 ```html
 
-<div v-click>Utilisé par de grandes entreprises comme Facebook et Instagram, React permet de créer des interfaces
-    utilisateur
-    réactives et performantes grâce à son DOM virtuel et à ses techniques de mise à jour efficace.
+<div v-click>Utilisé par des géants comme Facebook et Instagram, il offre des interfaces utilisateur réactives grâce à
+    son DOM virtuel et ses mises à jour efficaces
 </div>
 ```
 
@@ -294,9 +286,8 @@ Exemples de frameworks performants
 
 ```html
 
-<div v-click>Connu pour sa simplicité et sa flexibilité, Vue.js permet également des optimisations de performance avec
-    son
-    DOM virtuel et sa gestion de composants légers.
+<div v-click>Connu pour sa simplicité, il propose des optimisations de performance avec son DOM virtuel et sa gestion de
+    composants légers.
 </div>
 ```
 
@@ -310,9 +301,8 @@ Exemples de frameworks performants
 
 ```html
 
-<div v-click>Contrairement à React et Vue, Svelte convertit les composants en un code JavaScript ultra-optimisé au
-    moment de
-    la compilation, éliminant ainsi le besoin d'un DOM virtuel et améliorant la performance.
+<div v-click>Convertit les composants en code JavaScript ultra-optimisé à la compilation, améliorant la performance sans
+    nécessiter de DOM virtuel.
 </div>
 ```
 
@@ -326,78 +316,21 @@ Exemples de frameworks performants
 
 ```html
 
-<div v-click>Un framework complet qui offre des outils puissants pour optimiser les performances, notamment par le biais
-    de
-    l'injection de dépendances et du rendu côté serveur.
+<div v-click>Framework complet avec des outils pour optimiser les performances, notamment l'injection de dépendances et
+    le rendu côté serveur.
 </div>
 ```
 
 </div>
 
 
-En conclusion, la demande croissante de performance pousse les développeurs à utiliser des frameworks JavaScript
-modernes qui offrent des outils et des techniques pour optimiser les applications web. Ces frameworks permettent de
-répondre aux attentes des utilisateurs en matière de vitesse, de réactivité et de qualité de l'expérience utilisateur.
+En conclusion
+<br>
+La demande croissante de performances web pousse les développeurs à adopter des frameworks modernes
+offrant des outils pour répondre aux attentes des utilisateurs en matière de vitesse, de réactivité et d'expérience
+utilisateur de qualité.
 
----
 
-[//]: # (```ts {all|5|7|7-8|10|all} twoslash)
-
-[//]: # (// TwoSlash enables TypeScript hover information)
-
-[//]: # (// and errors in markdown code blocks)
-
-[//]: # (// More at https://shiki.style/packages/twoslash)
-
-[//]: # ()
-
-[//]: # (import {computed, ref} from 'vue')
-
-[//]: # ()
-
-[//]: # (const count = ref&#40;0&#41;)
-
-[//]: # (const doubled = computed&#40;&#40;&#41; => count.value * 2&#41;)
-
-[//]: # ()
-
-[//]: # (doubled.value = 2)
-
-[//]: # (```)
-
-[//]: # (<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />)
-
-<!-- This allow you to embed external code blocks -->
-
-[//]: # (<<< @/snippets/external.ts#snippet)
-
-<!-- Footer -->
-
-[//]: # ([^1]: [Learn More]&#40;https://sli.dev/guide/syntax.html#line-highlighting&#41;)
-
-<!-- Inline style -->
-
-[//]: # (<style>)
-
-[//]: # (.footnotes-sep {)
-
-[//]: # (  @apply mt-5 opacity-10;)
-
-[//]: # (})
-
-[//]: # (.footnotes {)
-
-[//]: # (  @apply text-sm opacity-75;)
-
-[//]: # (})
-
-[//]: # (.footnote-backref {)
-
-[//]: # (  display: none;)
-
-[//]: # (})
-
-[//]: # (</style>)
 
 <!--
 Notes can also sync with clicks
@@ -418,30 +351,27 @@ image: ./stateofjs-ratio-overtime.png
 
 Différentes options de frameworks JS disponibles, de leur évolution constante pour répondre aux besoins
 changeants du marché et de la compétition entre eux pour attirer les
-développeurs. [learn more](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/)
+développeurs.
 
 ---
 level: 2
 ---
 
-# II - Innovation et compétition entre les frameworks
+II - Innovation et compétition entre les frameworks
 
-Diversité des options disponibles
+# A - Diversité des options disponibles
 
 Le paysage des frameworks JavaScript est riche et diversifié, offrant de nombreuses options aux développeurs. Voici
 quelques-uns des principaux frameworks et leurs caractéristiques distinctives :
 
-`React `
+`React`
 
 <div v-click>
 
 ```html
 
-<div v-click>Créé par Facebook, React est une bibliothèque JavaScript centrée sur la construction d'interfaces
-    utilisateur
-    réactives. Sa popularité repose sur son approche innovante du DOM virtuel, qui permet des mises à jour de
-    l'interface
-    utilisateur ultra-rapides.
+<div v-click>Créé par Facebook, il se concentre sur les interfaces utilisateur réactives grâce à son DOM virtuel
+    innovant.
 </div>
 ```
 
@@ -455,10 +385,8 @@ quelques-uns des principaux frameworks et leurs caractéristiques distinctives :
 
 ```html
 
-<div v-click>Développé par Google, Angular est un framework complet qui offre une architecture robuste et une riche
-    suite
-    d'outils pour le développement d'applications web. Il est connu pour sa puissante fonctionnalité d'injection de
-    dépendances et sa capacité à gérer des applications complexes.
+<div v-click>Proposé par Google, il offre une architecture robuste et des outils complets pour les applications web
+    complexes.
 </div>
 ```
 
@@ -466,7 +394,7 @@ quelques-uns des principaux frameworks et leurs caractéristiques distinctives :
 
 ---
 
-Diversité des options disponibles
+A - Diversité des options disponibles
 
 `Vue.js`
 
@@ -474,9 +402,8 @@ Diversité des options disponibles
 
 ```html
 
-<div v-click>Vue.js se distingue par sa simplicité et sa flexibilité. Il combine les meilleures idées de React et
-    Angular,
-    offrant une courbe d'apprentissage douce tout en permettant de créer des applications performantes et maintenables.
+<div v-click>Reconnu pour sa simplicité et sa flexibilité, il combine les meilleures fonctionnalités de React et
+    Angular.
 </div>
 ```
 
@@ -490,10 +417,8 @@ Diversité des options disponibles
 
 ```html
 
-<div v-click>Svelte adopte une approche différente en compilant les composants en du JavaScript pur à l'étape de la
-    construction. Cela élimine le besoin d'un DOM virtuel et peut conduire à des performances améliorées et à des
-    tailles de
-    bundle plus petites.
+<div v-click>Compile les composants en JavaScript pur lors de la construction, évitant ainsi le besoin d'un DOM virtuel
+    et optimisant les performances.
 </div>
 ```
 
@@ -501,9 +426,9 @@ Diversité des options disponibles
 
 ---
 
-# II - Innovation et compétition entre les frameworks
+II - Innovation et compétition entre les frameworks
 
-Évolution constante pour répondre aux besoins du marché
+# B - Évolution constante pour répondre aux besoins du marché
 
 Les frameworks JavaScript évoluent constamment pour s'adapter aux besoins changeants des développeurs et du marché.
 Voici quelques-unes des tendances et évolutions récentes :
@@ -514,9 +439,8 @@ Voici quelques-unes des tendances et évolutions récentes :
 
 ```html
 
-<div v-click>Les améliorations continues en matière de performance sont une priorité. Les frameworks optimisent
-    constamment le rendu, la gestion de l'état et les temps de chargement pour offrir des expériences utilisateur plus
-    rapides et plus fluides.
+<div v-click>Les frameworks se concentrent sur l'optimisation du rendu et des temps de chargement pour des expériences
+    utilisateur plus fluides.
 </div>
 ```
 
@@ -530,9 +454,8 @@ Voici quelques-unes des tendances et évolutions récentes :
 
 ```html
 
-<div v-click>Les frameworks deviennent de plus en plus modulaires, permettant aux développeurs de
-    choisir et de composer des fonctionnalités selon leurs besoins spécifiques. Cela favorise la réutilisabilité et la
-    maintenance du code.
+<div v-click>Les frameworks deviennent modulaires pour permettre une personnalisation accrue et une maintenance
+    simplifiée.
 </div>
 ```
 
@@ -540,7 +463,7 @@ Voici quelques-unes des tendances et évolutions récentes :
 
 ---
 
-Évolution constante pour répondre aux besoins du marché
+B - Évolution constante pour répondre aux besoins du marché
 
 `TypeScript`
 
@@ -548,10 +471,7 @@ Voici quelques-unes des tendances et évolutions récentes :
 
 ```html
 
-<div v-click>De plus en plus de frameworks adoptent TypeScript, un sur-ensemble de JavaScript qui ajoute des types
-    statiques. Cela améliore la qualité du code, facilite la collaboration en équipe et réduit les erreurs au moment de
-    la
-    compilation.
+<div v-click>De plus en plus adopté, il améliore la qualité du code et réduit les erreurs grâce à ses types statiques.
 </div>
 ```
 
@@ -565,10 +485,8 @@ Voici quelques-unes des tendances et évolutions récentes :
 
 ```html
 
-<div v-click>L'écosystème des outils autour des frameworks s'enrichit. Cela inclut des bibliothèques pour
-    le routage, la gestion de l'état, le testing, le déploiement, etc. Un écosystème robuste aide les développeurs à
-    être
-    plus productifs et à créer des applications plus robustes.
+<div v-click> L'écosystème s'enrichit avec des outils pour le routage, les tests, etc., améliorant la productivité des
+    développeurs.
 </div>
 ```
 
@@ -576,9 +494,9 @@ Voici quelques-unes des tendances et évolutions récentes :
 
 ---
 
-# II - Innovation et compétition entre les frameworks
+II - Innovation et compétition entre les frameworks
 
-Compétition entre les frameworks
+# C - Compétition entre les frameworks
 
 La compétition entre les frameworks JavaScript est intense et se manifeste de plusieurs manières :
 
@@ -588,8 +506,8 @@ La compétition entre les frameworks JavaScript est intense et se manifeste de p
 
 ```html
 
-<div v-click>Les frameworks cherchent à attirer des communautés de développeurs actives et engagées. Une
-    grande communauté signifie plus de ressources, de tutoriels, de plugins et de support pour les développeurs.
+<div v-click> Les frameworks rivalisent pour attirer des communautés actives, offrant ainsi plus de ressources et de
+    support aux développeurs.
 ```
 
 </div>
@@ -602,8 +520,8 @@ La compétition entre les frameworks JavaScript est intense et se manifeste de p
 
 ```html
 
-<div v-click>Les frameworks se battent pour être adoptés par les grandes entreprises et les projets de
-    haut profil. L'adoption par des entreprises de renom peut servir de preuve de fiabilité et de performance.
+<div v-click> La compétition se joue également sur l'adoption par les grandes entreprises, qui peut servir de validation
+    de la fiabilité et de la performance d'un framework.
 </div>
 ```
 
@@ -611,7 +529,7 @@ La compétition entre les frameworks JavaScript est intense et se manifeste de p
 
 ---
 
-Évolution constante pour répondre aux besoins du marché
+C - Évolution constante pour répondre aux besoins du marché
 
 `Innovation technologique`
 
@@ -619,8 +537,8 @@ La compétition entre les frameworks JavaScript est intense et se manifeste de p
 
 ```html
 
-<div v-click>Chaque framework essaie de se différencier par l'innovation. Par exemple, React a popularisé
-    le concept du DOM virtuel, tandis que Svelte propose une compilation des composants en JavaScript pur.
+<div v-click>Chaque framework cherche à se démarquer par l'innovation, comme le DOM virtuel pour React ou la compilation
+    vers JavaScript pur pour Svelte.
 </div>
 ```
 
@@ -634,10 +552,8 @@ La compétition entre les frameworks JavaScript est intense et se manifeste de p
 
 ```html
 
-<div v-click>Les frameworks rivalisent pour offrir la meilleure expérience développeur, en
-    rendant leurs API intuitives et en fournissant une documentation claire et des guides pratiques. Vue.js, par
-    exemple,
-    est apprécié pour sa simplicité et sa courbe d'apprentissage douce.
+<div v-click>Les frameworks rivalisent pour offrir la meilleure expérience développeur avec des API intuitives et une
+    documentation claire, à l'image de Vue.js et sa simplicité appréciée.
 </div>
 ```
 
@@ -645,9 +561,9 @@ La compétition entre les frameworks JavaScript est intense et se manifeste de p
 
 ---
 
-# II - Innovation et compétition entre les frameworks
+II - Innovation et compétition entre les frameworks
 
-Exemples concrets de compétition
+# D - Exemples concrets de compétition
 
 `React vs Angular`
 
@@ -655,9 +571,8 @@ Exemples concrets de compétition
 
 ```html
 
-<div v-click>Ces deux frameworks ont des approches différentes. React se concentre sur la bibliothèque pour les
-    vues, laissant le choix des autres outils aux développeurs, tandis qu'Angular offre une solution complète avec tout
-    intégré.
+<div v-click>React se concentre sur la bibliothèque pour les vues, tandis qu'Angular offre une solution complète avec
+    tout intégré.
 ```
 
 </div>
@@ -670,17 +585,17 @@ Exemples concrets de compétition
 
 ```html
 
-<div v-click> Vue.js est connu pour sa flexibilité et sa facilité d'apprentissage, tandis que Svelte se distingue
-    par son approche unique de compilation. Les deux cherchent à offrir des performances élevées et une bonne expérience
-    développeur.
+<div v-click>Vue.js est flexible et facile à apprendre, tandis que Svelte se distingue par son approche de compilation
+    unique.
 </div>
 ```
 
 </div>
 
-En conclusion, l'innovation et la compétition entre les frameworks JavaScript stimulent le progrès technologique et
-offrent aux développeurs une multitude d'options pour répondre à leurs besoins spécifiques. Cette dynamique
-concurrentielle contribue à l'amélioration continue des outils et des pratiques de développement web.
+En conclusion<br>
+L'innovation et la compétition entre les frameworks JavaScript stimulent le progrès technologique et offrent aux
+développeurs une multitude d'options pour répondre à leurs besoins spécifiques. Cette dynamique concurrentielle
+contribue à l'amélioration continue des outils et des pratiques de développement web.
 
 ---
 transition: slide-up
@@ -689,26 +604,14 @@ level: 2
 
 # 🤓 Le cliché du développeur junior vs senior
 
-Les utilisateurs exigent des applications web de plus en plus
-rapides et réactives, ce qui pousse les développeurs à utiliser des frameworks qui optimisent les
-performances. [learn more](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/)
+Dans le développement web, on distingue souvent entre les juniors et les seniors. Cette classification peut influencer
+les rôles et les attentes, mais elle ne représente pas toujours la réalité complexe de chaque développeur.
 
 <img src="podcast-grafikart.png" alt="Awarness state of javascript 2022" style="max-width: 100%; height: auto;"/>
 
 ---
 level: 2
 ---
-
----
-layout: image-right
-image: ./podcast-talk.png
----
-
-# I - Les attentes et les réalités
-
-Discute des différences entre les attentes souvent associées aux développeurs juniors (
-moins d'expérience mais plus de familiarité avec les nouvelles technologies) et celles des développeurs seniors (plus
-d'expérience mais parfois moins au courant des dernières tendances).
 
 ---
 layout: image-left
@@ -724,7 +627,7 @@ level: 2
 Les développeurs juniors et seniors sont souvent perçus de manière stéréotypée, avec des attentes spécifiques et parfois
 irréalistes qui ne reflètent pas toujours la réalité du terrain.
 
-Attentes envers les développeurs juniors
+A - Attentes envers les développeurs juniors
 
 `Familiarité avec les nouvelles technologies`
 
@@ -749,9 +652,7 @@ Attentes envers les développeurs juniors
 
 ```html
 
-<div v-click>Les juniors sont censés être plus flexibles et ouverts à l'apprentissage de
-    nouvelles compétences. On suppose qu'ils peuvent rapidement s'adapter à de nouvelles technologies et méthodes de
-    travail.
+<div v-click>On suppose que les juniors peuvent rapidement s'adapter à de nouvelles technologies et méthodes de travail.
 </div>
 ```
 
@@ -760,7 +661,7 @@ Attentes envers les développeurs juniors
 
 ---
 
-Attentes envers les développeurs juniors
+A - Attentes envers les développeurs juniors
 
 `Énergie et enthousiasme`
 
@@ -768,17 +669,16 @@ Attentes envers les développeurs juniors
 
 ```html
 
-<div v-click>Les employeurs attendent souvent des juniors qu'ils apportent une énergie et un enthousiasme
-    nouveaux à l'équipe, offrant des perspectives fraîches et une volonté de relever des défis.
+<div v-click>Les employeurs attendent des juniors qu'ils apportent une énergie et un enthousiasme nouveaux à l'équipe.
 ```
 
 </div>
 
 ---
 
-# I - Les attentes et les réalités
+I - Les attentes et les réalités
 
-Réalités pour les développeurs juniors
+# B - Réalités pour les développeurs juniors
 
 `Manque d'expérience pratique`
 
@@ -786,10 +686,8 @@ Réalités pour les développeurs juniors
 
 ```html
 
-<div v-click>Bien qu'ils soient familiers avec les nouvelles technologies, les juniors manquent
-    souvent d'expérience pratique pour résoudre des problèmes complexes en conditions réelles. Leur connaissance peut
-    être
-    théorique et manquer de profondeur en termes de mise en œuvre et de débogage.
+<div v-click>Malgré leur familiarité avec les nouvelles technologies, les juniors peuvent manquer d'expérience pratique
+    pour résoudre des problèmes complexes dans des situations réelles.
 </div>
 ```
 
@@ -803,8 +701,8 @@ Réalités pour les développeurs juniors
 
 ```html
 
-<div v-click>Les développeurs juniors ont souvent besoin de guidance et de supervision pour naviguer dans les
-    projets plus complexes. Le mentorat est crucial pour leur développement professionnel.
+<div v-click>Les juniors ont souvent besoin de mentorat pour naviguer dans des projets complexes et développer leurs
+    compétences professionnelles.
 </div>
 ```
 
@@ -813,7 +711,7 @@ Réalités pour les développeurs juniors
 
 ---
 
-Réalités pour les développeurs juniors
+B - Réalités pour les développeurs juniors
 
 `Risque de sur-spécialisation`
 
@@ -821,19 +719,17 @@ Réalités pour les développeurs juniors
 
 ```html
 
-<div v-click>En étant trop concentrés sur les nouvelles technologies, les juniors peuvent parfois
-    manquer de compréhension des principes fondamentaux de l'informatique et du développement logiciel, ce qui peut
-    limiter
-    leur capacité à s'adapter à des situations imprévues.
+<div v-click>Se concentrer uniquement sur les nouvelles technologies peut les priver de la compréhension des
+    fondamentaux de l'informatique et du développement logiciel, limitant ainsi leur adaptabilité.
 ```
 
 </div>
 
 ---
 
-# I - Les attentes et les réalités
+I - Les attentes et les réalités
 
-Attentes envers les développeurs seniors
+# C - Attentes envers les développeurs seniors
 
 `Expérience et expertise`
 
@@ -841,8 +737,8 @@ Attentes envers les développeurs seniors
 
 ```html
 
-<div v-click>Les développeurs seniors sont censés posséder une riche expérience en développement logiciel,
-    leur permettant de prendre des décisions éclairées et de résoudre des problèmes complexes efficacement.
+<div v-click>Les seniors sont attendus pour leur vaste expérience en développement logiciel, qui leur permet de prendre
+    des décisions éclairées et de résoudre efficacement des problèmes complexes.
 </div>
 ```
 
@@ -856,8 +752,8 @@ Attentes envers les développeurs seniors
 
 ```html
 
-<div v-click>On attend des seniors qu'ils jouent un rôle de leader, guidant les juniors et prenant des
-    responsabilités pour la qualité du code, l'architecture des systèmes, et la gestion des projets.
+<div v-click>Ils doivent jouer un rôle de leader en guidant les juniors et en prenant des responsabilités pour la
+    qualité du code, l'architecture des systèmes, et la gestion des projets.
 </div>
 ```
 
@@ -865,7 +761,7 @@ Attentes envers les développeurs seniors
 
 ---
 
-Attentes envers les développeurs seniors
+C - Attentes envers les développeurs seniors
 
 `Fiabilité et stabilité`
 
@@ -873,17 +769,17 @@ Attentes envers les développeurs seniors
 
 ```html
 
-<div v-click>Les seniors sont perçus comme des piliers de l'équipe, capables de fournir des solutions
-    robustes et de maintenir la stabilité du codebase sur le long terme.
+<div v-click>Les seniors sont perçus comme des piliers de l'équipe, capables de fournir des solutions robustes et de
+    maintenir la stabilité du codebase sur le long terme.
 ```
 
 </div>
 
 ---
 
-# I - Les attentes et les réalités
+I - Les attentes et les réalités
 
-Réalités pour les développeurs seniors
+# D - Réalités pour les développeurs seniors
 
 `Connaissance des nouvelles technologies`
 
@@ -891,10 +787,9 @@ Réalités pour les développeurs seniors
 
 ```html
 
-<div v-click>Bien que les seniors aient une vaste expérience, ils peuvent ne pas être
-    toujours à jour avec les toutes dernières technologies et tendances. Leur expertise se concentre souvent sur des
-    outils
-    et méthodes éprouvés qui ont fait leurs preuves au fil du temps.
+<div v-click>Malgré leur expérience, les seniors peuvent ne pas être toujours à jour avec les toutes dernières
+    technologies et tendances. Leur expertise se concentre souvent sur des outils et méthodes éprouvés qui ont fait
+    leurs preuves au fil du temps.
 </div>
 ```
 
@@ -908,10 +803,8 @@ Réalités pour les développeurs seniors
 
 ```html
 
-<div v-click>Les développeurs seniors peuvent être submergés par des responsabilités de gestion de
-    projet, de leadership d'équipe et de mentorat, ce qui peut limiter le temps qu'ils peuvent consacrer à
-    l'apprentissage
-    de nouvelles technologies.
+<div v-click>Les seniors peuvent être submergés par des responsabilités de gestion de projet, de leadership d'équipe et
+    de mentorat, ce qui peut limiter le temps qu'ils peuvent consacrer à l'apprentissage de nouvelles technologies.
 </div>
 ```
 
@@ -920,7 +813,7 @@ Réalités pour les développeurs seniors
 
 ---
 
-Réalités pour les développeurs seniors
+D - Réalités pour les développeurs seniors
 
 `Équilibre entre innovation et stabilité`
 
@@ -928,26 +821,20 @@ Réalités pour les développeurs seniors
 
 ```html
 
-<div v-click> Les seniors doivent souvent trouver un équilibre entre l'adoption de nouvelles
-    technologies pour améliorer les performances et la stabilité des systèmes existants. Ils sont conscients que
-    l'introduction de nouvelles technologies peut introduire des risques et des coûts de transition.
+<div v-click>Ils doivent trouver un équilibre entre l'adoption de nouvelles technologies pour améliorer les performances
+    et la stabilité des systèmes existants, sachant que l'introduction de nouvelles technologies peut introduire des
+    risques et des coûts de transition.
 ```
 
 </div>
 
-Conclusion
+Conclusion<br>
 Les attentes envers les développeurs juniors et seniors reflètent une vision idéale qui ne correspond pas toujours à la
 réalité. Les juniors, bien que familiers avec les nouvelles technologies, ont besoin de développer leur expérience
 pratique et leurs compétences en résolution de problèmes. Les seniors, malgré leur expérience et expertise, doivent
 constamment équilibrer entre innovation et stabilité, tout en assurant un mentorat efficace pour les plus jeunes. Une
 équipe de développement équilibrée tire parti des forces de chaque membre, junior ou senior, pour créer des solutions
 robustes et innovantes.
----
-
-# II - La valeur de l'expérience
-
-Mets en évidence l'importance de l'expérience dans la résolution de problèmes complexes, la
-prise de décisions éclairées et la conception de solutions robustes et évolutives.
 
 ---
 level: 2
@@ -967,10 +854,8 @@ A - Résolution de problèmes complexes
 
 ```html
 
-<div v-click>Les développeurs expérimentés possèdent une capacité accrue à diagnostiquer rapidement les
-    problèmes. Grâce à leur vécu, ils reconnaissent souvent les symptômes de problèmes courants et savent quelles
-    approches
-    ont fonctionné ou échoué dans le passé.
+<div v-click>Les développeurs expérimentés sont habiles à identifier rapidement les problèmes, ayant rencontré et
+    surmonté maintes fois des obstacles similaires par le passé.
 </div>
 ```
 
@@ -984,9 +869,8 @@ A - Résolution de problèmes complexes
 
 ```html
 
-<div v-click>Ils ont une boîte à outils de techniques éprouvées pour résoudre des problèmes complexes,
-    développées à travers l'expérience avec divers types de systèmes et environnements. Cela inclut la maîtrise des
-    algorithmes, des structures de données et des paradigmes de programmation appropriés.
+<div v-click>Leur arsenal de techniques éprouvées inclut une gamme variée d'approches pour résoudre des problèmes
+    complexes, acquises grâce à leur expérience diversifiée.
 </div>
 ```
 
@@ -1002,18 +886,17 @@ A - Résolution de problèmes complexes
 
 ```html
 
-<div v-click>L'expérience permet d'anticiper et de prévenir les problèmes avant qu'ils ne surviennent.
-    Les développeurs expérimentés sont souvent capables de voir les angles morts et les pièges potentiels que les moins
-    expérimentés pourraient négliger.
+<div v-click>L'expérience leur permet d'anticiper et de prévenir les problèmes potentiels, offrant ainsi une
+    perspective proactive sur la résolution des défis.
 ```
 
 </div>
 
 ---
 
-# II - La valeur de l'expérience
+II - La valeur de l'expérience
 
-B - Prise de décisions éclairées
+# B - Prise de décisions éclairées
 
 `Connaissance approfondie`
 
@@ -1021,9 +904,8 @@ B - Prise de décisions éclairées
 
 ```html
 
-<div v-click>L'expérience apporte une connaissance approfondie des technologies, des outils et des
-    meilleures pratiques. Cela permet de prendre des décisions basées sur une compréhension solide plutôt que sur des
-    suppositions ou des informations de surface.
+<div v-click>L'expérience offre une connaissance approfondie des technologies et des meilleures pratiques, favorisant
+    des décisions fondées sur une compréhension solide.
 </div>
 ```
 
@@ -1037,10 +919,8 @@ B - Prise de décisions éclairées
 
 ```html
 
-<div v-click>Les développeurs expérimentés sont adeptes à évaluer les compromis entre différentes
-    solutions. Ils comprennent que chaque choix technologique ou de conception comporte des avantages et des
-    inconvénients,
-    et sont capables de choisir la solution la plus appropriée pour le contexte spécifique.
+<div v-click> Les développeurs expérimentés sont capables d'évaluer les compromis entre différentes solutions,
+    choisissant celle qui convient le mieux au contexte donné.
 </div>
 ```
 
@@ -1056,19 +936,18 @@ B - Prise de décisions éclairées
 
 ```html
 
-<div v-click>Ils sont mieux équipés pour gérer les risques, ayant déjà navigué à travers divers scénarios
-    imprévus et appris comment minimiser les impacts négatifs. Leur expérience les aide à élaborer des plans de
-    contingence
-    et à préparer des solutions de secours.
+<div v-click>Leur expérience les prépare à gérer les risques, leur permettant d'anticiper et de minimiser les impacts
+    négatifs grâce à des plans de contingence bien élaborés.
+</div>
 ```
 
 </div>
 
 ---
 
-# II - La valeur de l'expérience
+II - La valeur de l'expérience
 
-C - Conception de solutions robustes et évolutives
+# C - Conception de solutions robustes et évolutives
 
 `Architecture solide`
 
@@ -1076,10 +955,8 @@ C - Conception de solutions robustes et évolutives
 
 ```html
 
-<div v-click>L'expérience permet de concevoir des architectures logicielles robustes qui peuvent résister à l'
-    épreuve du temps. Les développeurs expérimentés comprennent les principes de la conception modulaire, de la
-    séparation
-    des préoccupations et de la scalabilité.
+<div v-click>Les développeurs expérimentés conçoivent des architectures logicielles robustes, basées sur des principes
+    de modularité, de séparation des préoccupations et de scalabilité.
 </div>
 ```
 
@@ -1093,10 +970,8 @@ C - Conception de solutions robustes et évolutives
 
 ```html
 
-<div v-click>Ils créent des solutions faciles à maintenir et à faire évoluer. Une bonne conception initiale
-    prend en compte la facilité de maintenance et l'extensibilité, réduisant les coûts et les efforts nécessaires pour
-    les
-    mises à jour futures.
+<div v-click>Leur conception initiale privilégie la facilité de maintenance et d'évolution, réduisant ainsi les coûts et
+    les efforts liés aux mises à jour futures.
 </div>
 ```
 
@@ -1112,22 +987,19 @@ C - Conception de solutions robustes et évolutives
 
 ```html
 
-<div v-click>Les développeurs expérimentés sont conscients de l'importance de la documentation et des
-    standards de codage. Une documentation claire et des standards cohérents facilitent la collaboration et la passation
-    de
-    projets, ce qui est essentiel pour la pérennité et la qualité du code.
+<div v-click>Ils accordent une grande importance à la documentation et aux standards de codage, favorisant la
+    collaboration et assurant la pérennité et la qualité du code.
+</div>
 ```
 
 </div>
 
-Conclusion
+Conclusion<br>
 L'expérience est une ressource inestimable dans le développement logiciel. Elle permet de résoudre des problèmes
-complexes avec efficacité, de prendre des décisions éclairées basées sur une connaissance approfondie et de concevoir
-des solutions robustes et évolutives. Les développeurs expérimentés apportent une valeur ajoutée significative à toute
-équipe de développement, en apportant stabilité, efficacité et une vision à long terme. Leur rôle est crucial non
-seulement pour la réalisation de projets immédiats, mais aussi pour la formation et le mentorat des développeurs moins
-expérimentés, contribuant ainsi à la croissance continue et à l'amélioration des pratiques de développement au sein de
-l'équipe.
+complexes, de prendre des décisions éclairées et de concevoir des solutions robustes. Les développeurs expérimentés
+ajoutent une valeur significative en apportant stabilité, efficacité et vision à long terme. Leur rôle est crucial pour
+la réalisation de projets immédiats et la formation des développeurs moins expérimentés, contribuant ainsi à
+l'amélioration continue des pratiques de développement au sein de l'équipe.
 
 ---
 transition: slide-up
@@ -1143,10 +1015,6 @@ performances. [learn more](https://2022.stateofjs.com/en-US/libraries/front-end-
 <img src="github-copilot.png" alt="Awarness state of javascript 2022" style="max-width: 100%; height: auto;"/>
 
 ---
-level: 2
----
-
----
 layout: image-right
 image: ./chatgpt-intro.jpg
 ---
@@ -1158,14 +1026,14 @@ accessibles aux développeurs de tous niveaux, offrant des fonctionnalités de c
 compréhension du langage naturel.
 ---
 
-# I - Accessibilité de l'IA pour tous les niveaux
+I - Accessibilité de l'IA pour tous les niveaux
 
 L'essor des outils et plateformes d'intelligence artificielle (IA) a considérablement transformé le paysage du
 développement logiciel, rendant ces technologies accessibles non seulement aux experts mais aussi aux développeurs de
 tous niveaux. Voici comment l'IA devient un atout précieux pour les développeurs, quel que soit leur niveau
 d'expérience :
 
-A - Outils de codage assisté
+# A - Outils de codage assisté
 
 `Copilot`
 
@@ -1173,12 +1041,10 @@ A - Outils de codage assisté
 
 ```html
 
-<div v-click>GitHub Copilot, un outil de codage assisté par l'IA développé par OpenAI et GitHub, est un excellent
-    exemple
-    de cette tendance. Copilot aide les développeurs à écrire du code plus rapidement en suggérant des lignes de code ou
-    des
-    blocs entiers basés sur le contexte du code qu'ils écrivent. Cela réduit le temps passé à chercher des solutions et
-    permet aux développeurs de se concentrer davantage sur la logique et la structure de leur code.
+<div v-click> GitHub Copilot, un outil de codage assisté par l'IA développé par OpenAI et GitHub, est un excellent
+    exemple de cette tendance. Il aide les développeurs à écrire du code plus rapidement en suggérant des lignes ou des
+    blocs entiers basés sur le contexte du code en cours. Cela réduit le temps passé à chercher des solutions et permet
+    aux développeurs de se concentrer davantage sur la logique et la structure de leur code.
 </div>
 ```
 
@@ -1192,10 +1058,10 @@ A - Outils de codage assisté
 
 ```html
 
-<div v-click>Les environnements de développement intégrés (IDE) comme Visual Studio Code, PyCharm, et IntelliJ
-    IDEA intègrent de plus en plus des fonctionnalités d'IA. Ces fonctionnalités incluent la complétion automatique
-    intelligente, la détection d'erreurs en temps réel et des suggestions de refactoring, rendant le processus de codage
-    plus fluide et efficace pour tous les niveaux de développeurs.
+<div v-click>Les environnements de développement intégrés (IDE) comme Visual Studio Code, PyCharm et IntelliJ IDEA
+    intègrent de plus en plus des fonctionnalités d'IA. Celles-ci incluent la complétion automatique intelligente, la
+    détection d'erreurs en temps réel et des suggestions de refactoring, rendant le processus de codage plus fluide et
+    efficace pour tous les niveaux de développeurs.
 </div>
 ```
 
@@ -1203,9 +1069,9 @@ A - Outils de codage assisté
 
 ---
 
-# I - Accessibilité de l'IA pour tous les niveaux
+I - Accessibilité de l'IA pour tous les niveaux
 
-B - Génération de code
+# B - Génération de code
 
 `Modèles de génération de code`
 
@@ -1213,11 +1079,9 @@ B - Génération de code
 
 ```html
 
-<div v-click>Les modèles d'IA comme GPT-4 peuvent générer du code à partir de descriptions en langage
-    naturel. Cela permet aux développeurs de créer rapidement des prototypes et des fonctionnalités en fournissant des
-    instructions textuelles, ce qui est particulièrement utile pour les développeurs moins expérimentés qui peuvent
-    avoir
-    des difficultés avec certaines syntaxes ou concepts complexes.
+<div v-click>Les modèles d'IA, comme GPT-4, produisent du code à partir de descriptions en langage naturel, accélérant
+    ainsi le processus de développement, surtout pour les développeurs moins expérimentés. qui peuvent
+    avoir des difficultés avec certaines syntaxes ou concepts complexes.
 </div>
 ```
 
@@ -1231,10 +1095,8 @@ B - Génération de code
 
 ```html
 
-<div v-click>L'IA peut automatiser les tâches de codage répétitives et fastidieuses, comme la
-    génération de formulaires, la configuration de bases de données ou l'écriture de tests unitaires. Cela libère du
-    temps
-    pour que les développeurs puissent se concentrer sur des aspects plus créatifs et stratégiques du développement.
+<div v-click>L'IA peut automatiser les tâches de codage fastidieuses, telles que la génération de formulaires ou
+    l'écriture de tests unitaires, libérant ainsi du temps pour des tâches plus créatives.
 </div>
 ```
 
@@ -1242,9 +1104,9 @@ B - Génération de code
 
 ---
 
-# I - Accessibilité de l'IA pour tous les niveaux
+I - Accessibilité de l'IA pour tous les niveaux
 
-C - Compréhension du langage naturel
+# C - Compréhension du langage naturel
 
 `Chatbots et assistants virtuels`
 
@@ -1252,11 +1114,8 @@ C - Compréhension du langage naturel
 
 ```html
 
-<div v-click>Des outils comme ChatGPT peuvent comprendre et répondre à des questions techniques,
-    fournissant des explications détaillées et des solutions à des problèmes de codage. Les développeurs peuvent
-    utiliser
-    ces assistants virtuels pour obtenir de l'aide en temps réel, réduisant ainsi la dépendance aux forums et à la
-    documentation traditionnelle.
+<div v-click>Des outils tels que ChatGPT fournissent des réponses détaillées et des solutions aux problèmes de codage,
+    offrant une assistance en temps réel et réduisant le besoin de consulter des forums ou des documents traditionnels.
 </div>
 ```
 
@@ -1270,10 +1129,8 @@ C - Compréhension du langage naturel
 
 ```html
 
-<div v-click>L'IA permet la création de documentation interactive où les développeurs peuvent poser des
-    questions et obtenir des réponses contextuelles instantanément. Cela améliore l'apprentissage et la compréhension,
-    surtout pour les développeurs débutants qui peuvent trouver la documentation classique intimidante ou difficile à
-    naviguer.
+<div v-click>L'IA permet la création de documentation interactive, offrant aux développeurs des réponses contextuelles
+    instantanées à leurs questions, améliorant ainsi l'apprentissage et la compréhension, notamment pour les débutants.
 </div>
 ```
 
@@ -1281,9 +1138,9 @@ C - Compréhension du langage naturel
 
 ---
 
-# I - Accessibilité de l'IA pour tous les niveaux
+I - Accessibilité de l'IA pour tous les niveaux
 
-D - Accessibilité à des plateformes d'apprentissage
+# D - Accessibilité à des plateformes d'apprentissage
 
 `Cours et tutoriels augmentés par l'IA`
 
@@ -1291,12 +1148,9 @@ D - Accessibilité à des plateformes d'apprentissage
 
 ```html
 
-<div v-click>Les plateformes d'apprentissage en ligne intègrent de plus en plus des
-    fonctionnalités d'IA pour personnaliser les parcours d'apprentissage, proposer des exercices interactifs et fournir
-    des
-    feedbacks en temps réel. Cela rend l'apprentissage du développement plus accessible et adapté aux besoins
-    individuels
-    des développeurs.
+<div v-click>Les plateformes d'apprentissage en ligne intègrent l'IA pour personnaliser les parcours, proposer des
+    exercices interactifs et fournir des feedbacks en temps réel, rendant l'apprentissage du développement plus
+    accessible et adapté aux besoins individuels.
 </div>
 ```
 
@@ -1310,23 +1164,15 @@ D - Accessibilité à des plateformes d'apprentissage
 
 ```html
 
-<div v-click> L'IA alimente également des communautés de support où les développeurs peuvent poser des
-    questions et recevoir des réponses rapides et précises. Des forums de développeurs comme Stack Overflow utilisent
-    des
-    algorithmes d'IA pour recommander les réponses les plus pertinentes et aider les développeurs à résoudre leurs
-    problèmes
-    plus efficacement.
+<div v-click>L'IA alimente des communautés où les développeurs posent des questions et reçoivent des réponses rapides.
+    Des forums comme Stack Overflow utilisent l'IA pour recommander les réponses les plus pertinentes, aidant ainsi les
+    développeurs à résoudre leurs problèmes efficacement.
 </div>
 ```
 
 </div>
-Conclusion
-L'IA démocratise le développement logiciel en rendant des outils puissants accessibles à tous les niveaux de
-développeurs. Que ce soit à travers des outils de codage assisté, la génération automatique de code ou la compréhension
-du langage naturel, l'IA permet aux développeurs de travailler plus efficacement et de se concentrer sur l'innovation
-plutôt que sur les tâches répétitives. Cette accessibilité accrue transforme non seulement la manière dont les
-développeurs travaillent, mais aussi la courbe d'apprentissage, permettant à chacun de tirer parti de l'IA pour
-améliorer ses compétences et sa productivité.
+Conclusion<br>
+L'IA révolutionne le développement logiciel en mettant à disposition des outils puissants pour tous les développeurs. Que ce soit à travers le codage assisté, la génération de code automatique ou la compréhension du langage naturel, elle permet une meilleure efficacité et favorise l'innovation en déchargeant des tâches répétitives. Cette accessibilité change la donne, facilitant l'apprentissage et améliorant la productivité de chacun.
 ---
 
 
@@ -1393,7 +1239,8 @@ B - Analyse sémantique avec ChatGPT
 ```html
 
 <div v-click>ChatGPT, un modèle de langage développé par OpenAI, peut analyser des blocs
-    de code et expliquer leur fonctionnement. Cela est extrêmement utile pour les développeurs qui rencontrent des problèmes
+    de code et expliquer leur fonctionnement. Cela est extrêmement utile pour les développeurs qui rencontrent des
+    problèmes
     complexes ou des bugs difficiles à résoudre. ChatGPT peut également suggérer des corrections et des améliorations au
     code.
 </div>
@@ -1446,7 +1293,8 @@ C - Automatisation des tests
 ```html
 
 <div v-click>Les outils d'IA peuvent également simuler des charges de trafic importantes et tester
-    les performances des applications web. Cela permet aux développeurs de s'assurer que leurs applications peuvent gérer
+    les performances des applications web. Cela permet aux développeurs de s'assurer que leurs applications peuvent
+    gérer
     des volumes élevés de trafic sans se dégrader.
 </div>
 ```
@@ -1520,7 +1368,8 @@ E - Optimisation des workflows de développement
 ```html
 
 <div v-click>L'IA peut automatiser la gestion des versions du code, y compris le contrôle
-    des versions et les déploiements continus. Cela réduit le risque d'erreurs humaines et assure une livraison plus fluide
+    des versions et les déploiements continus. Cela réduit le risque d'erreurs humaines et assure une livraison plus
+    fluide
     et rapide des mises à jour.
 </div>
 ```
@@ -1533,8 +1382,6 @@ productivité, améliorer la qualité du code et personnaliser l'expérience uti
 complexes et répétitives, l'IA permet aux développeurs de se concentrer sur des aspects plus créatifs et stratégiques de
 leur travail, tout en rendant le développement web plus accessible et efficace pour tous les niveaux de compétence.
 ---
-
-
 
 
 [//]: # (# Shiki Magic Move)
