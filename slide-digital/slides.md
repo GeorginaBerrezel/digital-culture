@@ -715,15 +715,419 @@ layout: image-left
 image: ./podcast-talk.png
 ---
 
+---
+level: 2
+---
+
+# I - Les attentes et les réalités
+
+Les développeurs juniors et seniors sont souvent perçus de manière stéréotypée, avec des attentes spécifiques et parfois
+irréalistes qui ne reflètent pas toujours la réalité du terrain.
+
+Attentes envers les développeurs juniors
+
+`Familiarité avec les nouvelles technologies`
+
+<div v-click>
+
+```html
+
+<div v-click>Il est souvent attendu que les développeurs juniors soient à jour avec les dernières tendances et
+    technologies, notamment les nouveaux frameworks et bibliothèques JavaScript. Leur formation récente et leur
+    immersion dans des environnements académiques ou de formation continue leur permettent souvent de connaître les
+    outils les plus modernes.
+</div>
+```
+
+</div>
+
+<br>
+
+`Adaptabilité et apprentissage rapide`
+
+<div v-click>
+
+```html
+
+<div v-click>Les juniors sont censés être plus flexibles et ouverts à l'apprentissage de
+    nouvelles compétences. On suppose qu'ils peuvent rapidement s'adapter à de nouvelles technologies et méthodes de
+    travail.
+</div>
+```
+
+</div>
+
+
+---
+
+Attentes envers les développeurs juniors
+
+`Énergie et enthousiasme`
+
+<div v-click>
+
+```html
+
+<div v-click>Les employeurs attendent souvent des juniors qu'ils apportent une énergie et un enthousiasme
+    nouveaux à l'équipe, offrant des perspectives fraîches et une volonté de relever des défis.
+```
+
+</div>
+
+---
+
+# I - Les attentes et les réalités
+
+Réalités pour les développeurs juniors
+
+`Manque d'expérience pratique`
+
+<div v-click>
+
+```html
+
+<div v-click>Bien qu'ils soient familiers avec les nouvelles technologies, les juniors manquent
+    souvent d'expérience pratique pour résoudre des problèmes complexes en conditions réelles. Leur connaissance peut
+    être
+    théorique et manquer de profondeur en termes de mise en œuvre et de débogage.
+</div>
+```
+
+</div>
+
+<br>
+
+`Besoin de mentorat`
+
+<div v-click>
+
+```html
+
+<div v-click>Les développeurs juniors ont souvent besoin de guidance et de supervision pour naviguer dans les
+    projets plus complexes. Le mentorat est crucial pour leur développement professionnel.
+</div>
+```
+
+</div>
+
+
+---
+
+Réalités pour les développeurs juniors
+
+`Risque de sur-spécialisation`
+
+<div v-click>
+
+```html
+
+<div v-click>En étant trop concentrés sur les nouvelles technologies, les juniors peuvent parfois
+    manquer de compréhension des principes fondamentaux de l'informatique et du développement logiciel, ce qui peut
+    limiter
+    leur capacité à s'adapter à des situations imprévues.
+```
+
+</div>
+
+---
+
+# I - Les attentes et les réalités
+
+Attentes envers les développeurs seniors
+
+`Expérience et expertise`
+
+<div v-click>
+
+```html
+
+<div v-click>Les développeurs seniors sont censés posséder une riche expérience en développement logiciel,
+    leur permettant de prendre des décisions éclairées et de résoudre des problèmes complexes efficacement.
+</div>
+```
+
+</div>
+
+<br>
+
+`Leadership et mentorat`
+
+<div v-click>
+
+```html
+
+<div v-click>On attend des seniors qu'ils jouent un rôle de leader, guidant les juniors et prenant des
+    responsabilités pour la qualité du code, l'architecture des systèmes, et la gestion des projets.
+</div>
+```
+
+</div>
+
+---
+
+Attentes envers les développeurs seniors
+
+`Fiabilité et stabilité`
+
+<div v-click>
+
+```html
+
+<div v-click>Les seniors sont perçus comme des piliers de l'équipe, capables de fournir des solutions
+    robustes et de maintenir la stabilité du codebase sur le long terme.
+```
+
+</div>
+
+---
+
+# I - Les attentes et les réalités
+
+Réalités pour les développeurs seniors
+
+`Connaissance des nouvelles technologies`
+
+<div v-click>
+
+```html
+
+<div v-click>Bien que les seniors aient une vaste expérience, ils peuvent ne pas être
+    toujours à jour avec les toutes dernières technologies et tendances. Leur expertise se concentre souvent sur des
+    outils
+    et méthodes éprouvés qui ont fait leurs preuves au fil du temps.
+</div>
+```
+
+</div>
+
+<br>
+
+`Charge de responsabilités`
+
+<div v-click>
+
+```html
+
+<div v-click>Les développeurs seniors peuvent être submergés par des responsabilités de gestion de
+    projet, de leadership d'équipe et de mentorat, ce qui peut limiter le temps qu'ils peuvent consacrer à
+    l'apprentissage
+    de nouvelles technologies.
+</div>
+```
+
+</div>
+
+
+---
+
+Réalités pour les développeurs seniors
+
+`Équilibre entre innovation et stabilité`
+
+<div v-click>
+
+```html
+
+<div v-click> Les seniors doivent souvent trouver un équilibre entre l'adoption de nouvelles
+    technologies pour améliorer les performances et la stabilité des systèmes existants. Ils sont conscients que
+    l'introduction de nouvelles technologies peut introduire des risques et des coûts de transition.
+```
+
+</div>
+
+Conclusion
+Les attentes envers les développeurs juniors et seniors reflètent une vision idéale qui ne correspond pas toujours à la
+réalité. Les juniors, bien que familiers avec les nouvelles technologies, ont besoin de développer leur expérience
+pratique et leurs compétences en résolution de problèmes. Les seniors, malgré leur expérience et expertise, doivent
+constamment équilibrer entre innovation et stabilité, tout en assurant un mentorat efficace pour les plus jeunes. Une
+équipe de développement équilibrée tire parti des forces de chaque membre, junior ou senior, pour créer des solutions
+robustes et innovantes.
+---
+
 # II - La valeur de l'expérience
 
 Mets en évidence l'importance de l'expérience dans la résolution de problèmes complexes, la
 prise de décisions éclairées et la conception de solutions robustes et évolutives.
 
-
 ---
 level: 2
 ---
+
+# II - La valeur de l'expérience
+
+L'expérience joue un rôle crucial dans le domaine du développement logiciel, apportant des compétences et des
+perspectives qui ne peuvent être acquises qu'au fil du temps et par la pratique. Voici pourquoi l'expérience est si
+précieuse
+
+A - Résolution de problèmes complexes
+
+`Diagnostic rapide`
+
+<div v-click>
+
+```html
+
+<div v-click>Les développeurs expérimentés possèdent une capacité accrue à diagnostiquer rapidement les
+    problèmes. Grâce à leur vécu, ils reconnaissent souvent les symptômes de problèmes courants et savent quelles
+    approches
+    ont fonctionné ou échoué dans le passé.
+</div>
+```
+
+</div>
+
+<br>
+
+`Techniques éprouvées`
+
+<div v-click>
+
+```html
+
+<div v-click>Ils ont une boîte à outils de techniques éprouvées pour résoudre des problèmes complexes,
+    développées à travers l'expérience avec divers types de systèmes et environnements. Cela inclut la maîtrise des
+    algorithmes, des structures de données et des paradigmes de programmation appropriés.
+</div>
+```
+
+</div>
+
+---
+
+A - Résolution de problèmes complexes
+
+`Anticipation des problèmes`
+
+<div v-click>
+
+```html
+
+<div v-click>L'expérience permet d'anticiper et de prévenir les problèmes avant qu'ils ne surviennent.
+    Les développeurs expérimentés sont souvent capables de voir les angles morts et les pièges potentiels que les moins
+    expérimentés pourraient négliger.
+```
+
+</div>
+
+---
+
+# II - La valeur de l'expérience
+
+B - Prise de décisions éclairées
+
+`Connaissance approfondie`
+
+<div v-click>
+
+```html
+
+<div v-click>L'expérience apporte une connaissance approfondie des technologies, des outils et des
+    meilleures pratiques. Cela permet de prendre des décisions basées sur une compréhension solide plutôt que sur des
+    suppositions ou des informations de surface.
+</div>
+```
+
+</div>
+
+<br>
+
+`Évaluation des compromis`
+
+<div v-click>
+
+```html
+
+<div v-click>Les développeurs expérimentés sont adeptes à évaluer les compromis entre différentes
+    solutions. Ils comprennent que chaque choix technologique ou de conception comporte des avantages et des
+    inconvénients,
+    et sont capables de choisir la solution la plus appropriée pour le contexte spécifique.
+</div>
+```
+
+</div>
+
+---
+
+B - Prise de décisions éclairées
+
+`Gestion des risques`
+
+<div v-click>
+
+```html
+
+<div v-click>Ils sont mieux équipés pour gérer les risques, ayant déjà navigué à travers divers scénarios
+    imprévus et appris comment minimiser les impacts négatifs. Leur expérience les aide à élaborer des plans de
+    contingence
+    et à préparer des solutions de secours.
+```
+
+</div>
+
+---
+
+# II - La valeur de l'expérience
+
+C - Conception de solutions robustes et évolutives
+
+`Architecture solide`
+
+<div v-click>
+
+```html
+
+<div v-click>L'expérience permet de concevoir des architectures logicielles robustes qui peuvent résister à l'
+    épreuve du temps. Les développeurs expérimentés comprennent les principes de la conception modulaire, de la
+    séparation
+    des préoccupations et de la scalabilité.
+</div>
+```
+
+</div>
+
+<br>
+
+`Maintenance facilitée`
+
+<div v-click>
+
+```html
+
+<div v-click>Ils créent des solutions faciles à maintenir et à faire évoluer. Une bonne conception initiale
+    prend en compte la facilité de maintenance et l'extensibilité, réduisant les coûts et les efforts nécessaires pour
+    les
+    mises à jour futures.
+</div>
+```
+
+</div>
+
+---
+
+C - Conception de solutions robustes et évolutives
+
+`Documentation et standards`
+
+<div v-click>
+
+```html
+
+<div v-click>Les développeurs expérimentés sont conscients de l'importance de la documentation et des
+    standards de codage. Une documentation claire et des standards cohérents facilitent la collaboration et la passation
+    de
+    projets, ce qui est essentiel pour la pérennité et la qualité du code.
+```
+
+</div>
+
+Conclusion
+L'expérience est une ressource inestimable dans le développement logiciel. Elle permet de résoudre des problèmes
+complexes avec efficacité, de prendre des décisions éclairées basées sur une connaissance approfondie et de concevoir
+des solutions robustes et évolutives. Les développeurs expérimentés apportent une valeur ajoutée significative à toute
+équipe de développement, en apportant stabilité, efficacité et une vision à long terme. Leur rôle est crucial non
+seulement pour la réalisation de projets immédiats, mais aussi pour la formation et le mentorat des développeurs moins
+expérimentés, contribuant ainsi à la croissance continue et à l'amélioration des pratiques de développement au sein de
+l'équipe.
 
 ---
 transition: slide-up
@@ -749,9 +1153,182 @@ image: ./chatgpt-intro.jpg
 
 # I - Accessibilité de l'IA pour tous les niveaux
 
-Explique comment les outils et plateformes d'IA deviennent de plus en plus
+Comment les outils et plateformes d'IA deviennent de plus en plus
 accessibles aux développeurs de tous niveaux, offrant des fonctionnalités de codage assisté, de génération de code et de
 compréhension du langage naturel.
+---
+
+# I - Accessibilité de l'IA pour tous les niveaux
+
+L'essor des outils et plateformes d'intelligence artificielle (IA) a considérablement transformé le paysage du
+développement logiciel, rendant ces technologies accessibles non seulement aux experts mais aussi aux développeurs de
+tous niveaux. Voici comment l'IA devient un atout précieux pour les développeurs, quel que soit leur niveau
+d'expérience :
+
+A - Outils de codage assisté
+
+`Copilot`
+
+<div v-click>
+
+```html
+
+<div v-click>GitHub Copilot, un outil de codage assisté par l'IA développé par OpenAI et GitHub, est un excellent
+    exemple
+    de cette tendance. Copilot aide les développeurs à écrire du code plus rapidement en suggérant des lignes de code ou
+    des
+    blocs entiers basés sur le contexte du code qu'ils écrivent. Cela réduit le temps passé à chercher des solutions et
+    permet aux développeurs de se concentrer davantage sur la logique et la structure de leur code.
+</div>
+```
+
+</div>
+
+<br>
+
+`IDE intelligents`
+
+<div v-click>
+
+```html
+
+<div v-click>Les environnements de développement intégrés (IDE) comme Visual Studio Code, PyCharm, et IntelliJ
+    IDEA intègrent de plus en plus des fonctionnalités d'IA. Ces fonctionnalités incluent la complétion automatique
+    intelligente, la détection d'erreurs en temps réel et des suggestions de refactoring, rendant le processus de codage
+    plus fluide et efficace pour tous les niveaux de développeurs.
+</div>
+```
+
+</div>
+
+---
+
+# I - Accessibilité de l'IA pour tous les niveaux
+
+B - Génération de code
+
+`Modèles de génération de code`
+
+<div v-click>
+
+```html
+
+<div v-click>Les modèles d'IA comme GPT-4 peuvent générer du code à partir de descriptions en langage
+    naturel. Cela permet aux développeurs de créer rapidement des prototypes et des fonctionnalités en fournissant des
+    instructions textuelles, ce qui est particulièrement utile pour les développeurs moins expérimentés qui peuvent
+    avoir
+    des difficultés avec certaines syntaxes ou concepts complexes.
+</div>
+```
+
+</div>
+
+<br>
+
+`Automatisation des tâches répétitives`
+
+<div v-click>
+
+```html
+
+<div v-click>L'IA peut automatiser les tâches de codage répétitives et fastidieuses, comme la
+    génération de formulaires, la configuration de bases de données ou l'écriture de tests unitaires. Cela libère du
+    temps
+    pour que les développeurs puissent se concentrer sur des aspects plus créatifs et stratégiques du développement.
+</div>
+```
+
+</div>
+
+---
+
+# I - Accessibilité de l'IA pour tous les niveaux
+
+C - Compréhension du langage naturel
+
+`Chatbots et assistants virtuels`
+
+<div v-click>
+
+```html
+
+<div v-click>Des outils comme ChatGPT peuvent comprendre et répondre à des questions techniques,
+    fournissant des explications détaillées et des solutions à des problèmes de codage. Les développeurs peuvent
+    utiliser
+    ces assistants virtuels pour obtenir de l'aide en temps réel, réduisant ainsi la dépendance aux forums et à la
+    documentation traditionnelle.
+</div>
+```
+
+</div>
+
+<br>
+
+`Documentation interactive`
+
+<div v-click>
+
+```html
+
+<div v-click>L'IA permet la création de documentation interactive où les développeurs peuvent poser des
+    questions et obtenir des réponses contextuelles instantanément. Cela améliore l'apprentissage et la compréhension,
+    surtout pour les développeurs débutants qui peuvent trouver la documentation classique intimidante ou difficile à
+    naviguer.
+</div>
+```
+
+</div>
+
+---
+
+# I - Accessibilité de l'IA pour tous les niveaux
+
+D - Accessibilité à des plateformes d'apprentissage
+
+`Cours et tutoriels augmentés par l'IA`
+
+<div v-click>
+
+```html
+
+<div v-click>Les plateformes d'apprentissage en ligne intègrent de plus en plus des
+    fonctionnalités d'IA pour personnaliser les parcours d'apprentissage, proposer des exercices interactifs et fournir
+    des
+    feedbacks en temps réel. Cela rend l'apprentissage du développement plus accessible et adapté aux besoins
+    individuels
+    des développeurs.
+</div>
+```
+
+</div>
+
+<br>
+
+`Communautés de support`
+
+<div v-click>
+
+```html
+
+<div v-click> L'IA alimente également des communautés de support où les développeurs peuvent poser des
+    questions et recevoir des réponses rapides et précises. Des forums de développeurs comme Stack Overflow utilisent
+    des
+    algorithmes d'IA pour recommander les réponses les plus pertinentes et aider les développeurs à résoudre leurs
+    problèmes
+    plus efficacement.
+</div>
+```
+
+</div>
+Conclusion
+L'IA démocratise le développement logiciel en rendant des outils puissants accessibles à tous les niveaux de
+développeurs. Que ce soit à travers des outils de codage assisté, la génération automatique de code ou la compréhension
+du langage naturel, l'IA permet aux développeurs de travailler plus efficacement et de se concentrer sur l'innovation
+plutôt que sur les tâches répétitives. Cette accessibilité accrue transforme non seulement la manière dont les
+développeurs travaillent, mais aussi la courbe d'apprentissage, permettant à chacun de tirer parti de l'IA pour
+améliorer ses compétences et sa productivité.
+---
+
 
 ---
 layout: image-left
@@ -762,6 +1339,203 @@ image: ./githubcopilot-chat.png
 
 Présente des exemples concrets d'utilisation de l'IA dans le
 développement web, tels que la génération de code avec Copilot, l'analyse sémantique avec ChatGPT, etc.
+
+---
+
+# II - Utilisation de l'IA dans le développement web
+
+L'intégration de l'intelligence artificielle (IA) dans le développement web a ouvert de nouvelles possibilités et
+amélioré l'efficacité des développeurs. Voici quelques exemples concrets d'utilisation de l'IA dans ce domaine :
+
+A - Génération de code avec GitHub Copilot
+
+`Assistance au codage`
+
+<div v-click>
+
+```html
+
+<div v-click>GitHub Copilot, développé par GitHub et OpenAI, utilise l'IA pour suggérer des lignes de code et
+    des blocs entiers en fonction du contexte dans lequel vous travaillez. En analysant les commentaires et le code
+    existant, Copilot propose des complétions et des solutions, ce qui accélère considérablement le processus de
+    développement.
+</div>
+```
+
+</div>
+
+<br>
+
+`Prototypage rapide`
+
+<div v-click>
+
+```html
+
+<div v-click>Avec Copilot, les développeurs peuvent créer des prototypes fonctionnels beaucoup plus rapidement.
+    Par exemple, en décrivant simplement la fonctionnalité souhaitée en langage naturel, Copilot peut générer le code
+    nécessaire, ce qui est particulièrement utile pour les projets où le temps est une contrainte.
+</div>
+```
+
+</div>
+
+---
+
+# II - Utilisation de l'IA dans le développement web
+
+B - Analyse sémantique avec ChatGPT
+
+`Aide à la compréhension et à la correction`
+
+<div v-click>
+
+```html
+
+<div v-click>ChatGPT, un modèle de langage développé par OpenAI, peut analyser des blocs
+    de code et expliquer leur fonctionnement. Cela est extrêmement utile pour les développeurs qui rencontrent des problèmes
+    complexes ou des bugs difficiles à résoudre. ChatGPT peut également suggérer des corrections et des améliorations au
+    code.
+</div>
+```
+
+</div>
+
+<br>
+
+`Rédaction de documentation`
+
+<div v-click>
+
+```html
+
+<div v-click>ChatGPT peut aider à rédiger de la documentation technique en générant des descriptions
+    claires et précises du code. Cela permet aux développeurs de maintenir une documentation à jour et accessible,
+    facilitant ainsi la collaboration et la compréhension du code par d'autres membres de l'équipe.
+</div>
+```
+
+</div>
+
+---
+
+# II - Utilisation de l'IA dans le développement web
+
+C - Automatisation des tests
+
+`Génération de tests unitaires`
+
+<div v-click>
+
+```html
+
+<div v-click>L'IA peut générer des tests unitaires pour le code, ce qui permet d'identifier et de
+    corriger les bugs plus tôt dans le cycle de développement. Des outils comme DeepCode utilisent l'IA pour analyser le
+    code et proposer des tests qui couvrent un large éventail de scénarios.
+</div>
+```
+
+</div>
+
+<br>
+
+`Test de performance et de charge`
+
+<div v-click>
+
+```html
+
+<div v-click>Les outils d'IA peuvent également simuler des charges de trafic importantes et tester
+    les performances des applications web. Cela permet aux développeurs de s'assurer que leurs applications peuvent gérer
+    des volumes élevés de trafic sans se dégrader.
+</div>
+```
+
+</div>
+
+---
+
+# II - Utilisation de l'IA dans le développement web
+
+D - Personnalisation et recommandation
+
+`Personnalisation de l'expérience utilisateur`
+
+<div v-click>
+
+```html
+
+<div v-click>L'IA permet de personnaliser les expériences utilisateur en temps réel.
+    Par exemple, des algorithmes de recommandation peuvent analyser le comportement des utilisateurs pour proposer des
+    contenus ou des produits pertinents. Amazon et Netflix utilisent ces technologies pour offrir des expériences
+    utilisateur hautement personnalisées.
+</div>
+```
+
+</div>
+
+<br>
+
+`Chatbots et assistants virtuels`
+
+<div v-click>
+
+```html
+
+<div v-click>Les chatbots alimentés par l'IA, comme ceux créés avec Dialogflow ou Microsoft Bot
+    Framework, peuvent interagir avec les utilisateurs de manière naturelle et répondre à leurs questions. Ces bots sont
+    utilisés pour le support client, les services de réservation et bien plus encore, offrant une assistance 24/7 sans
+    intervention humaine.
+</div>
+```
+
+</div>
+
+---
+
+# II - Utilisation de l'IA dans le développement web
+
+E - Optimisation des workflows de développement
+
+`Analyse prédictive`
+
+<div v-click>
+
+```html
+
+<div v-click>Les outils d'IA peuvent analyser les flux de travail des développeurs et prédire les goulots d'
+    étranglement potentiels. En utilisant ces prédictions, les équipes peuvent ajuster leurs processus pour améliorer
+    l'efficacité et éviter les retards.
+</div>
+```
+
+</div>
+
+<br>
+
+`Automatisation de la gestion des versions`
+
+<div v-click>
+
+```html
+
+<div v-click>L'IA peut automatiser la gestion des versions du code, y compris le contrôle
+    des versions et les déploiements continus. Cela réduit le risque d'erreurs humaines et assure une livraison plus fluide
+    et rapide des mises à jour.
+</div>
+```
+
+</div>
+Conclusion
+L'utilisation de l'IA dans le développement web révolutionne la manière dont les développeurs créent, testent et
+déploient leurs applications. Des outils comme GitHub Copilot et ChatGPT démontrent comment l'IA peut augmenter la
+productivité, améliorer la qualité du code et personnaliser l'expérience utilisateur. En automatisant des tâches
+complexes et répétitives, l'IA permet aux développeurs de se concentrer sur des aspects plus créatifs et stratégiques de
+leur travail, tout en rendant le développement web plus accessible et efficace pour tous les niveaux de compétence.
+---
+
+
+
 
 [//]: # (# Shiki Magic Move)
 
