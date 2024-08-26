@@ -14,65 +14,97 @@ transition: slide-left
 mdc: true
 ---
 
-# Page 1: Titre et Introduction
+# Culture numérique
 
-**Partie du Sommaire : Introduction**
+[//]: # (**Titre :**  )
+<span style="color: #D35400; font-size: 1.5em; text-align: center; display: block; margin-top: 50px;">**Être un bon développeur front-end :<br> Faut-il suivre les dernières tendances ?**</span>
 
-**Titre :** Être un bon développeur front-end : Faut-il suivre les dernières tendances ?
+[//]: # (**Introduction :**)
 
-**Introduction :**
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="https://img.icons8.com/ios/50/goal.png" alt="Objectif" style="width:24px; height:24px; margin-top: 8px;"/>
+  <span style="color: #D35400; font-weight: bold;">Objectif :</span>  
+  <span style="font-size: 1.2em; text-align: center;">Découvrir si être à la pointe des technologies est essentiel.</span>  
+</div>
 
-- **Objectif :** Découvrir si être à la pointe des technologies est essentiel.  
-  <img src="https://img.icons8.com/ios/50/goal.png" alt="Objectif" style="width:24px; height:24px; vertical-align: middle;"/>
+<br>
 
-- **Question centrale :** Innover ou maîtriser les fondamentaux ?  
-  <img src="https://img.icons8.com/ios/50/question.png" alt="Question centrale" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="https://img.icons8.com/ios/50/question.png" alt="Question centrale" style="width:24px; height:24px; margin-top: 8px;"/>
+  <span style="color: #D35400; font-weight: bold;">Question centrale :</span>  
+  <span style="font-size: 1.2em; text-align: center;">Innover ou maîtriser les fondamentaux ?</span>  
+</div>
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Introduction:</strong> Être un bon développeur front-end</span> | <span>Page 1</span>
 </div>
 
 ---
 
-# Page 2: Sommaire
+# Sommaire
 
-**Partie du Sommaire : Sommaire**
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em; text-align: center; display: block; margin-top: 10px;">De quoi allons-nous parler ?</span>
+</div>
 
-- Contexte du Développement Web Front-End  
-  <img src="https://img.icons8.com/ios/50/context-menu.png" alt="Contexte" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-items: center; margin-top: 10px;">
 
-- Importance des Frameworks JS  
-  <img src="https://img.icons8.com/ios/50/framework.png" alt="Frameworks" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/visible.png" alt="Contexte" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">Contexte du Développement Web Front-End</span>
+  </div>
 
-- Performance et Évolution des Frameworks JS  
-  <img src="https://img.icons8.com/ios/50/speed.png" alt="Performance" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/code.png" alt="Frameworks" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">Importance des Frameworks JS</span>
+  </div>
 
-- Critères de Choix d'un Framework JS  
-  <img src="https://img.icons8.com/ios/50/criteria.png" alt="Critères" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/performance.png" alt="Performance" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">Performance et Évolution des Frameworks JS</span>
+  </div>
 
-- Innovation et Compétition entre Frameworks  
-  <img src="https://img.icons8.com/ios/50/innovation.png" alt="Innovation" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/select.png" alt="Critères" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">Critères de Choix d'un Framework JS</span>
+  </div>
 
-- Évolution Continue et Compétition  
-  <img src="https://img.icons8.com/ios/50/update.png" alt="Évolution" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/innovation.png" alt="Innovation" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">Innovation et Compétition entre Frameworks</span>
+  </div>
 
-- La Dualité Junior vs Senior  
-  <img src="https://img.icons8.com/ios/50/user-group.png" alt="Dualité" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/update.png" alt="Évolution" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">Évolution Continue et Compétition</span>
+  </div>
 
-- L'IA : Un Atout pour Tous les Développeurs ?  
-  <img src="https://img.icons8.com/ios/50/ai.png" alt="IA" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/users.png" alt="Dualité" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">La Dualité Junior vs Senior</span>
+  </div>
 
-- Impact de l'IA sur la Compétition entre Frameworks  
-  <img src="https://img.icons8.com/ios/50/impact.png" alt="Impact" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/artificial-intelligence.png" alt="IA" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">L'IA : Un Atout pour Tous les Développeurs ?</span>
+  </div>
 
-- Conclusion  
-  <img src="https://img.icons8.com/ios/50/conclusion.png" alt="Conclusion" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/impact.png" alt="Impact" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">Impact de l'IA sur la Compétition entre Frameworks</span>
+  </div>
 
-::right::
+  <div style="text-align: center;">
+    <img src="https://img.icons8.com/ios/50/conclusion.png" alt="Conclusion" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;">Conclusion</span>
+  </div>
 
-<Toc v-click minDepth="1" maxDepth="2"></Toc>
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Sommaire:</strong> Culture numérique</span> | <span>Page 2</span>
+</div>
+
 
 ---
 
