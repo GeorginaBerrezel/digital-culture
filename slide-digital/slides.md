@@ -108,95 +108,279 @@ mdc: true
 
 ---
 
-# Page 3: Contexte du Développement Web Front-End
+# Définition
 
-**Partie du Sommaire : Contexte du Développement Web Front-End**
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Qu'est-ce qu'un developpeur Front-End ?</span>
+</div>
 
-- **Évolution constante :**  
-  Nouvelles technologies et frameworks.  
-  <img src="https://img.icons8.com/ios/50/refresh.png" alt="Évolution constante" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; text-align: center; margin-top: 20px;">
 
-- **Rôle :**
-  - Conception <img src="https://img.icons8.com/ios/50/paint-bucket.png" alt="Conception" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Codage <img src="https://img.icons8.com/ios/50/source-code.png" alt="Codage" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Maintenance des interfaces utilisateurs <img src="https://img.icons8.com/ios/50/maintenance.png" alt="Maintenance" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div>
+    <img src="https://img.icons8.com/ios/50/refresh.png" alt="Évolution constante" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Évolution constante :</strong></span>
+    <p style="font-size: 0.9em;">Nouvelles technologies et frameworks.</p>
+  </div>
 
-- **Objectif :**  
-  Être efficace et adaptable.  
-  <img src="https://img.icons8.com/ios/50/target.png" alt="Objectif" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div>
+    <img src="https://img.icons8.com/ios/50/paint-bucket.png" alt="Conception" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Conception :</strong></span>
+    <p style="font-size: 0.9em;">Design et UX/UI.</p>
+  </div>
 
----
+  <div>
+    <img src="https://img.icons8.com/ios/50/source-code.png" alt="Codage" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Codage :</strong></span>
+    <p style="font-size: 0.9em;">Implémentation du code.</p>
+  </div>
 
-# Page 4: Importance des Frameworks JS
+  <div>
+    <img src="https://img.icons8.com/ios/50/maintenance.png" alt="Maintenance" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Maintenance :</strong></span>
+    <p style="font-size: 0.9em;">Soutien des interfaces utilisateurs.</p>
+  </div>
 
-**Partie du Sommaire : Importance des Frameworks JS**
+  <div>
+    <img src="https://img.icons8.com/ios/50/target.png" alt="Objectif" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Objectif :</strong></span>
+    <p style="font-size: 0.9em;">Efficacité et adaptabilité.</p>
+  </div>
 
-- **Outils puissants :**  
-  Simplifient le développement.  
-  <img src="https://img.icons8.com/ios/50/tools.png" alt="Outils puissants" style="width:24px; height:24px; vertical-align: middle;"/>
+</div>
 
-- **Avantages :**
-  - Code plus rapide <img src="https://img.icons8.com/ios/50/speed.png" alt="Code plus rapide" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Maintenable <img src="https://img.icons8.com/ios/50/maintenance.png" alt="Maintenable" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Réutilisable <img src="https://img.icons8.com/ios/50/reuse.png" alt="Réutilisable" style="width:24px; height:24px; vertical-align: middle;"/>
-
-- **Exemples :**
-  - React <img src="https://img.icons8.com/ios/50/react.png" alt="React" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Vue.js <img src="https://img.icons8.com/ios/50/vue-js.png" alt="Vue.js" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Angular <img src="https://img.icons8.com/ios/50/angular.png" alt="Angular" style="width:24px; height:24px; vertical-align: middle;"/>
-
----
-
-# Page 5: Performance et Évolution des Frameworks JS
-
-**Partie du Sommaire : Performance et Évolution des Frameworks JS**
-
-- **Demande Croissante de Performance :**  
-  Attentes : Applications rapides et fluides.  
-  <img src="https://img.icons8.com/ios/50/speed.png" alt="Performance" style="width:24px; height:24px; vertical-align: middle;"/>
-
-- **Avantages :**
-  - SSR <img src="https://img.icons8.com/ios/50/server.png" alt="SSR" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Lazy loading <img src="https://img.icons8.com/ios/50/lazy-loading.png" alt="Lazy loading" style="width:24px; height:24px; vertical-align: middle;"/>
-
-- **Exemples :**
-  - Facebook (React) <img src="https://img.icons8.com/ios/50/facebook.png" alt="Facebook" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Airbnb (Gestion d'état) <img src="https://img.icons8.com/ios/50/airbnb.png" alt="Airbnb" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Netflix (Optimisation) <img src="https://img.icons8.com/ios/50/netflix.png" alt="Netflix" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Alibaba (Vue.js) <img src="https://img.icons8.com/ios/50/alibaba.png" alt="Alibaba" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> Contexte du Développement Web Front-End</span> | 
+  <span><strong>Titre :</strong> Contexte du Développement Web Front-End</span> | 
+  <span><strong>Page :</strong> 3</span>
+</div>
 
 ---
 
-# Page 6: Critères de Choix d'un Framework JS
+# Définition
 
-**Partie du Sommaire : Critères de Choix d'un Framework JS**
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Importance des Frameworks JS</span>
+</div>
 
-- **Pour :**
-  - Courbe d'apprentissage : Vue.js facile à apprendre <img src="https://img.icons8.com/ios/50/learning.png" alt="Courbe d'apprentissage" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Communauté : React, large support <img src="https://img.icons8.com/ios/50/community.png" alt="Communauté" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Flexibilité : Svelte pour des projets légers <img src="https://img.icons8.com/ios/50/flexibility.png" alt="Flexibilité" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; text-align: center; margin-top: 20px;">
 
-- **Contre/Nuances :**
-  - Besoins spécifiques : Projets simples vs complexes <img src="https://img.icons8.com/ios/50/specific-needs.png" alt="Besoins spécifiques" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Coûts de migration : Risques pour entreprises établies <img src="https://img.icons8.com/ios/50/migration.png" alt="Coûts de migration" style="width:24px; height:24px; vertical-align: middle;"/>
+  <div>
+    <img src="https://img.icons8.com/ios/50/toolbox.png" alt="Outils puissants" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Outils puissants :</strong></span>
+    <p style="font-size: 0.9em;">Simplifient le développement.</p>
+  </div>
+
+  <div>
+    <img src="https://img.icons8.com/ios/50/speed.png" alt="Code plus rapide" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Code plus rapide :</strong></span>
+    <p style="font-size: 0.9em;">Optimisation du processus de développement.</p>
+  </div>
+
+  <div>
+    <img src="https://img.icons8.com/ios/50/maintenance.png" alt="Maintenable" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Maintenable :</strong></span>
+    <p style="font-size: 0.9em;">Facilité de maintenance.</p>
+  </div>
+
+  <div>
+    <img src="https://img.icons8.com/ios/50/reuse.png" alt="Réutilisable" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Réutilisable :</strong></span>
+    <p style="font-size: 0.9em;">Composants réutilisables.</p>
+  </div>
+
+  <div>
+    <img src="https://img.icons8.com/ios/50/react.png" alt="React" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>React :</strong></span>
+    <p style="font-size: 0.9em;">Framework JS populaire.</p>
+  </div>
+
+  <div>
+    <img src="https://img.icons8.com/ios/50/vue-js.png" alt="Vue.js" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Vue.js :</strong></span>
+    <p style="font-size: 0.9em;">Framework léger et performant.</p>
+  </div>
+
+  <div>
+    <img src="https://img.icons8.com/ios/50/angular.png" alt="Angular" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em;"><strong>Angular :</strong></span>
+    <p style="font-size: 0.9em;">Framework robuste et complet.</p>
+  </div>
+
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> Importance des Frameworks JS</span> | 
+  <span><strong>Titre :</strong> Importance des Frameworks JS</span> | 
+  <span><strong>Page :</strong> 4</span>
+</div>
 
 ---
 
-# Page 7: Innovation et Compétition entre Frameworks
+# I - Performance et Évolution des Frameworks JS
 
-**Partie du Sommaire : Innovation et Compétition entre Frameworks**
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Demande Croissante de Performance</span>
+</div>
 
-- **Diversité des Options :**  
-  Avantages : Flexibilité avec divers frameworks.  
-  <img src="https://img.icons8.com/ios/50/diversity.png" alt="Diversité" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="margin-top: 20px; text-align: center;">
+  <!-- Section Demande Croissante de Performance -->
+  <div style="margin-bottom: 20px;">
+    <img src="https://img.icons8.com/ios/50/speed.png" alt="Demande Croissante de Performance" style="width:28px; height:28px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1.2em; font-weight: bold;">Demande Croissante de Performance</span>
+    <p style="font-size: 1em; margin-top: 10px;">Attentes : Applications rapides et fluides.</p>
+    <div style="display: flex; justify-content: space-around; margin-top: 10px;">
+      <div style="text-align: center;">
+        <img src="https://img.icons8.com/ios/50/server.png" alt="SSR" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">SSR</span>
+        <p style="font-size: 0.9em;">Server-Side Rendering</p>
+      </div>
+      <div style="text-align: center;">
+        <img src="https://img.icons8.com/ios/50/lazy-loading.png" alt="Lazy loading" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Lazy Loading</span>
+        <p style="font-size: 0.9em;">Chargement différé des composants</p>
+      </div>
+    </div>
+  </div>
 
-- **Exemples :**
-  - Shopify avec Vue.js <img src="https://img.icons8.com/ios/50/shopify.png" alt="Shopify" style="width:24px; height:24px; vertical-align: middle;"/>
-  - The New York Times avec Svelte <img src="https://img.icons8.com/ios/50/ny-times.png" alt="NY Times" style="width:24px; height:24px; vertical-align: middle;"/>
+  <!-- Section Exemples -->
+  <div style="display: flex; justify-content: space-around; margin-top: 20px;">
+    <div style="text-align: center;">
+      <img src="https://img.icons8.com/ios/50/facebook.png" alt="Facebook (React)" style="width:28px; height:28px; display: block; margin: 0 auto;"/>
+      <span style="font-size: 1em;">Facebook (React)</span>
+    </div>
+    <div style="text-align: center;">
+      <img src="https://img.icons8.com/ios/50/airbnb.png" alt="Airbnb (Gestion d'état)" style="width:28px; height:28px; display: block; margin: 0 auto;"/>
+      <span style="font-size: 1em;">Airbnb (Gestion d'état)</span>
+    </div>
+    <div style="text-align: center;">
+      <img src="https://img.icons8.com/ios/50/netflix.png" alt="Netflix (Optimisation)" style="width:28px; height:28px; display: block; margin: 0 auto;"/>
+      <span style="font-size: 1em;">Netflix (Optimisation)</span>
+    </div>
+    <div style="text-align: center;">
+      <img src="https://img.icons8.com/ios/50/alibaba.png" alt="Alibaba (Vue.js)" style="width:28px; height:28px; display: block; margin: 0 auto;"/>
+      <span style="font-size: 1em;">Alibaba (Vue.js)</span>
+    </div>
+  </div>
+</div>
 
-- **Défis :**
-  - Confusion : Pour débutants et projets <img src="https://img.icons8.com/ios/50/confusion.png" alt="Confusion" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Obsolescence : Frameworks en désuétude comme Ember.js <img src="https://img.icons8.com/ios/50/obsolete.png" alt="Obsolescence" style="width:24px; height:24px; vertical-align: middle;"/>
+<!-- Bas de page -->
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong>I - Performance et Évolution des Frameworks JS</span> | 
+  <span><strong>Titre :</strong>a - Demande Croissante de Performance</span> | 
+  <span><strong>Page :</strong> 5</span>
+</div>
+
+---
+
+# I - Performance et Évolution des Frameworks JS
+
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Critères de Choix d'un Framework JS</span>
+</div>
+
+<div style="margin-top: 20px; text-align: center;">
+  <!-- Section Pour -->
+  <div style="margin-bottom: 20px;">
+    <span style="font-size: 1.2em; font-weight: bold;">Pour :</span>
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/learning.png" alt="Courbe d'apprentissage" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Courbe d'apprentissage</span>
+        <p style="font-size: 0.9em;">Vue.js facile à apprendre</p>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/community.png" alt="Communauté" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Communauté</span>
+        <p style="font-size: 0.9em;">React, large support</p>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/flexibility.png" alt="Flexibilité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Flexibilité</span>
+        <p style="font-size: 0.9em;">Svelte pour des projets légers</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Contre/Nuances -->
+  <div style="margin-top: 20px;">
+    <span style="font-size: 1.2em; font-weight: bold;">Contre/Nuances :</span>
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/specific-needs.png" alt="Besoins spécifiques" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Besoins spécifiques</span>
+        <p style="font-size: 0.9em;">Projets simples vs complexes</p>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/migration.png" alt="Coûts de migration" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Coûts de migration</span>
+        <p style="font-size: 0.9em;">Risques pour entreprises établies</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bas de page -->
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> I - Performance et Évolution des Frameworks JavaScript</span> | 
+  <span><strong>Titre :</strong>b - Critères de Choix d'un Framework JS</span> | 
+  <span><strong>Page :</strong> 6</span>
+</div>
+
+---
+
+# II - Innovation et Compétition entre Frameworks
+
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Diversité des Options Disponibles</span>
+</div>
+
+<div style="margin-top: 20px; text-align: center;">
+  <!-- Section Diversité des Options centrée -->
+  <div style="margin-bottom: 20px;">
+    <img src="https://img.icons8.com/ios/50/diversity.png" alt="Diversité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <p style="font-size: 1em; margin-top: 10px;">Avantages : Flexibilité avec divers frameworks.</p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+  <!-- Section Exemples -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Exemples :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/shopify.png" alt="Shopify" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Shopify avec Vue.js</span>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/ny-times.png" alt="NY Times" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">The New York Times avec Svelte</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Défis -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/confusion.png" alt="Confusion" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Confusion</span>
+        <p style="font-size: 0.9em;">Pour débutants et projets</p>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/obsolete.png" alt="Obsolescence" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Obsolescence</span>
+        <p style="font-size: 0.9em;">Frameworks en désuétude comme Ember.js</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> II - Innovation et Compétition entre Frameworks</span> | 
+  <span><strong>Titre :</strong> a - Diversité des Options Disponibles</span> | 
+  <span><strong>Page :</strong> 7</span>
+</div>
 
 ---
 
