@@ -12,6 +12,10 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+
+# Ajout de Font Awesome
+head: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icons8/3.0.0/icons8.min.css">'
+
 ---
 # Culture numérique
 
@@ -68,13 +72,12 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <span style="font-size: 1em;">Importance des Frameworks JS</span>
   </div>
 
-  <div style="text-align: center; color: #FF6B6B;" v-click="8">
-    <img src="https://img.icons8.com/ios/50/performance.png" alt="Performance" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+<div style="text-align: center; color: #FF6B6B;" v-click="8">
+<img src="https://img.icons8.com/ios/50/line-chart.png" alt="Line Chart" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;"> I . Performance et Évolution des Frameworks JS</span>
-  </div>
-
+</div>
   <div style="text-align: center; color: #FF6B6B;" v-click="9">
-    <img src="https://img.icons8.com/ios/50/select.png" alt="Critères" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+<img src="https://img.icons8.com/ios/50/list.png" alt="Critères" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Critères de Choix d'un Framework JS</span>
   </div>
 
@@ -84,12 +87,12 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   </div>
 
   <div style="text-align: center; color: #1A535C;" v-click="11">
-    <img src="https://img.icons8.com/ios/50/update.png" alt="Évolution" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+<img src="https://img.icons8.com/ios/50/graph.png" alt="Évolution" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Évolution Continue et Compétition</span>
   </div>
 
   <div style="text-align: center; color: #4ECDC4;" v-click="12">
-    <img src="https://img.icons8.com/ios/50/users.png" alt="Dualité" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+<img src="https://img.icons8.com/ios/50/teamwork.png" alt="Dualité Junior vs Senior" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">III . La Dualité Junior vs Senior</span>
   </div>
 
@@ -99,12 +102,12 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   </div>
 
   <div style="text-align: center; color: #FBAF00;" v-click="14">
-    <img src="https://img.icons8.com/ios/50/impact.png" alt="Impact" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+<img src="https://img.icons8.com/ios/50/machine-learning.png" alt="Impact IA" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Impact de l'IA sur la Compétition entre Frameworks</span>
   </div>
 
   <div style="text-align: center; color: #51344D;" v-click="15">
-    <img src="https://img.icons8.com/ios/50/conclusion.png" alt="Conclusion" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
+<img src="https://img.icons8.com/ios/50/checkmark.png" alt="Conclusion" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Conclusion</span>
   </div>
 </div>
