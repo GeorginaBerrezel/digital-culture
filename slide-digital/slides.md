@@ -384,69 +384,281 @@ mdc: true
 
 ---
 
-# Page 8: Évolution Continue et Compétition
+# II - Innovation et Compétition entre Frameworks
 
-**Partie du Sommaire : Évolution Continue et Compétition**
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Évolution Continue et Compétition</span>
+</div>
 
-- **Avantages :**
-  - Nouvelles fonctionnalités : Améliorations constantes <img src="https://img.icons8.com/ios/50/features.png" alt="Nouvelles fonctionnalités" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Exemples : Vue 3, React Server Components <img src="https://img.icons8.com/ios/50/react.png" alt="Vue 3" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="margin-top: 20px; text-align: center;">
+  <!-- Section Avantages centrée -->
+  <div style="margin-bottom: 20px;">
+    <img src="https://img.icons8.com/ios/50/features.png" alt="Nouvelles fonctionnalités" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <p style="font-size: 1em; margin-top: 10px;">Avantages : Nouvelles fonctionnalités et améliorations constantes.</p>
+  </div>
+</div>
 
-- **Défis :**
-  - Coûts de migration : LinkedIn avec Ember.js <img src="https://img.icons8.com/ios/50/linkedin.png" alt="LinkedIn" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Stabilité : Priorité à la stabilité dans certains projets <img src="https://img.icons8.com/ios/50/stability.png" alt="Stabilité" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+  <!-- Section Exemples -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Exemples :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/react.png" alt="Vue 3" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Vue 3, React Server Components</span>
+      </div>
+    </div>
+  </div>
 
----
+  <!-- Section Défis -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/linkedin.png" alt="LinkedIn" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Coûts de migration</span>
+        <p style="font-size: 0.9em;">Exemple : LinkedIn avec Ember.js</p>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/stability.png" alt="Stabilité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Stabilité</span>
+        <p style="font-size: 0.9em;">Priorité à la stabilité dans certains projets</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-# Page 9: La Dualité Junior vs Senior
-
-**Partie du Sommaire : La Dualité Junior vs Senior**
-
-- **Développeurs Juniors :**
-  - Attentes : Maîtrise des technologies récentes <img src="https://img.icons8.com/ios/50/technology.png" alt="Maîtrise des technologies" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Défis : Risque de négliger les fondamentaux <img src="https://img.icons8.com/ios/50/fundamentals.png" alt="Négliger les fondamentaux" style="width:24px; height:24px; vertical-align: middle;"/>
-
-- **Développeurs Seniors :**
-  - Rôle : Leadership, conseils techniques <img src="https://img.icons8.com/ios/50/leadership.png" alt="Leadership" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Défis : Préférence pour la stabilité <img src="https://img.icons8.com/ios/50/stability.png" alt="Préférence pour la stabilité" style="width:24px; height:24px; vertical-align: middle;"/>
-
----
-
-# Page 10: L'IA : Un Atout pour Tous les Développeurs ?
-
-**Partie du Sommaire : L'IA : Un Atout pour Tous les Développeurs ?**
-
-- **Avantages :**
-  - Gains de productivité : Outils comme GitHub Copilot <img src="https://img.icons8.com/ios/50/copilot.png" alt="Gains de productivité" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Automatisation : Tâches répétitives simplifiées <img src="https://img.icons8.com/ios/50/automation.png" alt="Automatisation" style="width:24px; height:24px; vertical-align: middle;"/>
-
-- **Défis :**
-  - Dépendance : Risque de perte de compétences fondamentales <img src="https://img.icons8.com/ios/50/dependence.png" alt="Dépendance" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Qualité du code : Importance de l'expertise humaine <img src="https://img.icons8.com/ios/50/expertise.png" alt="Qualité du code" style="width:24px; height:24px; vertical-align: middle;"/>
-
----
-
-# Page 11: Impact de l'IA sur la Compétition entre Frameworks
-
-**Partie du Sommaire : Impact de l'IA sur la Compétition entre Frameworks**
-
-- **Facilitation :**
-  - Adoption des nouvelles technologies : Réduction des frictions <img src="https://img.icons8.com/ios/50/adoption.png" alt="Adoption des technologies" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Exemples : Passage plus facile entre frameworks <img src="https://img.icons8.com/ios/50/frameworks.png" alt="Passage entre frameworks" style="width:24px; height:24px; vertical-align: middle;"/>
-
-- **Défis :**
-  - Fragmentation : Risque d'adoption superficielle <img src="https://img.icons8.com/ios/50/fragmentation.png" alt="Fragmentation" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Complexité : Difficulté à maintenir des projets <img src="https://img.icons8.com/ios/50/complexity.png" alt="Complexité" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> II - Innovation et Compétition entre Frameworks</span> | 
+  <span><strong>Titre :</strong> b - Évolution Continue et Compétition</span> | 
+  <span><strong>Page :</strong> 8</span>
+</div>
 
 ---
 
-# Page 12: Conclusion
+# III - La Dualité Développeur Junior vs Senior
 
-**Partie du Sommaire : Conclusion**
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">La Dualité Junior vs Senior</span>
+</div>
 
-- **Synthèse :**
-  - Innovation vs Fondamentaux : Trouver l'équilibre <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:24px; height:24px; vertical-align: middle;"/>
-  - Rôle de l'IA : Outil complémentaire, non substitut <img src="https://img.icons8.com/ios/50/ai.png" alt="Rôle de l'IA" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="margin-top: 20px; text-align: center;">
+  <!-- Section Développeurs Juniors centrée -->
+  <div style="margin-bottom: 20px;">
+    <img src="https://img.icons8.com/ios/50/technology.png" alt="Maîtrise des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <p style="font-size: 1em; margin-top: 10px;">Développeurs Juniors : Maîtrise des technologies récentes.</p>
+  </div>
+</div>
 
-- **Réponse à la Question Centrale :**
-  - Bon Développeur : Allie innovation, expérience et pragmatisme <img src="https://img.icons8.com/ios/50/skills.png" alt="Bon Développeur" style="width:24px; height:24px; vertical-align: middle;"/>
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+  <!-- Section Développeurs Juniors -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Développeurs Juniors :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/technology.png" alt="Maîtrise des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Attentes : Maîtrise des technologies récentes</span>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/fundamentals.png" alt="Négliger les fondamentaux" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Défis : Risque de négliger les fondamentaux</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Développeurs Seniors -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Développeurs Seniors :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/leadership.png" alt="Leadership" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Rôle : Leadership, conseils techniques</span>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/stability.png" alt="Préférence pour la stabilité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Défis : Préférence pour la stabilité</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> III - La Dualité Développeur Junior vs Senior</span> | 
+  <span><strong>Titre :</strong> Comparaison des rôles et défis</span> | 
+  <span><strong>Page :</strong> 9</span>
+</div>
+
+---
+
+# IV. L'IA : Un Atout pour Tous les Développeurs ?
+
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Accessibilité de l'IA pour Tous les Niveaux</span>
+</div>
+
+<div style="margin-top: 20px; text-align: center;">
+  <!-- Section IA centrée -->
+  <div style="margin-bottom: 20px;">
+    <img src="https://img.icons8.com/ios/50/automation.png" alt="Automatisation" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <p style="font-size: 1em; margin-top: 10px;">Avantages : Automatisation des tâches répétitives.</p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+  <!-- Section Avantages -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Avantages :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/copilot.png" alt="Gains de productivité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Gains de productivité : Outils comme GitHub Copilot</span>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/automation.png" alt="Automatisation" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Automatisation : Tâches répétitives simplifiées</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Défis -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/dependence.png" alt="Dépendance" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Dépendance : Risque de perte de compétences fondamentales</span>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/expertise.png" alt="Qualité du code" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Qualité du code : Importance de l'expertise humaine</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
+  <span><strong>Titre :</strong> a - Accessibilité de l'IA pour Tous les Niveaux</span> | 
+  <span><strong>Page :</strong> 10</span>
+</div>
+
+---
+
+# IV. L'IA : Un Atout pour Tous les Développeurs ?
+
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Impact sur la Compétition entre les Frameworks</span>
+</div>
+
+<div style="margin-top: 20px; text-align: center;">
+  <!-- Section IA centrée -->
+  <div style="margin-bottom: 20px;">
+    <img src="https://img.icons8.com/ios/50/adoption.png" alt="Adoption des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <p style="font-size: 1em; margin-top: 10px;">Facilitation : Adoption des nouvelles technologies.</p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+  <!-- Section Facilitation -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Facilitation :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/adoption.png" alt="Adoption des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Adoption des nouvelles technologies : Réduction des frictions</span>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/frameworks.png" alt="Passage entre frameworks" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Exemples : Passage plus facile entre frameworks</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Défis -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/fragmentation.png" alt="Fragmentation" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Fragmentation : Risque d'adoption superficielle</span>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/complexity.png" alt="Complexité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Complexité : Difficulté à maintenir des projets</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
+  <span><strong>Titre :</strong> b - Impact sur la Compétition entre les Frameworks</span> | 
+  <span><strong>Page :</strong> 11</span>
+</div>
+
+---
+
+# Conclusion
+
+<div style="text-align: center;">
+  <span style="color: #D35400; font-size: 1.5em;">Synthèse : Innovation vs Fondamentaux </span>
+</div>
+
+<div style="margin-top: 20px; text-align: center;">
+  <!-- Section Synthèse centrée -->
+  <div style="margin-bottom: 20px;">
+    <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <p style="font-size: 1em; margin-top: 10px;">Trouver l'équilibre.</p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+  <!-- Section Synthèse -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Synthèse :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Innovation vs Fondamentaux : Trouver l'équilibre</span>
+      </div>
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/ai.png" alt="Rôle de l'IA" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Rôle de l'IA : Outil complémentaire, non substitut</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Réponse à la Question Centrale -->
+  <div style="flex: 1; margin: 10px; text-align: center;">
+    <span style="font-size: 1.2em; font-weight: bold;">Réponse à la Question Centrale :</span>
+    <div style="margin-top: 10px;">
+      <div style="text-align: center; margin: 10px;">
+        <img src="https://img.icons8.com/ios/50/skills.png" alt="Bon Développeur" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Bon Développeur : Allie innovation, expérience et pragmatisme</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> Conclusion</span> | 
+  <span><strong>Titre :</strong> Synthèse et Réponse à la Question Centrale</span> | 
+  <span><strong>Page :</strong> 12</span>
+</div>
+
+---
+
+# Remerciements
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center; flex-direction: column;">
+  <div>
+    <span style="font-size: 2em; color: #D35400;">Merci pour votre écoute</span>
+    <p style="font-size: 1.5em; margin-top: 20px;">Culture Numérique</p>
+  </div>
+</div>
+
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+  <span><strong>Partie du Sommaire :</strong> Remerciements</span> | 
+  <span><strong>Elève :</strong> Georgina Berrezel</span> | 
+  <span><strong>Classe :</strong> Mastère 1 Developpement Web</span> |
+  <span><strong>Page :</strong> 13</span></div>
