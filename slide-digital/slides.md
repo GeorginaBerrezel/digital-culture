@@ -17,7 +17,7 @@ mdc: true
 head: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icons8/3.0.0/icons8.min.css">'
 
 ---
-# Culture numérique
+# Out Of School
 
 <span style="
 font-size: 2em;
@@ -177,25 +177,25 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
   <div v-click="2">
     <img src="https://img.icons8.com/ios/50/toolbox.png" alt="Outils puissants" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-    <span style="background-color: rgba(81, 52, 77, 0.2); font-size: 1.1em; color: #51344D;"><strong>Outils puissants</strong></span>
+    <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Outils puissants</strong></span>
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Simplifient le développement.</p>
   </div>
 
   <div v-click="3">
     <img src="https://img.icons8.com/ios/50/speed.png" alt="Code plus rapide" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-    <span style="background-color: rgba(81, 52, 77, 0.2); font-size: 1.1em; color: #51344D;"><strong>Code plus rapide</strong></span>
+    <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Code plus rapide</strong></span>
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Optimisation du processus de développement.</p>
   </div>
 
   <div v-click="4">
     <img src="https://img.icons8.com/ios/50/maintenance.png" alt="Maintenable" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-    <span style="background-color: rgba(81, 52, 77, 0.2); font-size: 1.1em; color: #51344D;"><strong>Maintenable</strong></span>
+    <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Maintenable</strong></span>
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Facilité de maintenance.</p>
   </div>
 
   <div v-click="5">
     <img src="https://img.icons8.com/ios/50/reuse.png" alt="Réutilisable" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-    <span style="background-color: rgba(81, 52, 77, 0.2); font-size: 1.1em; color: #51344D;"><strong>Réutilisable</strong></span>
+    <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Réutilisable</strong></span>
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Composants réutilisables.</p>
   </div>
 
@@ -230,44 +230,44 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # I - Performance et Évolution des Frameworks JS
 
-<div style="text-align: center;">
-  <span style="color: #FF6B6B; font-size: 1.5em;">Demande Croissante de Performance</span>
+<div style="text-align: center;" v-click="1">
+  <span style="background-color: #FF6B6B; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em;">Demande Croissante de Performance</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;">
   <!-- Section Demande Croissante de Performance -->
-  <div style="margin-bottom: 20px;">
+  <div style="margin-bottom: 20px;" v-click="2">
     <img src="https://img.icons8.com/ios/50/speed.png" alt="Demande Croissante de Performance" style="width:28px; height:28px; display: block; margin: 0 auto;"/>
     <p style="font-size: 1em; margin-top: 10px;">Attentes : Applications rapides et fluides.</p>
     <div style="display: flex; justify-content: space-around; margin-top: 10px;">
-      <div style="text-align: center;">
+      <div style="text-align: center;" v-click="3">
         <img src="https://img.icons8.com/ios/50/server.png" alt="SSR" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">SSR</span>
-        <p style="font-size: 0.9em;">Server-Side Rendering</p>
+        <p style="font-size: 0.9em; line-height: 0.2;">Server-Side Rendering</p>
       </div>
-      <div style="text-align: center;">
+      <div style="text-align: center;" v-click="4">
         <img src="https://img.icons8.com/?size=100&id=405&format=png&color=000000" alt="Lazy loading" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Lazy Loading</span>
-        <p style="font-size: 0.9em;">Chargement différé des composants</p>
+        <p style="font-size: 0.9em; line-height: 0.2;">Chargement différé des composants</p>
       </div>
     </div>
   </div>
 
   <!-- Section Exemples -->
   <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-    <div style="text-align: center;">
+    <div style="text-align: center;" v-click="5">
       <img src="https://img.icons8.com/?size=100&id=13912&format=png&color=000000" alt="Facebook (React)" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
       <span style="font-size: 1em;">Facebook (React)</span>
     </div>
-    <div style="text-align: center;">
+    <div style="text-align: center;" v-click="6">
       <img src="https://img.icons8.com/?size=100&id=103424&format=png&color=000000" alt="Airbnb (Gestion d'état)" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
       <span style="font-size: 1em;">Airbnb (Gestion d'état)</span>
     </div>
-    <div style="text-align: center;">
+    <div style="text-align: center;" v-click="7">
       <img src="https://img.icons8.com/?size=100&id=VZLXV08EcZsm&format=png&color=000000" alt="Netflix (Optimisation)" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
       <span style="font-size: 1em;">Netflix (Optimisation)</span>
     </div>
-    <div style="text-align: center;">
+    <div style="text-align: center;" v-click="8">
       <img src="https://img.icons8.com/?size=100&id=EoRYuY9CMBZV&format=png&color=000000" alt="Alibaba (Vue.js)" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
       <span style="font-size: 1em;">Alibaba (Vue.js)</span>
     </div>
@@ -275,9 +275,11 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 </div>
 
 <!-- Bas de page -->
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
-  <span><strong>Partie du Sommaire :</strong>I - Performance et Évolution des Frameworks JS</span> | 
-  <span><strong>Titre :</strong>a - Demande Croissante de Performance</span> | 
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
+    <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+<br>
+  <span>I - Performance et Évolution des Frameworks JS</span> | 
+  <span>a - Demande Croissante de Performance</span> | 
   <span><strong>Page :</strong> 5</span>
 </div>
 
@@ -285,54 +287,56 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # I - Performance et Évolution des Frameworks JS
 
-<div style="text-align: center;">
-  <span style="color: #D35400; font-size: 1.5em;">Critères de Choix d'un Framework JS</span>
+<div style="text-align: center;" v-click="1">
+  <span style="background-color: #FF6B6B; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Critères de Choix d'un Framework JS</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;">
   <!-- Section Pour -->
-  <div style="margin-bottom: 20px;">
-    <span style="font-size: 1.2em; font-weight: bold;">Pour :</span>
+  <div style="margin-bottom: 20px;" v-click="2">
+    <span style="color: #FF6B6B; font-size: 1.2em; font-weight: bold; line-height: 1.2;">Pour</span>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/learning.png" alt="Courbe d'apprentissage" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Courbe d'apprentissage</span>
-        <p style="font-size: 0.9em;">Vue.js facile à apprendre</p>
+      <div style="text-align: center; margin: 10px;" v-click="3">
+        <img src="https://img.icons8.com/?size=100&id=53423&format=png&color=000000" alt="Courbe d'apprentissage" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em; line-height: 1.2;">Courbe d'apprentissage</span>
+        <p style="font-size: 0.9em; line-height: 0.2;">Vue.js facile à apprendre</p>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/community.png" alt="Communauté" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Communauté</span>
-        <p style="font-size: 0.9em;">React, large support</p>
+      <div style="text-align: center; margin: 10px;" v-click="4">
+        <img src="https://img.icons8.com/?size=100&id=122809&format=png&color=000000" alt="Communauté" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em; line-height: 1.2;">Communauté</span>
+        <p style="font-size: 0.9em; line-height: 0.2;">React, large support</p>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/flexibility.png" alt="Flexibilité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Flexibilité</span>
-        <p style="font-size: 0.9em;">Svelte pour des projets légers</p>
+      <div style="text-align: center; margin: 10px;" v-click="5">
+        <img src="https://img.icons8.com/?size=100&id=7ST6T6xV3OPb&format=png&color=000000" alt="Flexibilité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em; line-height: 1.2;">Flexibilité</span>
+        <p style="font-size: 0.9em; line-height: 0.2;">Svelte pour des projets légers</p>
       </div>
     </div>
   </div>
 
   <!-- Section Contre/Nuances -->
-  <div style="margin-top: 20px;">
-    <span style="font-size: 1.2em; font-weight: bold;">Contre/Nuances :</span>
+  <div style="margin-top: 20px;" v-click="6">
+    <span style="color: #FF6B6B; font-size: 1.2em; font-weight: bold; line-height: 1.2;">Contre/Nuances</span>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/specific-needs.png" alt="Besoins spécifiques" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Besoins spécifiques</span>
-        <p style="font-size: 0.9em;">Projets simples vs complexes</p>
+      <div style="text-align: center; margin: 10px;" v-click="7">
+        <img src="https://img.icons8.com/?size=100&id=55349&format=png&color=000000" alt="Besoins spécifiques" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em; line-height: 1.2;">Besoins spécifiques</span>
+        <p style="font-size: 0.9em; line-height: 0.2;">Projets simples vs complexes</p>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/migration.png" alt="Coûts de migration" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Coûts de migration</span>
-        <p style="font-size: 0.9em;">Risques pour entreprises établies</p>
+      <div style="text-align: center; margin: 10px;" v-click="8">
+        <img src="https://img.icons8.com/?size=100&id=TLl9GOp-fqJ3&format=png&color=000000" alt="Coûts de migration" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em; line-height: 1.2;">Coûts de migration</span>
+        <p style="font-size: 0.9em; line-height: 0.2;">Risques pour entreprises établies</p>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Bas de page -->
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
-  <span><strong>Partie du Sommaire :</strong> I - Performance et Évolution des Frameworks JavaScript</span> | 
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
+  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <br>
+  <span>I - Performance et Évolution des Frameworks JS</span> | 
   <span><strong>Titre :</strong>b - Critères de Choix d'un Framework JS</span> | 
   <span><strong>Page :</strong> 6</span>
 </div>
@@ -341,14 +345,13 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # II - Innovation et Compétition entre Frameworks
 
-<div style="text-align: center;">
-  <span style="color: #D35400; font-size: 1.5em;">Diversité des Options Disponibles</span>
+<div style="text-align: center;" v-click="1">
+  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Diversité des Options Disponibles</span>
 </div>
 
-<div style="margin-top: 20px; text-align: center;">
+<div style="margin-top: 20px; text-align: center;" v-click="2">
   <!-- Section Diversité des Options centrée -->
   <div style="margin-bottom: 20px;">
-    <img src="https://img.icons8.com/ios/50/diversity.png" alt="Diversité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
     <p style="font-size: 1em; margin-top: 10px;">Avantages : Flexibilité avec divers frameworks.</p>
   </div>
 </div>
@@ -356,14 +359,14 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
   <!-- Section Exemples -->
   <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;">Exemples :</span>
-    <div style="margin-top: 10px;">
+    <span style="font-size: 1.2em; font-weight: bold;" v-click="3">Exemples</span>
+    <div style="margin-top: 10px;" v-click="4">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/shopify.png" alt="Shopify" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=yEo5mhvn1aUK&format=png&color=000000" alt="Shopify" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Shopify avec Vue.js</span>
       </div>
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/ny-times.png" alt="NY Times" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=a4uebf6tB45c&format=png&color=000000" alt="NY Times" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">The New York Times avec Svelte</span>
       </div>
     </div>
@@ -371,24 +374,26 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
   <!-- Section Défis -->
   <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
+    <span style="font-size: 1.2em; font-weight: bold;" v-click="5">Défis</span>
     <div style="margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/confusion.png" alt="Confusion" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+      <div style="text-align: center; margin: 10px;" v-click="6">
+        <img src="https://img.icons8.com/?size=100&id=48745&format=png&color=000000" alt="Confusion" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Confusion</span>
-        <p style="font-size: 0.9em;">Pour débutants et projets</p>
+        <p style="font-size: 0.9em;line-height: 0.2;">Pour débutants et projets</p>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/obsolete.png" alt="Obsolescence" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+      <div style="text-align: center; margin: 10px;" v-click="7">
+        <img src="https://img.icons8.com/?size=100&id=x4HYbbI5tTv6&format=png&color=000000" alt="Obsolescence" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Obsolescence</span>
-        <p style="font-size: 0.9em;">Frameworks en désuétude comme Ember.js</p>
+        <p style="font-size: 0.9em;line-height: 0.2;">Frameworks en désuétude comme Ember.js</p>
       </div>
     </div>
   </div>
 </div>
 
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
-  <span><strong>Partie du Sommaire :</strong> II - Innovation et Compétition entre Frameworks</span> | 
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
+  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <br>
+  <span>II - Innovation et Compétition entre Frameworks</span> | 
   <span><strong>Titre :</strong> a - Diversité des Options Disponibles</span> | 
   <span><strong>Page :</strong> 7</span>
 </div>
