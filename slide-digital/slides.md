@@ -365,7 +365,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
         <img src="https://img.icons8.com/?size=100&id=yEo5mhvn1aUK&format=png&color=000000" alt="Shopify" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Shopify avec Vue.js</span>
       </div>
-      <div style="text-align: center; margin: 10px;">
+      <div style="text-align: center; margin: 50px;">
         <img src="https://img.icons8.com/?size=100&id=a4uebf6tB45c&format=png&color=000000" alt="NY Times" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">The New York Times avec Svelte</span>
       </div>
@@ -379,9 +379,9 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
       <div style="text-align: center; margin: 10px;" v-click="6">
         <img src="https://img.icons8.com/?size=100&id=48745&format=png&color=000000" alt="Confusion" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Confusion</span>
-        <p style="font-size: 0.9em;line-height: 0.2;">Pour débutants et projets</p>
+        <p style="font-size: 0.9em; line-height: 0.2;">Pour débutants et projets</p>
       </div>
-      <div style="text-align: center; margin: 10px;" v-click="7">
+      <div style="text-align: center; margin: 50px;" v-click="7">
         <img src="https://img.icons8.com/?size=100&id=x4HYbbI5tTv6&format=png&color=000000" alt="Obsolescence" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Obsolescence</span>
         <p style="font-size: 0.9em;line-height: 0.2;">Frameworks en désuétude comme Ember.js</p>
@@ -402,25 +402,24 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # II - Innovation et Compétition entre Frameworks
 
-<div style="text-align: center;">
-  <span style="color: #D35400; font-size: 1.5em;">Évolution Continue et Compétition</span>
+<div style="text-align: center;" v-click="1">
+  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Évolution Continue et Compétition</span>
 </div>
 
-<div style="margin-top: 20px; text-align: center;">
+<div style="margin-top: 20px; text-align: center;" v-click="2">
   <!-- Section Avantages centrée -->
   <div style="margin-bottom: 20px;">
-    <img src="https://img.icons8.com/ios/50/features.png" alt="Nouvelles fonctionnalités" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
     <p style="font-size: 1em; margin-top: 10px;">Avantages : Nouvelles fonctionnalités et améliorations constantes.</p>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
   <!-- Section Exemples -->
-  <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;">Exemples :</span>
+  <div style="flex: 1; margin: 10px; text-align: center;" v-click="3">
+    <span style="font-size: 1.2em; font-weight: bold;">Exemples</span>
     <div style="margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/react.png" alt="Vue 3" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=fU5cXapwJUEs&format=png&color=000000" alt="Vue 3" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Vue 3, React Server Components</span>
       </div>
     </div>
@@ -428,24 +427,26 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
   <!-- Section Défis -->
   <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
+    <span style="font-size: 1.2em; font-weight: bold;" v-click="4">Défis</span>
     <div style="margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/linkedin.png" alt="LinkedIn" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+      <div style="text-align: center; margin: 10px;" v-click="5">
+        <img src="https://img.icons8.com/?size=100&id=64154&format=png&color=000000" alt="LinkedIn" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Coûts de migration</span>
-        <p style="font-size: 0.9em;">Exemple : LinkedIn avec Ember.js</p>
+        <p style="font-size: 0.9em; line-height: 0.2;">Exemple : LinkedIn avec Ember.js</p>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/stability.png" alt="Stabilité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+      <div style="text-align: center; margin: 50px;" v-click="6">
+        <img src="https://img.icons8.com/?size=100&id=MQ0HStlD0BBR&format=png&color=000000" alt="Stabilité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Stabilité</span>
-        <p style="font-size: 0.9em;">Priorité à la stabilité dans certains projets</p>
+        <p style="font-size: 0.9em; line-height: 0.2;">Priorité à la stabilité dans certains projets</p>
       </div>
     </div>
   </div>
 </div>
 
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
-  <span><strong>Partie du Sommaire :</strong> II - Innovation et Compétition entre Frameworks</span> | 
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
+  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <br>
+  <span>II - Innovation et Compétition entre Frameworks</span> | 
   <span><strong>Titre :</strong> b - Évolution Continue et Compétition</span> | 
   <span><strong>Page :</strong> 8</span>
 </div>
@@ -455,14 +456,13 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 # III - La Dualité Développeur Junior vs Senior
 
 <div style="text-align: center;">
-  <span style="color: #D35400; font-size: 1.5em;">La Dualité Junior vs Senior</span>
+  <span style="background-color: #4ECDC4; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">La Dualité Junior vs Senior</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;">
   <!-- Section Développeurs Juniors centrée -->
   <div style="margin-bottom: 20px;">
-    <img src="https://img.icons8.com/ios/50/technology.png" alt="Maîtrise des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-    <p style="font-size: 1em; margin-top: 10px;">Développeurs Juniors : Maîtrise des technologies récentes.</p>
+    <img src="https://img.icons8.com/?size=100&id=37325&format=png&color=000000" alt="Maîtrise des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
   </div>
 </div>
 
@@ -498,8 +498,10 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   </div>
 </div>
 
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
-  <span><strong>Partie du Sommaire :</strong> III - La Dualité Développeur Junior vs Senior</span> | 
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
+  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <br>
+  <span>III - La Dualité Développeur Junior vs Senior</span> | 
   <span><strong>Titre :</strong> Comparaison des rôles et défis</span> | 
   <span><strong>Page :</strong> 9</span>
 </div>
