@@ -13,29 +13,39 @@ drawings:
 transition: slide-left
 mdc: true
 ---
-
 # Culture numérique
 
-[//]: # (**Titre :**  )
-<span style="color: #D35400; font-size: 1.5em; text-align: center; display: block; margin-top: 50px;">**Être un bon développeur front-end :<br> Faut-il suivre les dernières tendances ?**</span>
+<span style="
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+display: block;
+margin-top: 50px;
+line-height: 1.3;
+background-color: #51344D; /* Couleur de fond douce */
+color: #fff; /* Couleur du texte */
+padding: 10px; /* Espace autour du texte */
+border-radius: 5px; /* Coins arrondis */
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
+" v-click="1">
+Être un bon développeur front-end :<br> Faut-il suivre les dernières tendances ?
+</span>
 
-[//]: # (**Introduction :**)
-
-<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; flex-direction: column; align-items: center;" v-click="2">
   <img src="https://img.icons8.com/ios/50/goal.png" alt="Objectif" style="width:24px; height:24px; margin-top: 8px;"/>
-  <span style="color: #D35400; font-weight: bold;">Objectif :</span>  
+  <span style="font-weight: 900; font-size: 1.2em;">Objectif</span>
   <span style="font-size: 1.2em; text-align: center;">Découvrir si être à la pointe des technologies est essentiel.</span>  
 </div>
 
 <br>
 
-<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; flex-direction: column; align-items: center;" v-click="3">
   <img src="https://img.icons8.com/ios/50/question.png" alt="Question centrale" style="width:24px; height:24px; margin-top: 8px;"/>
-  <span style="color: #D35400; font-weight: bold;">Question centrale :</span>  
+  <span style="font-weight: bold; font-size: 1.2em;">Question centrale</span>  
   <span style="font-size: 1.2em; text-align: center;">Innover ou maîtriser les fondamentaux ?</span>  
 </div>
 
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
   <span><strong>Introduction:</strong> Être un bon développeur front-end</span> | <span>Page 1</span>
 </div>
 
@@ -43,68 +53,65 @@ mdc: true
 
 # Sommaire
 
-<div style="text-align: center;">
-  <span style="color: #D35400; font-size: 1.5em; text-align: center; display: block; margin-top: 10px;">De quoi allons-nous parler ?</span>
+<div style="text-align: center;" v-click="4">
+  <span style="color: #000; font-weight: bold; font-size: 1.5em; text-align: center; display: block; margin-top: 10px;">De quoi allons-nous parler ?</span>
 </div>
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-items: center; margin-top: 10px;">
-
-  <div style="text-align: center;">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-items: center; margin-top: 10px;" v-click="5">
+  <div style="text-align: center; color: #51344D;" v-click="6">
     <img src="https://img.icons8.com/ios/50/visible.png" alt="Contexte" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Contexte du Développement Web Front-End</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #51344D;" v-click="7">
     <img src="https://img.icons8.com/ios/50/code.png" alt="Frameworks" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Importance des Frameworks JS</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #FF6B6B;" v-click="8">
     <img src="https://img.icons8.com/ios/50/performance.png" alt="Performance" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">Performance et Évolution des Frameworks JS</span>
+    <span style="font-size: 1em;"> I . Performance et Évolution des Frameworks JS</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #FF6B6B;" v-click="9">
     <img src="https://img.icons8.com/ios/50/select.png" alt="Critères" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Critères de Choix d'un Framework JS</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #1A535C;" v-click="10">
     <img src="https://img.icons8.com/ios/50/innovation.png" alt="Innovation" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">Innovation et Compétition entre Frameworks</span>
+    <span style="font-size: 1em;">II . Innovation et Compétition entre Frameworks</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #1A535C;" v-click="11">
     <img src="https://img.icons8.com/ios/50/update.png" alt="Évolution" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Évolution Continue et Compétition</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #4ECDC4;" v-click="12">
     <img src="https://img.icons8.com/ios/50/users.png" alt="Dualité" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">La Dualité Junior vs Senior</span>
+    <span style="font-size: 1em;">III . La Dualité Junior vs Senior</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #FBAF00;" v-click="13">
     <img src="https://img.icons8.com/ios/50/artificial-intelligence.png" alt="IA" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">L'IA : Un Atout pour Tous les Développeurs ?</span>
+    <span style="font-size: 1em;">IV . L'IA : Un Atout pour Tous les Développeurs ?</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #FBAF00;" v-click="14">
     <img src="https://img.icons8.com/ios/50/impact.png" alt="Impact" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Impact de l'IA sur la Compétition entre Frameworks</span>
   </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center; color: #51344D;" v-click="15">
     <img src="https://img.icons8.com/ios/50/conclusion.png" alt="Conclusion" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Conclusion</span>
   </div>
-
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
   <span><strong>Sommaire:</strong> Culture numérique</span> | <span>Page 2</span>
 </div>
-
 
 ---
 
