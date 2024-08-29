@@ -26,7 +26,7 @@ text-align: center;
 display: block;
 margin-top: 50px;
 line-height: 1.3;
-background-color: #51344D; /* Couleur de fond douce */
+background-color: #51344D; /* violet */
 color: #fff; /* Couleur du texte */
 padding: 10px; /* Espace autour du texte */
 border-radius: 5px; /* Coins arrondis */
@@ -37,7 +37,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 <div style="display: flex; flex-direction: column; align-items: center;" v-click="2">
   <img src="https://img.icons8.com/ios/50/goal.png" alt="Objectif" style="width:24px; height:24px; margin-top: 8px;"/>
-  <span style="font-weight: 900; font-size: 1.2em;">Objectif</span>
+  <span style="background-color: rgba(81, 52, 77, 0.2); font-weight: 900; font-size: 1.2em;">Objectif</span>
   <span style="font-size: 1.2em; text-align: center;">Découvrir si être à la pointe des technologies est essentiel.</span>  
 </div>
 
@@ -45,7 +45,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 <div style="display: flex; flex-direction: column; align-items: center;" v-click="3">
   <img src="https://img.icons8.com/ios/50/question.png" alt="Question centrale" style="width:24px; height:24px; margin-top: 8px;"/>
-  <span style="font-weight: bold; font-size: 1.2em;">Question centrale</span>  
+  <span style="background-color: rgba(81, 52, 77, 0.2); font-weight: bold; font-size: 1.2em;">Question centrale</span>  
   <span style="font-size: 1.2em; text-align: center;">Innover ou maîtriser les fondamentaux ?</span>  
 </div>
 
@@ -57,11 +57,11 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # Sommaire
 
-<div style="text-align: center;" v-click="1">
+<div style="text-align: center;" v-click:1>
   <span style="color: #000; font-weight: bold; font-size: 1.5em; text-align: center; display: block; margin-top: 10px;">De quoi allons-nous parler ?</span>
 </div>
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-items: center; margin-top: 10px;" v-click="5">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-items: center; margin-top: 10px;">
   <div style="text-align: center; color: #51344D;" v-click="2">
     <img src="https://img.icons8.com/ios/50/visible.png" alt="Contexte" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Contexte du Développement Web Front-End</span>
@@ -241,13 +241,13 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <p style="font-size: 1em; margin-top: 10px;">Attentes : Applications rapides et fluides.</p>
     <div style="display: flex; justify-content: space-around; margin-top: 10px;">
       <div style="text-align: center;" v-click="3">
-        <img src="https://img.icons8.com/ios/50/server.png" alt="SSR" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">SSR</span>
+        <img src="https://img.icons8.com/ios/50/server.png" alt="SSR" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="color: #FF6B6B; font-weight: bold; font-size: 1em;">SSR</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Server-Side Rendering</p>
       </div>
       <div style="text-align: center;" v-click="4">
-        <img src="https://img.icons8.com/?size=100&id=405&format=png&color=000000" alt="Lazy loading" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Lazy Loading</span>
+        <img src="https://img.icons8.com/?size=100&id=405&format=png&color=000000" alt="Lazy loading" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="color: #FF6B6B; font-weight: bold; font-size: 1em;">Lazy Loading</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Chargement différé des composants</p>
       </div>
     </div>
@@ -455,11 +455,11 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # III - La Dualité Développeur Junior vs Senior
 
-<div style="text-align: center;">
+<div style="text-align: center;" v-click:1>
   <span style="background-color: #4ECDC4; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">La Dualité Junior vs Senior</span>
 </div>
 
-<div style="margin-top: 20px; text-align: center;">
+<div style="margin-top: 20px; text-align: center;" v-click:2>
   <!-- Section Développeurs Juniors centrée -->
   <div style="margin-bottom: 20px;">
     <img src="https://img.icons8.com/?size=100&id=37325&format=png&color=000000" alt="Maîtrise des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
@@ -468,30 +468,30 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
   <!-- Section Développeurs Juniors -->
-  <div style="flex: 1; margin: 10px; text-align: center;">
+  <div style="flex: 1; margin: 10px; text-align: center;" v-click:3>
     <span style="font-size: 1.2em; font-weight: bold;">Développeurs Juniors :</span>
     <div style="margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/technology.png" alt="Maîtrise des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="Maîtrise des technologies" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Attentes : Maîtrise des technologies récentes</span>
       </div>
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/fundamentals.png" alt="Négliger les fondamentaux" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=Nts60kQIvGqe&format=png&color=000000" alt="Négliger les fondamentaux" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Défis : Risque de négliger les fondamentaux</span>
       </div>
     </div>
   </div>
 
   <!-- Section Développeurs Seniors -->
-  <div style="flex: 1; margin: 10px; text-align: center;">
+  <div style="flex: 1; margin: 10px; text-align: center;" v-click:4>
     <span style="font-size: 1.2em; font-weight: bold;">Développeurs Seniors :</span>
     <div style="margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/leadership.png" alt="Leadership" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=58018&format=png&color=000000" alt="Leadership" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Rôle : Leadership, conseils techniques</span>
       </div>
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/stability.png" alt="Préférence pour la stabilité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=7GZKPryEljt8&format=png&color=000000" alt="Préférence pour la stabilité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Défis : Préférence pour la stabilité</span>
       </div>
     </div>
@@ -510,52 +510,53 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # IV. L'IA : Un Atout pour Tous les Développeurs ?
 
-<div style="text-align: center;">
-  <span style="color: #D35400; font-size: 1.5em;">Accessibilité de l'IA pour Tous les Niveaux</span>
+<div style="text-align: center;" v-click:1>
+  <span style="background-color: #FBAF00; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Accessibilité de l'IA pour Tous les Niveaux</span>
 </div>
 
-<div style="margin-top: 20px; text-align: center;">
+<div style="margin-top: 20px; text-align: center;" v-click:2>
   <!-- Section IA centrée -->
   <div style="margin-bottom: 20px;">
-    <img src="https://img.icons8.com/ios/50/automation.png" alt="Automatisation" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
     <p style="font-size: 1em; margin-top: 10px;">Avantages : Automatisation des tâches répétitives.</p>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
   <!-- Section Avantages -->
-  <div style="flex: 1; margin: 10px; text-align: center;">
+  <div style="flex: 1; margin: 10px; text-align: center;" v-click:3>
     <span style="font-size: 1.2em; font-weight: bold;">Avantages :</span>
     <div style="margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/copilot.png" alt="Gains de productivité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=118557&format=png&color=000000" alt="Gains de productivité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Gains de productivité : Outils comme GitHub Copilot</span>
       </div>
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/automation.png" alt="Automatisation" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=53423&format=png&color=000000" alt="Automatisation" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Automatisation : Tâches répétitives simplifiées</span>
       </div>
     </div>
   </div>
 
   <!-- Section Défis -->
-  <div style="flex: 1; margin: 10px; text-align: center;">
+  <div style="flex: 1; margin: 10px; text-align: center;" v-click:4>
     <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
     <div style="margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/dependence.png" alt="Dépendance" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=0CSLuQjkskRL&format=png&color=000000" alt="Dépendance" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Dépendance : Risque de perte de compétences fondamentales</span>
       </div>
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/expertise.png" alt="Qualité du code" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+        <img src="https://img.icons8.com/?size=100&id=G7aTGVA0qqPg&format=png&color=000000" alt="Qualité du code" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Qualité du code : Importance de l'expertise humaine</span>
       </div>
     </div>
   </div>
 </div>
 
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
-  <span><strong>Partie du Sommaire :</strong> IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
+  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <br>
+  <span>IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
   <span><strong>Titre :</strong> a - Accessibilité de l'IA pour Tous les Niveaux</span> | 
   <span><strong>Page :</strong> 10</span>
 </div>
@@ -564,14 +565,13 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # IV. L'IA : Un Atout pour Tous les Développeurs ?
 
-<div style="text-align: center;">
-  <span style="color: #D35400; font-size: 1.5em;">Impact sur la Compétition entre les Frameworks</span>
+<div style="text-align: center;" v-click:1>
+  <span style="background-color: #FBAF00; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Impact sur la Compétition entre les Frameworks</span>
 </div>
 
-<div style="margin-top: 20px; text-align: center;">
+<div style="margin-top: 20px; text-align: center;" v-click:2>
   <!-- Section IA centrée -->
   <div style="margin-bottom: 20px;">
-    <img src="https://img.icons8.com/ios/50/adoption.png" alt="Adoption des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
     <p style="font-size: 1em; margin-top: 10px;">Facilitation : Adoption des nouvelles technologies.</p>
   </div>
 </div>
@@ -579,87 +579,86 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
   <!-- Section Facilitation -->
   <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;">Facilitation :</span>
-    <div style="margin-top: 10px;">
+    <span style="font-size: 1.2em; font-weight: bold;" v-click:3>Facilitation</span>
+    <div style="margin-top: 10px;" v-click:4>
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/adoption.png" alt="Adoption des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Adoption des nouvelles technologies : Réduction des frictions</span>
+        <img src="https://img.icons8.com/?size=100&id=50898&format=png&color=000000" alt="Adoption des technologies" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Adoption des nouvelles technologies<br>Réduction des frictions</span>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/frameworks.png" alt="Passage entre frameworks" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Exemples : Passage plus facile entre frameworks</span>
+      <div style="text-align: center; margin: 10px;" v-click:5>
+        <img src="https://img.icons8.com/?size=100&id=24888&format=png&color=000000" alt="Passage entre frameworks" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Passage plus facile entre frameworks</span>
       </div>
     </div>
   </div>
 
   <!-- Section Défis -->
   <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
+    <span style="font-size: 1.2em; font-weight: bold;" v-click:6>Défis</span>
     <div style="margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/fragmentation.png" alt="Fragmentation" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Fragmentation : Risque d'adoption superficielle</span>
+      <div style="text-align: center; margin: 10px;" v-click:7>
+        <img src="https://img.icons8.com/?size=100&id=u1STh6KhRMdj&format=png&color=000000" alt="Fragmentation" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="font-size: 1em;">Fragmentation<br>Risque d'adoption superficielle</span>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/complexity.png" alt="Complexité" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+      <div style="text-align: center; margin: 10px;" v-click:8>
+        <img src="https://img.icons8.com/?size=100&id=VDdxpgm_aTTx&format=png&color=000000" alt="Complexité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Complexité : Difficulté à maintenir des projets</span>
       </div>
     </div>
   </div>
 </div>
 
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
-  <span><strong>Partie du Sommaire :</strong> IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
+  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <br>
+  <span>IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
   <span><strong>Titre :</strong> b - Impact sur la Compétition entre les Frameworks</span> | 
   <span><strong>Page :</strong> 11</span>
 </div>
-
 ---
 
 # Conclusion
 
-<div style="text-align: center;">
-  <span style="color: #D35400; font-size: 1.5em;">Synthèse : Innovation vs Fondamentaux </span>
-</div>
-
-<div style="margin-top: 20px; text-align: center;">
+<div style="margin-top: 20px; text-align: center;" v-click:1>
   <!-- Section Synthèse centrée -->
   <div style="margin-bottom: 20px;">
-    <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-    <p style="font-size: 1em; margin-top: 10px;">Trouver l'équilibre.</p>
+    <p style="background-color: #51344D; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</p>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
   <!-- Section Synthèse -->
   <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;">Synthèse :</span>
+    <span style="font-size: 1.2em; font-weight: bold;" v-click:2>Synthèse</span>
     <div style="margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Innovation vs Fondamentaux : Trouver l'équilibre</span>
+      <div style="text-align: center; margin: 10px;" v-click:3>
+        <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;">Innovation vs Fondamentaux</span>
+        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Trouver l'équilibre</p>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/ai.png" alt="Rôle de l'IA" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Rôle de l'IA : Outil complémentaire, non substitut</span>
+      <div style="text-align: center; margin: 10px;" v-click:4>
+        <img src="https://img.icons8.com/?size=100&id=4aUvAATdDLe5&format=png&color=000000" alt="Rôle de l'IA" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;">Rôle de l'IA</span>
+        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Outil complémentaire, non substitut</p>
       </div>
     </div>
   </div>
 
   <!-- Section Réponse à la Question Centrale -->
   <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;">Réponse à la Question Centrale :</span>
+    <span style="font-size: 1.2em; font-weight: bold;" v-click:5>Réponse à la Question Centrale</span>
     <div style="margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/ios/50/skills.png" alt="Bon Développeur" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Bon Développeur : Allie innovation, expérience et pragmatisme</span>
+      <div style="text-align: center; margin: 10px;" v-click:6>
+        <img src="https://img.icons8.com/?size=100&id=Cc5U1vG2huUW&format=png&color=000000" alt="Bon Développeur" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;">Bon Développeur</span>
+        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Allie innovation, expérience et pragmatisme</p>
       </div>
     </div>
   </div>
 </div>
 
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
-  <span><strong>Partie du Sommaire :</strong> Conclusion</span> | 
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
+  <span>Conclusion</span> | 
   <span><strong>Titre :</strong> Synthèse et Réponse à la Question Centrale</span> | 
   <span><strong>Page :</strong> 12</span>
 </div>
@@ -668,14 +667,15 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 # Remerciements
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center; flex-direction: column;">
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; text-align: center; flex-direction: column;">
   <div>
-    <span style="font-size: 2em; color: #D35400;">Merci pour votre écoute</span>
-    <p style="font-size: 1.5em; margin-top: 20px;">Culture Numérique</p>
+    <span style="font-size: 2em; color: #51344D;">Merci pour votre écoute</span>
+    <p style="font-size: 1.5em; margin-top: 20px;">Out Of School</p>
+        <img src="https://img.icons8.com/?size=100&id=Cc5U1vG2huUW&format=png&color=000000" alt="Bon Développeur" style="width:100px; height:100px; display: block; margin: 0 auto;"/>
   </div>
 </div>
 
-<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666;">
+<div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
   <span><strong>Partie du Sommaire :</strong> Remerciements</span> | 
   <span><strong>Elève :</strong> Georgina Berrezel</span> | 
   <span><strong>Classe :</strong> Mastère 1 Developpement Web</span> |
