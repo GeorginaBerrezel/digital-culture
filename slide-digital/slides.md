@@ -410,11 +410,11 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <span style="font-size: 1em; font-weight: bold;">Mise à jour</span>
     <p style="font-size: 0.8em; line-height: 1; color: #999;">Évolution vers Angular 2+</p>
   </div>
-  <div style="flex: 1; text-align: center; margin: 10px;" v-click:5> 
+  <div style="flex: 1; text-align: center; margin: 10px;" v-click="5"> 
     <span style="font-size: 1em; font-weight: bold;">Objectif</span>
     <p style="font-size: 0.8em; line-height: 1; color: #999;">Intégrer des fonctionnalités modernes</p>
   </div>
-  <div style="flex: 1; text-align: center; margin: 10px;" v-click=:6>
+  <div style="flex: 1; text-align: center; margin: 10px; "v-click="6">
     <span style="font-size: 1em; font-weight: bold;">Concurrence</span>
     <p style="font-size: 0.8em; line-height: 1; color: #999;">Réaction à React et Vue.js</p>
   </div>
