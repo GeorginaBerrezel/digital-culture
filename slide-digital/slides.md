@@ -13,9 +13,6 @@ drawings:
 transition: slide-left
 mdc: true
 
-# Ajout de Font Awesome
-head: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icons8/3.0.0/icons8.min.css">'
-
 ---
 
 # Out Of School
@@ -65,49 +62,36 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-items: center; margin-top: 10px;">
   <div style="text-align: center; color: #51344D;" v-click="2">
     <img src="https://img.icons8.com/ios/50/visible.png" alt="Contexte" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">Contexte du Développement Web Front-End</span>
+    <span style="font-size: 1em;">Définition Développement Front-End</span>
   </div>
 
-  <div style="text-align: center; color: #51344D;" v-click="3">
+  <div style="text-align: center; color: #51344D;" v-click="2">
     <img src="https://img.icons8.com/ios/50/code.png" alt="Frameworks" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">Importance des Frameworks JS</span>
+    <span style="font-size: 1em;">Définition Frameworks JS</span>
   </div>
-
-<div style="text-align: center; color: #FF6B6B;" v-click="4">
+</div>
+<div style="align-items: center; margin-top: 10px;">
+<div style="text-align: center; color: #FF6B6B;" v-click="3">
 <img src="https://img.icons8.com/ios/50/line-chart.png" alt="Line Chart" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;"> I . Performance et Évolution des Frameworks JS</span>
 </div>
-  <div style="text-align: center; color: #FF6B6B;" v-click="5">
-<img src="https://img.icons8.com/ios/50/list.png" alt="Critères" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">Critères de Choix d'un Framework JS</span>
-  </div>
-
-  <div style="text-align: center; color: #1A535C;" v-click="6">
+  <div style="margin-top:20px; text-align: center; color: #1A535C;" v-click="4">
     <img src="https://img.icons8.com/ios/50/innovation.png" alt="Innovation" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">II . Innovation et Compétition entre Frameworks</span>
   </div>
 
-  <div style="text-align: center; color: #1A535C;" v-click="7">
-<img src="https://img.icons8.com/ios/50/graph.png" alt="Évolution" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">Évolution Continue et Compétition</span>
-  </div>
-
-  <div style="text-align: center; color: #4ECDC4;" v-click="8">
+  <div style="margin-top:20px; text-align: center; color: #4ECDC4;" v-click="5">
 <img src="https://img.icons8.com/ios/50/teamwork.png" alt="Dualité Junior vs Senior" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">III . La Dualité Junior vs Senior</span>
   </div>
 
-  <div style="text-align: center; color: #FBAF00;" v-click="9">
+  <div style="margin-top:20px; text-align: center; color: #FBAF00;" v-click="6">
     <img src="https://img.icons8.com/ios/50/artificial-intelligence.png" alt="IA" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">IV . L'IA : Un Atout pour Tous les Développeurs ?</span>
   </div>
 
-  <div style="text-align: center; color: #FBAF00;" v-click="10">
-<img src="https://img.icons8.com/ios/50/machine-learning.png" alt="Impact IA" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
-    <span style="font-size: 1em;">Impact de l'IA sur la Compétition entre Frameworks</span>
-  </div>
 
-  <div style="text-align: center; color: #51344D;" v-click="11">
+  <div style="text-align: center; color: #51344D;" v-click="7">
 <img src="https://img.icons8.com/ios/50/checkmark.png" alt="Conclusion" style="width:20px; height:20px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em;">Conclusion</span>
   </div>
@@ -160,7 +144,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-<span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+<span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
 <br>   
 <span>Définition developpeur web</span> | 
   <span><strong>Page :</strong> 3</span>
@@ -174,7 +158,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <span style="color: #51344D; font-size: 1.5em;">Importance des Frameworks JS</span>
 </div>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; text-align: center; margin-top: 20px;">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; text-align: center; margin-top: 20px;">
 
   <div v-click="2">
     <img src="https://img.icons8.com/ios/50/toolbox.png" alt="Outils puissants" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
@@ -199,6 +183,8 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Réutilisable</strong></span>
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Composants réutilisables.</p>
   </div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; text-align: center; margin-top: 20px;">
 
   <div v-click="6">
   <img src="https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000" alt="React" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
@@ -206,13 +192,13 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Framework JS populaire.</p>
   </div>
 
-  <div v-click="7">
+  <div v-click="6">
   <img src="https://img.icons8.com/?size=100&id=tbleCw0ch6QC&format=png&color=000000" alt="Vue.js" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1.1em; color: #51344D;"><strong>Vue.js :</strong></span>
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Framework léger et performant.</p>
   </div>
 
-  <div v-click="8">
+  <div v-click="6">
   <img src="https://img.icons8.com/?size=100&id=71257&format=png&color=000000" alt="Angular" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1.1em; color: #51344D;"><strong>Angular</strong></span>
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Framework robuste et complet.</p>
@@ -221,7 +207,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>   
   <span>Définition framework JS</span> | 
   <span><strong>Page :</strong> 4</span>
@@ -261,7 +247,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
         <p style="font-size: 0.9em; line-height: 0.2;">Server-Side Rendering</p>
         <p style="font-size: 0.8em; line-height: 1; color: #999;">Technique permettant de rendre les pages côté serveur avant de les envoyer au client, améliorant les performances.</p>
     </div>
-    <div style="text-align: center; center; margin: 10px;" v-click="6">
+    <div style="text-align: center; margin: 10px;" v-click="6">
         <img src="https://img.icons8.com/?size=100&id=9991&format=png&color=000000" alt="Lazy loading" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="color: #FF6B6B; font-weight: bold; font-size: 1em;">Lazy Loading</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Chargement différé des composants</p>
@@ -272,7 +258,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 <!-- Bas de page -->
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-    <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+    <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
 <br>
   <span>I - Performance et Évolution des Frameworks JS</span> | 
   <span>a - Demande Croissante de Performance</span> | 
@@ -284,7 +270,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 # I - Performance et Évolution des Frameworks JS
 
 <div style="text-align: center;" v-click="1">
-  <span style="background-color: #FF6B6B; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Quelques Framework JS</span>
+  <span style="background-color: #FF6B6B; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Frameworks JS</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;">
@@ -293,18 +279,18 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 10px;">
       <div style="text-align: center; margin: 10px;" v-click="3">
         <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="React" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em; line-height: 1.2;">Composants modulaires</span>
-        <p style="font-size: 0.9em; line-height: 0.2;">React, structure flexible</p>
+        <span style="font-size: 1em; line-height: 1.2;">React</span>
+        <p style="font-size: 0.9em; line-height: 0.2;">Composants modulaires et structure flexible</p>
       </div>
       <div style="text-align: center; margin: 10px;" v-click="4">
         <img src="https://img.icons8.com/?size=100&id=l9a5tcSnBwcf&format=png&color=000000" alt="Angular" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em; line-height: 1.2;">Écosystème robuste</span>
-        <p style="font-size: 0.9em; line-height: 0.2;">Angular, outillage complet</p>
+        <span style="font-size: 1em; line-height: 1.2;">Angular</span>
+        <p style="font-size: 0.9em; line-height: 0.2;">Écosystème robuste et outillage complet</p>
       </div>
       <div style="text-align: center; margin: 10px;" v-click="5">
         <img src="https://img.icons8.com/?size=100&id=BUnExfsRs3CW&format=png&color=000000" alt="Vue.js" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Vue.js</span>
-        <p style="font-size: 0.9em; line-height: 0.2;">Léger, Facile à apprendre</p>
+        <p style="font-size: 0.9em; line-height: 0.2;">Léger et facile à apprendre</p>
       </div>
     </div>
   </div>
@@ -334,7 +320,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 <!-- Bas de page -->
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>I - Performance et Évolution des Frameworks JS</span> | 
   <span><strong>Titre :</strong>b - Critères de Choix d'un Framework JS</span> | 
@@ -346,35 +332,32 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 # II - Innovation et Compétition entre Frameworks
 
 <div style="text-align: center;" v-click="1">
-  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Quels Frameworks choisir</span>
+  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Quel Framework choisir ?</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;">
   <!-- Section Pour -->
   <div style="margin-bottom: 20px;" v-click="2">
-    <span style="color: #FF6B6B; font-size: 1.2em; font-weight: bold; line-height: 1.2;">Pour</span>
+    <span style="color: #1A535C; font-size: 1.2em; font-weight: bold; line-height: 1.2;">Positif</span>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 10px;">
       <div style="text-align: center; margin: 10px;" v-click="3">
-        <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="React" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Composants modulaires</span>
-        <p style="font-size: 0.9em; line-height: 0.2;">React, structure flexible</p>
+        <p style="font-size: 0.9em; line-height: 0.2;"><span style="background-color: rgba(26,83,92,0.4); padding: 4px; border-radius: 4px;">React</span>, structure flexible</p>
       </div>
       <div style="text-align: center; margin: 10px;" v-click="4">
-        <img src="https://img.icons8.com/?size=100&id=l9a5tcSnBwcf&format=png&color=000000" alt="Angular" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Écosystème robuste</span>
-        <p style="font-size: 0.9em; line-height: 0.2;">Angular, outillage complet</p>
+        <p style="font-size: 0.9em; line-height: 0.2;"><span style="background-color: rgba(26,83,92,0.4); padding: 4px; border-radius: 4px;">Angular</span>, outillage complet</p>
       </div>
       <div style="text-align: center; margin: 10px;" v-click="5">
-        <img src="https://img.icons8.com/?size=100&id=l9a5tcSnBwcf&format=png&color=000000" alt="Performances" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Performances</span>
-        <p style="font-size: 0.9em; line-height: 0.2;">Angular, rendu optimisé</p>
+        <p style="font-size: 0.9em; line-height: 0.2;"><span style="background-color: rgba(26,83,92,0.4); padding: 4px; border-radius: 4px;">Angular</span>, rendu optimisé</p>
       </div>
     </div>
   </div>
 
   <!-- Section Nuances -->
   <div style="margin-top: 20px;" v-click="6">
-    <span style="color: #FF6B6B; font-size: 1.2em; font-weight: bold; line-height: 1.2;">Nuances</span>
+    <span style="color: #1A535C; font-size: 1.2em; font-weight: bold; line-height: 1.2;">Nuances</span>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 10px;">
       <div style="text-align: center; margin: 10px;" v-click="7">
         <img src="https://img.icons8.com/?size=100&id=55349&format=png&color=000000" alt="Besoins spécifiques" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
@@ -391,7 +374,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>II - Innovation et Compétition entre Frameworks</span> | 
   <span><strong>Titre :</strong> a - Diversité des Options Disponibles</span> | 
@@ -403,109 +386,107 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 # II - Innovation et Compétition entre Frameworks
 
 <div style="text-align: center;" v-click="1">
-  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Évolution Continue et Compétition</span>
+  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Quels usages ?</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;" v-click="2">
   <!-- Section Avantages centrée -->
   <div style="margin-bottom: 20px;">
-    <p style="font-size: 1em; margin-top: 10px;">Avantages : Nouvelles fonctionnalités et améliorations constantes.</p>
+    <p style="font-size: 1em; margin-top: 10px;">Évolution pour rester compétitif</p>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 20px;">
+  <!-- Angular -->
+  <div style="flex: 1; margin: 10px; text-align: center;" v-click="3">
+    <img src="https://img.icons8.com/?size=100&id=71257&format=png&color=000000" alt="Angular" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1em; font-weight: bold; color: #1A535C;">Angular</span>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
-  <!-- Section Exemples -->
-  <div style="flex: 1; margin: 10px; text-align: center;" v-click="3">
-    <span style="font-size: 1.2em; font-weight: bold;">Exemples</span>
-    <div style="margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/?size=100&id=fU5cXapwJUEs&format=png&color=000000" alt="Vue 3" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Vue 3, React Server Components</span>
-      </div>
-    </div>
+  <!-- Ligne des points clés -->
+  <div style="flex: 1; text-align: center; margin: 10px;" v-click="4">
+    <span style="font-size: 1em; font-weight: bold;">Mise à jour</span>
+    <p style="font-size: 0.8em; line-height: 1; color: #999;">Évolution vers Angular 2+</p>
   </div>
-
-  <!-- Section Défis -->
-  <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;" v-click="4">Défis</span>
-    <div style="margin-top: 10px;">
-      <div style="text-align: center; margin: 10px;" v-click="5">
-        <img src="https://img.icons8.com/?size=100&id=64154&format=png&color=000000" alt="LinkedIn" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Coûts de migration</span>
-        <p style="font-size: 0.9em; line-height: 0.2;">Exemple : LinkedIn avec Ember.js</p>
-      </div>
-      <div style="text-align: center; margin: 50px;" v-click="6">
-        <img src="https://img.icons8.com/?size=100&id=MQ0HStlD0BBR&format=png&color=000000" alt="Stabilité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Stabilité</span>
-        <p style="font-size: 0.9em; line-height: 0.2;">Priorité à la stabilité dans certains projets</p>
-      </div>
-    </div>
+  <div style="flex: 1; text-align: center; margin: 10px;" v-click:5> 
+    <span style="font-size: 1em; font-weight: bold;">Objectif</span>
+    <p style="font-size: 0.8em; line-height: 1; color: #999;">Intégrer des fonctionnalités modernes</p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 10px;" v-click=:6>
+    <span style="font-size: 1em; font-weight: bold;">Concurrence</span>
+    <p style="font-size: 0.8em; line-height: 1; color: #999;">Réaction à React et Vue.js</p>
+  </div>
+  <div style="flex: 1; text-align: center; margin: 10px;" v-click="7">
+    <span style="font-size: 1em; font-weight: bold;">Avantages</span>
+    <p style="font-size: 0.8em; line-height: 1; color: #999;">Architecture modulaire, performances améliorées</p>
   </div>
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>II - Innovation et Compétition entre Frameworks</span> | 
   <span><strong>Titre :</strong> b - Évolution Continue et Compétition</span> | 
   <span><strong>Page :</strong> 8</span>
 </div>
 
+
 ---
 
 # III - La Dualité Développeur Junior vs Senior
 
-<div style="text-align: center;" v-click:1>
-  <span style="background-color: #4ECDC4; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">La Dualité Junior vs Senior</span>
+<div style="text-align: center;" v-click="1">
+  <span style="background-color: #4ECDC4; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Qualités et Contextes des Développeurs</span>
 </div>
 
-<div style="margin-top: 20px; text-align: center;" v-click:2>
-  <!-- Section Développeurs Juniors centrée -->
+<div style="margin-top: 20px; text-align: center;" v-click="2">
+  <!-- Section Qualités et Passions centrée -->
   <div style="margin-bottom: 20px;">
-    <img src="https://img.icons8.com/?size=100&id=37325&format=png&color=000000" alt="Maîtrise des technologies" style="width:24px; height:24px; display: block; margin: 0 auto;"/>
+    <p style="font-size: 1em; margin-top: 10px;">Développeurs : Passion et Épanouissement</p>
   </div>
 </div>
 
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 20px;">
   <!-- Section Développeurs Juniors -->
-  <div style="flex: 1; margin: 10px; text-align: center;" v-click:3>
-    <span style="font-size: 1.2em; font-weight: bold;">Développeurs Juniors :</span>
+  <div style="flex: 1; margin: 10px; text-align: center;" v-click="3">
+    <span style="font-size: 1.2em; font-weight: bold; color:#4ECDC4;">Junior</span>
     <div style="margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="Maîtrise des technologies" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Attentes : Maîtrise des technologies récentes</span>
+        <span style="font-size: 1em;">Souvent métier passion</span>
+        <p style="font-size: 0.8em; line-height: 1; color: #999;">Continue à apprendre et expérimenter.</p>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/?size=100&id=Nts60kQIvGqe&format=png&color=000000" alt="Négliger les fondamentaux" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Défis : Risque de négliger les fondamentaux</span>
+      <div style="text-align: center; margin: 50px;">
+        <span style="font-size: 1em;">Contexte Entreprise</span>
+        <p style="font-size: 0.8em; line-height: 1; color: #999;">Souvent en phase d'apprentissage, recherche de mentorat.</p>
       </div>
     </div>
   </div>
 
   <!-- Section Développeurs Seniors -->
-  <div style="flex: 1; margin: 10px; text-align: center;" v-click:4>
-    <span style="font-size: 1.2em; font-weight: bold;">Développeurs Seniors :</span>
+  <div style="flex: 1; margin: 10px; text-align: center;" v-click="4">
+    <span style="font-size: 1.2em; font-weight: bold; color:#4ECDC4;">Senior</span>
     <div style="margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/?size=100&id=58018&format=png&color=000000" alt="Leadership" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Rôle : Leadership, conseils techniques</span>
+        <span style="font-size: 1em;">Souvent mentor</span>
+        <p style="font-size: 0.8em; line-height: 1; color: #999;">Guide les équipes, partage son expertise.</p>
       </div>
-      <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/?size=100&id=7GZKPryEljt8&format=png&color=000000" alt="Préférence pour la stabilité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Défis : Préférence pour la stabilité</span>
+      <div style="text-align: center; margin: 50px;">
+        <span style="font-size: 1em;">Contexte Entreprise</span>
+        <p style="font-size: 0.8em; line-height: O.4; color: #999;">Expérience approfondie, gestion de projets et leadership.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <span><i>Les développeurs apportent des qualités uniques qui enrichissent leurs rôles dans les entreprises.</i></span>
   <br>
   <span>III - La Dualité Développeur Junior vs Senior</span> | 
-  <span><strong>Titre :</strong> Comparaison des rôles et défis</span> | 
+  <span><strong>Titre :</strong> Qualités et Contextes</span> | 
   <span><strong>Page :</strong> 9</span>
 </div>
-
 ---
 
 # IV. L'IA : Un Atout pour Tous les Développeurs ?
@@ -517,30 +498,32 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 <div style="margin-top: 20px; text-align: center;" v-click:2>
   <!-- Section IA centrée -->
   <div style="margin-bottom: 20px;">
-    <p style="font-size: 1em; margin-top: 10px;">Avantages : Automatisation des tâches répétitives.</p>
+    <p style="font-size: 1em; margin-top: 10px;">L'IA aide dans le quotidien</p>
   </div>
 </div>
 
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+<div style="display: block; margin-top: 20px;">
   <!-- Section Avantages -->
-  <div style="flex: 1; margin: 10px; text-align: center;" v-click:3>
-    <span style="font-size: 1.2em; font-weight: bold;">Avantages :</span>
-    <div style="margin-top: 10px;">
+  <div style="margin: 10px; text-align: center;" v-click:3>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-items: center; margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/?size=100&id=118557&format=png&color=000000" alt="Gains de productivité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Gains de productivité : Outils comme GitHub Copilot</span>
+        <img src="https://img.icons8.com/?size=100&id=118557&format=png&color=000000" alt="github copilot" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1.2em; font-weight: bold;">GitHub Copilot</span>
+    <p style="font-size: 1em;">Gains de productivité</p>
       </div>
       <div style="text-align: center; margin: 10px;">
-        <img src="https://img.icons8.com/?size=100&id=53423&format=png&color=000000" alt="Automatisation" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="font-size: 1em;">Automatisation : Tâches répétitives simplifiées</span>
+        <img src="https://img.icons8.com/?size=100&id=Nts60kQIvGqe&format=png&color=000000" alt="chatgpt" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+    <span style="font-size: 1.2em; font-weight: bold;">ChatGPT</span>
+    <p style="font-size: 1em;">Automatisation des tâches répétitives simplifiées</p>
       </div>
     </div>
   </div>
+</div>
+<div style="display: block; justify-content: space-between; margin-top: 20px;">
 
   <!-- Section Défis -->
-  <div style="flex: 1; margin: 10px; text-align: center;" v-click:4>
-    <span style="font-size: 1.2em; font-weight: bold;">Défis :</span>
-    <div style="margin-top: 10px;">
+  <div style="display: flex; margin: 10px; text-align: center;" v-click:4>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; align-items: center; margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
         <img src="https://img.icons8.com/?size=100&id=0CSLuQjkskRL&format=png&color=000000" alt="Dépendance" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em;">Dépendance : Risque de perte de compétences fondamentales</span>
@@ -554,7 +537,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
   <span><strong>Titre :</strong> a - Accessibilité de l'IA pour Tous les Niveaux</span> | 
@@ -572,7 +555,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 <div style="margin-top: 20px; text-align: center;" v-click:2>
   <!-- Section IA centrée -->
   <div style="margin-bottom: 20px;">
-    <p style="font-size: 1em; margin-top: 10px;">Facilitation : Adoption des nouvelles technologies.</p>
+    <p style="font-size: 1em; margin-top: 10px;">Facile d'être à jour<br>sur les Frameworks</p>
   </div>
 </div>
 
@@ -609,7 +592,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-  <span><i>Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</i></span>
+  <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
   <span><strong>Titre :</strong> b - Impact sur la Compétition entre les Frameworks</span> | 
@@ -622,7 +605,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 <div style="margin-top: 20px; text-align: center;" v-click:1>
   <!-- Section Synthèse centrée -->
   <div style="margin-bottom: 20px;">
-    <p style="background-color: #51344D; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Faut-il être à la pointe des nouveaux frameworks JavaScript et des tendances web pour être un bon développeur front-end ?</p>
+    <p style="background-color: #51344D; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</p>
   </div>
 </div>
 
