@@ -218,13 +218,12 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 # I - Performance et Évolution des Frameworks JS
 
 <div style="text-align: center;" v-click="1">
-  <span style="background-color: #FF6B6B; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em;">Utilisateurs modernes</span>
+  <span style="background-color: #FF6B6B; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em;">Cas d'étude</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;">
   <!-- Section Demande Croissante de Performance -->
   <div style="margin-bottom: 20px;" v-click="2">
-    <p style="font-size: 1em; margin-top: 10px;">Pourquoi se mettre à jour ?</p>
     <div style="display: flex; justify-content: space-around; margin-top: 10px;">
     <div style="text-align: center;" v-click="3">
       <img src="https://img.icons8.com/?size=100&id=103424&format=png&color=000000" alt="Airbnb (Gestion d'état)" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
@@ -332,7 +331,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 # II - Innovation et Compétition entre Frameworks
 
 <div style="text-align: center;" v-click="1">
-  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Quel Framework choisir ?</span>
+  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">SCREEN</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;">
@@ -386,7 +385,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 # II - Innovation et Compétition entre Frameworks
 
 <div style="text-align: center;" v-click="1">
-  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Quels usages ?</span>
+  <span style="background-color: #1A535C; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Screen angular</span>
 </div>
 
 <div style="margin-top: 20px; text-align: center;" v-click="2">
@@ -435,7 +434,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 
 ---
 
-# III - La Dualité Développeur Junior vs Senior
+# III - Etre un bon développeur c'est quoi ? 
 
 <div style="text-align: center;" v-click="1">
   <span style="background-color: #4ECDC4; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Qualités et Contextes des Développeurs</span>
@@ -608,33 +607,63 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <p style="background-color: #51344D; font-weight: bold; padding: 8px; border-radius: 5px; color: #FFF; font-size: 1.5em; line-height: 1.2;">Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</p>
   </div>
 </div>
-
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
-  <!-- Section Synthèse -->
-  <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;" v-click:2>Synthèse</span>
-    <div style="margin-top: 10px;">
+<div style="display: flex">
       <div style="text-align: center; margin: 10px;" v-click:3>
         <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;">Innovation vs Fondamentaux</span>
-        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Trouver l'équilibre</p>
+        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Demande moderne</p>
+      </div>
+      <div style="text-align: center; margin: 10px;" v-click:3>
+        <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Compétition</p>
+      </div>
+      <div style="text-align: center; margin: 10px;" v-click:3>
+        <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Choix réfléchi</p>
       </div>
       <div style="text-align: center; margin: 10px;" v-click:4>
         <img src="https://img.icons8.com/?size=100&id=4aUvAATdDLe5&format=png&color=000000" alt="Rôle de l'IA" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-        <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;">Rôle de l'IA</span>
-        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Outil complémentaire, non substitut</p>
+        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Rester maître des situations</p>
       </div>
-    </div>
-  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+  <!-- Section Synthèse -->
+
+[//]: # (  <div style="flex: 1; margin: 10px; text-align: center;">)
+
+[//]: # (    <div style="margin-top: 10px;">)
+
+[//]: # (      <div style="text-align: center; margin: 10px;" v-click:3>)
+
+[//]: # (        <img src="https://img.icons8.com/ios/50/balance.png" alt="Innovation vs Fondamentaux" style="width:40px; height:40px; display: block; margin: 0 auto;"/>)
+
+[//]: # (        <span style="background-color: rgba&#40;81, 52, 77, 0.2&#41;; color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;">Demande moderne</span>)
+
+[//]: # (        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Compétition</p>)
+
+[//]: # (      </div>)
+
+[//]: # (      <div style="text-align: center; margin: 10px;" v-click:4>)
+
+[//]: # (        <img src="https://img.icons8.com/?size=100&id=4aUvAATdDLe5&format=png&color=000000" alt="Rôle de l'IA" style="width:40px; height:40px; display: block; margin: 0 auto;"/>)
+
+[//]: # (        <span style="background-color: rgba&#40;81, 52, 77, 0.2&#41;; color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;">Choix réfléchi</span>)
+
+[//]: # (        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Outil complémentaire, non substitut</p>)
+
+[//]: # (      </div>)
+
+[//]: # (    </div>)
+
+[//]: # (  </div>)
 
   <!-- Section Réponse à la Question Centrale -->
   <div style="flex: 1; margin: 10px; text-align: center;">
-    <span style="font-size: 1.2em; font-weight: bold;" v-click:5>Réponse à la Question Centrale</span>
     <div style="margin-top: 10px;">
       <div style="text-align: center; margin: 10px;" v-click:6>
         <img src="https://img.icons8.com/?size=100&id=Cc5U1vG2huUW&format=png&color=000000" alt="Bon Développeur" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;">Bon Développeur</span>
-        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Allie innovation, expérience et pragmatisme</p>
+        <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Adaptabilité</p>
       </div>
     </div>
   </div>
