@@ -30,7 +30,7 @@ padding: 10px; /* Espace autour du texte */
 border-radius: 5px; /* Coins arrondis */
 box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 " v-click="1">
-Être un bon développeur front-end :<br> Faut-il suivre les dernières tendances ?
+Je veux être un bon développeur !<br>Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?
 </span>
 
 <div style="display: flex; flex-direction: column; align-items: center;" v-click="2">
@@ -118,9 +118,15 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; margin-top: 30px;">
 
   <div style="line-height: 1.4;" v-click="2">
+    <img src="https://img.icons8.com/?size=100&id=2070&format=png&color=000000" alt="Codage" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+    <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.5em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Réflexion</strong></span>
+    <p style="font-size: 1em; margin-top: 10px; margin-bottom: 0;">Cherche des solutions aux problèmes.</p>
+  </div>
+
+<div style="line-height: 1.4;" v-click="2">
     <img src="https://img.icons8.com/ios/50/source-code.png" alt="Codage" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.5em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Codage</strong></span>
-    <p style="font-size: 1.1em; margin-top: 10px; margin-bottom: 0;">Implémentation du code.</p>
+    <p style="font-size: 1em; margin-top: 10px; margin-bottom: 0;">Implémentation du code.</p>
   </div>
 
 <div style="line-height: 1.4;" v-click="3">
@@ -132,19 +138,19 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <div style="line-height: 1.4;" v-click="4">
     <img src="https://img.icons8.com/ios/50/paint-bucket.png" alt="Conception" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.5em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Conception</strong></span>
-    <p style="font-size: 1.1em; margin-top: 10px; margin-bottom: 0;">Design et UX/UI.</p>
+    <p style="font-size: 1em; margin-top: 10px; margin-bottom: 0;">Design et UX/UI.</p>
   </div>
 
   <div style="line-height: 1.4;" v-click="5">
     <img src="https://img.icons8.com/ios/50/maintenance.png" alt="Maintenance" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.5em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Maintenance</strong></span>
-    <p style="font-size: 1.1em; margin-top: 10px; margin-bottom: 0;">Soutien des interfaces utilisateurs.</p>
+    <p style="font-size: 1em; margin-top: 10px; margin-bottom: 0;">Soutien des interfaces utilisateurs.</p>
   </div>
 
   <div style="line-height: 1.4;" v-click="6">
     <img src="https://img.icons8.com/ios/50/target.png" alt="Objectif" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.5em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Objectif</strong></span>
-    <p style="font-size: 1.1em; margin-top: 10px; margin-bottom: 0;">Efficacité et adaptabilité.</p>
+    <p style="font-size: 1em; margin-top: 10px; margin-bottom: 0;">Efficacité et adaptabilité.</p>
   </div>
 </div>
 
@@ -169,6 +175,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <img src="https://img.icons8.com/ios/50/toolbox.png" alt="Outils puissants" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Outils Intégrés</strong></span>
     <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Bibliothèques et outils prêts à l'emploi.</p>
+    <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Maintenance facile : Code structuré et évolutif.</p>
   </div>
 
   <div v-click="3">
@@ -178,9 +185,9 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   </div>
 
   <div v-click="4">
-    <img src="https://img.icons8.com/ios/50/maintenance.png" alt="Maintenable" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
-    <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Maintenance facile</strong></span>
-    <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Code structuré et évolutif.</p>
+    <img src="https://img.icons8.com/?size=100&id=876&format=png&color=000000" alt="Sécurité" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
+    <span style="background-color: rgba(81, 52, 77, 0.2); color: #51344D; font-size: 1.1em; font-weight: bold; padding: 8px; border-radius: 5px;"><strong>Sécurité</strong></span>
+    <p style="font-size: 0.9em; margin-top: 2px; margin-bottom: 5px;">Protection, vulnérabilités, architecture sécurisée.</p>
   </div>
 
   <div v-click="5">
@@ -235,7 +242,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <img src="https://img.icons8.com/?size=100&id=122809&format=png&color=000000" alt="Communication" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em; font-weight: bold; color:#4ECDC4;">Communication</span>
     <p style="font-size: 1em; margin-top: 10px;">Collaborer</p>
-    <p style="font-size: 0.8em; line-height: 1; color: #999;">Junior et Senior échangent pour apprendre et progresser.</p>
+    <p style="font-size: 0.8em; line-height: 1; color: #535353;">Junior et Senior échangent pour apprendre et progresser.</p>
   </div>
 
   <!-- Recherche et Apprentissage -->
@@ -243,7 +250,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <img src="https://img.icons8.com/?size=100&id=aOTXjQvUhALw&format=png&color=000000" alt="Recherche" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em; font-weight: bold; color:#4ECDC4;">Recherche</span>
     <p style="font-size: 1em; margin-top: 10px;">Se Former</p>
-    <p style="font-size: 0.8em; line-height: 1; color: #999;">Se tenir au courant des nouvelles technologies pour répondre aux besoins.</p>
+    <p style="font-size: 0.8em; line-height: 1; color: #535353;">Se tenir au courant des nouvelles technologies pour répondre aux besoins.</p>
   </div>
 
   <!-- Résolution de Problèmes -->
@@ -251,16 +258,15 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <img src="https://img.icons8.com/?size=100&id=6d6M8Jjdz7k9&format=png&color=000000" alt="Résolution de Problèmes" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
     <span style="font-size: 1em; font-weight: bold; color:#4ECDC4;">Résolution de Problèmes</span>
     <p style="font-size: 1em; margin-top: 10px;">Innover et s'adapter</p>
-    <p style="font-size: 0.8em; line-height: 1; color: #999;">Trouver des solutions efficaces aux défis techniques.</p>
+    <p style="font-size: 0.8em; line-height: 1; color: #535353;">Trouver des solutions efficaces aux défis techniques.</p>
   </div>
 </div>
 
 <div style="position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 0.8em; color: #666; background-color: #eee;">
-  <span><i>Un bon développeur reste curieux, apprend constamment et collabore efficacement.</i></span>
+  <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>I - Être un bon développeur</span> | 
-  <span><strong>Titre :</strong> Compétences et Attitudes</span> | 
-  <span><strong>Page :</strong> 9</span>
+  <span><strong>Page :</strong> 5</span>
 </div>
 
 ---
@@ -288,19 +294,19 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
       <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="React" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
       <span style="color: #FF6B6B; font-weight: bold; font-size: 1em;">React</span>
       <p style="font-size: 0.9em; line-height: 0.2;">Migration en 2014</p>
-      <p style="font-size: 0.8em; line-height: 1; color: #999;">Passage de Backbone.js à React pour sa gestion simplifiée des composants. Révolution dans la manière de créer des interfaces.</p>
+      <p style="font-size: 0.8em; line-height: 1; color: #535353;">Passage de Backbone.js à React pour sa gestion simplifiée des composants. Révolution dans la manière de créer des interfaces.</p>
     </div>
     <div style="text-align: center; margin: 10px;" v-click="5">
       <img src="https://img.icons8.com/?size=100&id=9267&format=png&color=000000" alt="SSR et Lazy Loading" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
       <span style="color: #FF6B6B; font-weight: bold; font-size: 1em;">Performance</span>
       <p style="font-size: 0.9em; line-height: 0.2;">SSR & Lazy Loading</p>
-      <p style="font-size: 0.8em; line-height: 1; color: #999;">Techniques pour améliorer les performances : rendu côté serveur (SSR) et chargement différé (Lazy Loading).</p>
+      <p style="font-size: 0.8em; line-height: 1; color: #535353;">Techniques pour améliorer les performances : rendu côté serveur (SSR) et chargement différé (Lazy Loading).</p>
     </div>
     <div style="text-align: center; margin: 10px;" v-click="6">
       <img src="https://img.icons8.com/?size=100&id=9492&format=png&color=000000" alt="Écosystème" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
       <span style="color: #FF6B6B; font-weight: bold; font-size: 1em;">Écosystème</span>
       <p style="font-size: 0.9em; line-height: 0.2;">Outils et Bibliothèques</p>
-      <p style="font-size: 0.8em; line-height: 1; color: #999;">Richesse des outils pour le routage (React Router), gestion d'état (Redux, Context API), et plus encore.</p>
+      <p style="font-size: 0.8em; line-height: 1; color: #535353;">Richesse des outils pour le routage (React Router), gestion d'état (Redux, Context API), et plus encore.</p>
     </div>
   </div>
 </div>
@@ -310,8 +316,8 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>I - Performance et Évolution des Frameworks JS</span> | 
-  <span>a - Cas d'étude Airbnb</span> | 
-  <span><strong>Page :</strong> 5</span>
+  <span>Cas d'étude Airbnb</span> | 
+  <span><strong>Page :</strong> 6</span>
 </div>
 
 ---
@@ -330,20 +336,20 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
         <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="React" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">React</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Composants modulaires et structure flexible</p>
-        <p style="font-size: 0.8em; line-height: 0.2; color: #999;">Créé en 2013 par Facebook</p>
+        <p style="font-size: 0.8em; line-height: 0.2; color: #535353;">Créé en 2013 par Facebook</p>
       </div>
       <div style="text-align: center; margin: 10px;" v-click="4">
         <img src="https://img.icons8.com/?size=100&id=l9a5tcSnBwcf&format=png&color=000000" alt="Angular" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Angular</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Écosystème robuste et outillage complet</p>
-        <p style="font-size: 0.8em; line-height: 0.2; color: #999;">AngularJS créé en 2010 par Google</p>
-        <p style="font-size: 0.8em; line-height: 0.2; color: #999;">Angular (nouvelle version) en 2016</p>
+        <p style="font-size: 0.8em; line-height: 0.2; color: #535353;">AngularJS créé en 2010 par Google</p>
+        <p style="font-size: 0.8em; line-height: 0.2; color: #535353;">Angular (nouvelle version) en 2016</p>
 </div>
       <div style="text-align: center; margin: 10px;" v-click="5">
         <img src="https://img.icons8.com/?size=100&id=BUnExfsRs3CW&format=png&color=000000" alt="Vue.js" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Vue.js</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Léger et facile à apprendre</p>
-        <p style="font-size: 0.8em; line-height: 0.2; color: #999;">Créé en 2014 par Evan You</p>
+        <p style="font-size: 0.8em; line-height: 0.2; color: #535353;">Créé en 2014 par Evan You</p>
       </div>
     </div>
   </div>
@@ -353,19 +359,19 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
         <img src="https://img.icons8.com/?size=100&id=Mm35TzLKahiF&format=png&color=000000" alt="Svelte" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Svelte</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Performances, Simplicité</p>
-        <p style="font-size: 0.8em; line-height: 0.2; color: #999;">Créé en 2016 par Rich Harris</p>
+        <p style="font-size: 0.8em; line-height: 0.2; color: #535353;">Créé en 2016 par Rich Harris</p>
       </div>
       <div style="text-align: center; margin: 10px;" v-click="7">
         <img src="https://img.icons8.com/?size=100&id=RrpsObb9IBGY&format=png&color=000000" alt="Ember.js" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Ember.js</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Convention, Productivité</p>
-        <p style="font-size: 0.8em; line-height: 0.2; color: #999;">Créé en 2011 par Yehuda Katz</p>
+        <p style="font-size: 0.8em; line-height: 0.2; color: #535353;">Créé en 2011 par Yehuda Katz</p>
       </div>
       <div style="text-align: center; margin: 10px;" v-click="8">
         <img src="https://img.icons8.com/?size=100&id=2778&format=png&color=000000" alt="Alpine.js" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1em; line-height: 1.2;">Alpine.js</span>
         <p style="font-size: 0.9em; line-height: 0.2;">Léger, Minimaliste</p>
-        <p style="font-size: 0.8em; line-height: 0.2; color: #999;">Créé en 2019 par Caleb Porzio</p>
+        <p style="font-size: 0.8em; line-height: 0.2; color: #535353;">Créé en 2019 par Caleb Porzio</p>
       </div>
     </div>
   </div>
@@ -376,8 +382,8 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>I - Performance et Évolution des Frameworks JS</span> | 
-  <span><strong>Titre :</strong>b - Critères de Choix d'un Framework JS</span> | 
-  <span><strong>Page :</strong> 6</span>
+  <span>Critères de Choix d'un Framework JS</span> | 
+  <span><strong>Page :</strong> 7</span>
 </div>
 
 
@@ -394,8 +400,8 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>II - Innovation et Compétition entre Frameworks</span> | 
-  <span><strong>Titre :</strong> a - Diversité des Options Disponibles</span> | 
-  <span><strong>Page :</strong> 7</span>
+  <span>Diversité des Options Disponibles</span> | 
+  <span><strong>Page :</strong> 8</span>
 </div>
 
 ---
@@ -414,23 +420,23 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <!-- Ligne des points clés -->
   <div style="flex: 1; text-align: center; margin: 10px;" v-click="2">
     <span style="font-size: 1em; font-weight: bold;">Angular 2+</span>
-    <p style="font-size: 0.8em; line-height: 1; color: #999;"><b>Mise à jour Mai 2014</b><br>Modularité, TypeScript, Performance</p>
+    <p style="font-size: 0.8em; line-height: 1; color: #535353;"><b>Mise à jour Mai 2014</b><br>Modularité, TypeScript, Performance</p>
   </div>
   <div style="flex: 1; text-align: center; margin: 10px;" v-click="3"> 
     <span style="font-size: 1em; font-weight: bold;">Angular v18</span>
-    <p style="font-size: 0.8em; line-height: 1; color: #999;"><b>Mise à jour mai 2024</b><br>Optimisation, Modernisation, Sécurité</p>
+    <p style="font-size: 0.8em; line-height: 1; color: #535353;"><b>Mise à jour mai 2024</b><br>Optimisation, Modernisation, Sécurité</p>
   </div>
   <div style="flex: 1; text-align: center; margin: 10px;" v-click="4">
     <span style="font-size: 1em; font-weight: bold;">Objectif</span>
-    <p style="font-size: 0.8em; line-height: 1; color: #999;">Répondre aux besoins modernes</p>
+    <p style="font-size: 0.8em; line-height: 1; color: #535353;">Répondre aux besoins modernes</p>
   </div>
   <div style="flex: 1; text-align: center; margin: 10px;" v-click="5">
     <span style="font-size: 1em; font-weight: bold;">Concurrence</span>
-    <p style="font-size: 0.8em; line-height: 1; color: #999;">Réagir à React et Vue.js</p>
+    <p style="font-size: 0.8em; line-height: 1; color: #535353;">Réagir à React et Vue.js</p>
   </div>
   <div style="flex: 1; text-align: center; margin: 10px;" v-click="6">
     <span style="font-size: 1em; font-weight: bold;">Avantages</span>
-    <p style="font-size: 0.8em; line-height: 1; color: #999;">Performance, Sécurité, Flexibilité</p>
+    <p style="font-size: 0.8em; line-height: 1; color: #535353;">Performance, Sécurité, Flexibilité</p>
   </div>
 </div>
 
@@ -443,8 +449,8 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>II - Innovation et Compétition entre Frameworks</span> | 
-  <span><strong>Titre :</strong> b - Évolution Continue et Compétition</span> | 
-  <span><strong>Page :</strong> 8</span>
+  <span>Évolution Continue et Compétition</span> | 
+  <span><strong>Page :</strong> 9</span>
 </div>
 
 ---
@@ -469,12 +475,12 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
       <div style="text-align: center; margin: 10px;">
         <img src="https://img.icons8.com/?size=100&id=Nts60kQIvGqe&format=png&color=000000" alt="chatgpt" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1.2em; font-weight: bold;">ChatGPT (2020)</span>
-        <p style="font-size: 0.8em; line-height: 1; color: #999;">En ligne (interface web et API)</p>
+        <p style="font-size: 0.8em; line-height: 1; color: #535353;">En ligne (interface web et API)</p>
       </div>
       <div style="text-align: center; margin: 10px;">
         <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="github copilot" style="width:40px; height:40px; display: block; margin: 0 auto;"/>
         <span style="font-size: 1.2em; font-weight: bold;">GitHub Copilot (2021)</span>
-        <p style="font-size: 0.8em; line-height: 1; color: #999;">Intégré à un IDE (Visual Studio Code, JetBrains)</p>
+        <p style="font-size: 0.8em; line-height: 1; color: #535353;">Intégré à un IDE (Visual Studio Code, JetBrains)</p>
       </div>
     </div>
 </div>
@@ -482,15 +488,15 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; align-items: center; margin-top: 10px;">
       <div style="text-align: center; margin: 10px;">
         <span style="font-size: 1.2em; font-weight: bold;">Google Gemini (2023)</span>
-        <p style="font-size: 0.8em; line-height: 1; color: #999;">En ligne (interface web)</p>
+        <p style="font-size: 0.8em; line-height: 1; color: #535353;">En ligne (interface web)</p>
       </div>
       <div style="text-align: center; margin: 10px;">
         <span style="font-size: 1.2em; font-weight: bold;">Tabnine (2019)</span>
-        <p style="font-size: 0.8em; line-height: 1; color: #999;">Intégré à un IDE (Visual Studio Code, PyCharm, etc.)</p>
+        <p style="font-size: 0.8em; line-height: 1; color: #535353;">Intégré à un IDE (Visual Studio Code, PyCharm, etc.)</p>
       </div>
       <div style="text-align: center; margin: 10px;">
         <span style="font-size: 1.2em; font-weight: bold;">DeepCode (2016)</span>
-        <p style="font-size: 0.8em; line-height: 1; color: #999;">Intégré à un IDE (Acquis par Snyk)</p>
+        <p style="font-size: 0.8em; line-height: 1; color: #535353;">Intégré à un IDE (Acquis par Snyk)</p>
       </div>
     </div>
   </div>
@@ -500,7 +506,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
-  <span><strong>Titre :</strong> a - Accessibilité de l'IA pour Tous les Niveaux</span> | 
+  <span>L'IA aide dans le quotidien</span> | 
   <span><strong>Page :</strong> 10</span>
 </div>
 
@@ -549,7 +555,7 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Ombre portée plus douce */
   <span><i>Je veux être un bon développeur ! Dois-je être à la pointe des nouveaux frameworks JS et des tendances web ?</i></span>
   <br>
   <span>IV. L'IA : Un Atout pour Tous les Développeurs ?</span> | 
-  <span><strong>Titre :</strong> b - Impact de l'IA sur les Frameworks et les Équipes</span> | 
+  <span>Impact de l'IA sur les Frameworks et les Équipes</span> | 
   <span><strong>Page :</strong> 11</span>
 </div>
 
